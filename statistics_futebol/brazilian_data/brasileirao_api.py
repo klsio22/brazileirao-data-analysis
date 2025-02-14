@@ -5,74 +5,85 @@ import requests
 
 
 class BrasileiraoAPI:
-    def __init__(self, api_key="", mongo_uri="mongodb://127.0.0.1:27017/", 
+    def __init__(self, mongo_uri="mongodb://127.0.0.1:27017/", 
                  db_name="statistics_futebol", collection_name="brasileirao"):
-        """
-        Inicializa a classe.
-        
-        Para apenas consultar/manipular dados do MongoDB, não é necessário fornecer a API_KEY.
-        Para usar os métodos de cadastro (que dependem da API), informe a API_KEY.
-        """
-        self.API_KEY = api_key
-        self.BASE_URL = 'https://api.football-data.org/v4/'
         self.client = MongoClient(mongo_uri)
         self.db = self.client[db_name]
         self.collection = self.db[collection_name]
-        
-        # Configura os headers somente se a chave da API for informada
-        if self.API_KEY:
-            self.headers = {'X-Auth-Token': self.API_KEY}
-        else:
-            self.headers = {}
     
-    # ------------------------------------
-    # Métodos de API (para inserir/atualizar dados novos)
-    # ------------------------------------
-    def obter_dados_competicao(self, competicao_id, temporada='2023'):
-        """
-        Obtém dados da API de futebol para a competição e temporada informadas.
-        Use este método apenas se precisar cadastrar novos dados no banco.
-        """
-        if not self.API_KEY:
-            print("API_KEY não configurada. Informe sua chave para acessar a API.")
-            return None
-        
-        url = f"{self.BASE_URL}competitions/{competicao_id}/matches?season={temporada}"
-        response = requests.get(url, headers=self.headers)
-        if response.status_code == 200:
-            return response.json()
-        else:
-            print(f"Erro ao obter dados da competição {competicao_id}: {response.status_code}")
-            print(f"Mensagem de erro: {response.text}")
-            return None
-        
-    def inserir_dados_mongodb(self, dados):
-        """
-        Insere os dados (dicionário com chave 'matches') na coleção do MongoDB.
-        Use este método após obter dados via API.
-        """
-        if dados and 'matches' in dados:
-            self.collection.insert_many(dados['matches'])
-            print(f"Inseridos {len(dados['matches'])} registros na coleção '{self.collection.name}'.")
-        else:
-            print("Nenhum dado para inserir.")
+    def limpar_colecao(self):
+        resultado = self.collection.delete_many({})
+        print(f"Removidos {resultado.deleted_count} documentos.")
+        return resultado.deleted_count
     
-    def upsert_dados_mongodb(self, dados):
-        """
-        Atualiza ou insere os dados (dicionário com chave 'matches') na coleção do MongoDB.
-        Use este método para garantir que não haja duplicatas.
-        """
-        if dados and 'matches' in dados:
-            for partida in dados['matches']:
-                filtro = {'id': partida['id']}
-                self.collection.update_one(filtro, {'$set': partida}, upsert=True)
-            print(f"Atualizados/inseridos {len(dados['matches'])} registros na coleção '{self.collection.name}'.")
-        else:
-            print("Nenhum dado para atualizar/inserir.")
     
-    # ------------------------------------
-    # Métodos de manipulação de dados (consulta, listagem, etc.)
-    # ------------------------------------
+    def importar_csv_para_mongodb(self, csv_path):
+        """
+        Lê os dados do CSV e insere no MongoDB.
+        Ajuste os nomes das colunas de acordo com o seu CSV.
+        """
+        df = pd.read_csv(csv_path)
+        
+        # Ajuste os nomes das colunas conforme o seu CSV
+        documentos = []
+        for _, row in df.iterrows():
+            documento = {
+                "homeTeam": {"name": row['mandante']},
+                "awayTeam": {"name": row['visitante']},
+                "score": {
+                    "fullTime": {
+                        "home": int(row['mandante_Placar']) if 'mandante_Placar' in row else 0,
+                        "away": int(row['visitante_Placar']) if 'visitante_Placar' in row else 0
+                    }
+                },
+                "utcDate": row['data'] if 'data' in row else ""
+                # Adicione outros campos conforme necessário
+            }
+            documentos.append(documento)
+        
+        if documentos:
+            self.collection.insert_many(documentos)
+            print(f"Inseridos {len(documentos)} documentos no MongoDB.")
+        else:
+            print("Nenhum documento para inserir.")
+
+            
+    def consultar_dados_mongodb(self, filtro=None):
+        if filtro:
+            dados = list(self.collection.find(filtro))
+        else:
+            dados = list(self.collection.find())
+        return pd.DataFrame(dados)
+    
+    def obter_partidas_time(self, nome_time):
+        query = {
+            "$or": [
+                {"homeTeam.name": nome_time},
+                {"awayTeam.name": nome_time}
+            ]
+        }
+        return self.consultar_dados_mongodb(query)
+
+    def obter_todos_times(self):
+        """
+        Consulta a coleção e extrai os nomes únicos dos times cadastrados
+        (tanto em 'homeTeam' quanto em 'awayTeam').
+        """
+        dados = list(self.collection.find())
+        df = pd.DataFrame(dados)
+        times_home = []
+        times_away = []
+        if 'homeTeam' in df.columns:
+            times_home = df['homeTeam'].apply(
+                lambda t: t.get('name') if isinstance(t, dict) and 'name' in t else None
+            ).dropna().tolist()
+        if 'awayTeam' in df.columns:
+            times_away = df['awayTeam'].apply(
+                lambda t: t.get('name') if isinstance(t, dict) and 'name' in t else None
+            ).dropna().tolist()
+        todos_times = pd.unique(times_home + times_away)
+        return sorted(todos_times)
+
     def consultar_dados_mongodb(self, filtro=None):
         """
         Consulta a coleção do MongoDB e retorna um DataFrame com os dados.
@@ -210,29 +221,46 @@ class BrasileiraoAPI:
         todos_times = pd.unique(list(times_home) + list(times_away))
         return sorted(todos_times)  # Retorna ordenado alfabeticamente
     
-    def limpar_colecao(self):
-        """
-        Remove todos os documentos da coleção.
-        Retorna o número de documentos removidos.
-        """
-        resultado = self.collection.delete_many({})
-        return resultado.deleted_count
-    
-    def obter_vitorias_time(self, nome_time):
+   
+    def plot_desempenho_temporada(self, nome_time):
         # Obtém todas as partidas do time
         partidas = self.obter_partidas_time(nome_time)
         
-        # Filtra apenas as vitórias
-        vitorias = partidas[partidas.apply(lambda row: (
-            (row['homeTeam']['name'] == nome_time and 
-            row['score']['fullTime']['home'] > row['score']['fullTime']['away']) or
-            (row['awayTeam']['name'] == nome_time and 
-            row['score']['fullTime']['away'] > row['score']['fullTime']['home'])
-        ), axis=1)]
+        # Converte a coluna utcDate para datetime
+        partidas['utcDate'] = pd.to_datetime(partidas['utcDate'], errors='coerce')
+        partidas = partidas.sort_values('utcDate')
         
-        return vitorias
-    
-    def plot_desempenho_temporada(self, nome_time):
+        # Calcula os gols marcados e sofridos com acesso seguro
+        partidas['gols_marcados'] = partidas.apply(
+            lambda row: row['score']['fullTime']['home']
+                        if isinstance(row.get('homeTeam'), dict) and row['homeTeam'].get('name') == nome_time 
+                        else row['score']['fullTime']['away'],
+            axis=1
+        )
+        
+        partidas['gols_sofridos'] = partidas.apply(
+            lambda row: row['score']['fullTime']['away']
+                        if isinstance(row.get('homeTeam'), dict) and row['homeTeam'].get('name') == nome_time 
+                        else row['score']['fullTime']['home'],
+            axis=1
+        )
+        
+        # Configuração do scatter plot
+        plt.figure(figsize=(12,6))
+        total_gols = partidas['gols_marcados'] + partidas['gols_sofridos']
+        plt.scatter(partidas['utcDate'], partidas['gols_marcados'], 
+                    s=total_gols*100, alpha=0.6, label='Gols Marcados')
+        plt.scatter(partidas['utcDate'], partidas['gols_sofridos'], 
+                    s=total_gols*100, alpha=0.6, label='Gols Sofridos')
+        
+        plt.title(f'Desempenho do {nome_time} na Temporada')
+        plt.xlabel('Data')
+        plt.ylabel('Número de Gols')
+        plt.legend()
+        plt.grid(True, alpha=0.3)
+        plt.xticks(rotation=45)
+        plt.tight_layout()
+        plt.show()
         """
         Cria um scatter plot do desempenho do time ao longo da temporada
         """
