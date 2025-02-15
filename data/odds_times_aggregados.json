@@ -1,0 +1,7040 @@
+[
+    {
+        "time": "Guarani",
+        "season": 2003,
+        "jogos": 46,
+        "vitorias": 17,
+        "empates": 10,
+        "derrotas": 19,
+        "gols_marcados": 64,
+        "gols_sofridos": 72,
+        "pontos": 61,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.22,
+            "awayWin": 0.41
+        },
+        "_id": "67b1246d7a869bdaa594854a"
+    },
+    {
+        "time": "Athletico-PR",
+        "season": 2003,
+        "jogos": 46,
+        "vitorias": 17,
+        "empates": 10,
+        "derrotas": 19,
+        "gols_marcados": 66,
+        "gols_sofridos": 72,
+        "pontos": 61,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.22,
+            "awayWin": 0.41
+        },
+        "_id": "67b1246d7a869bdaa594854b"
+    },
+    {
+        "time": "Flamengo",
+        "season": 2003,
+        "jogos": 46,
+        "vitorias": 18,
+        "empates": 12,
+        "derrotas": 16,
+        "gols_marcados": 66,
+        "gols_sofridos": 73,
+        "pontos": 66,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.26,
+            "awayWin": 0.35
+        },
+        "_id": "67b1246d7a869bdaa594854c"
+    },
+    {
+        "time": "Goias",
+        "season": 2003,
+        "jogos": 46,
+        "vitorias": 18,
+        "empates": 11,
+        "derrotas": 17,
+        "gols_marcados": 78,
+        "gols_sofridos": 63,
+        "pontos": 65,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.24,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa594854d"
+    },
+    {
+        "time": "Internacional",
+        "season": 2003,
+        "jogos": 46,
+        "vitorias": 20,
+        "empates": 10,
+        "derrotas": 16,
+        "gols_marcados": 59,
+        "gols_sofridos": 57,
+        "pontos": 70,
+        "odds": {
+            "homeWin": 0.43,
+            "draw": 0.22,
+            "awayWin": 0.35
+        },
+        "_id": "67b1246d7a869bdaa594854e"
+    },
+    {
+        "time": "Criciuma",
+        "season": 2003,
+        "jogos": 46,
+        "vitorias": 17,
+        "empates": 9,
+        "derrotas": 20,
+        "gols_marcados": 57,
+        "gols_sofridos": 68,
+        "pontos": 60,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.2,
+            "awayWin": 0.43
+        },
+        "_id": "67b1246d7a869bdaa594854f"
+    },
+    {
+        "time": "Juventude",
+        "season": 2003,
+        "jogos": 46,
+        "vitorias": 12,
+        "empates": 14,
+        "derrotas": 20,
+        "gols_marcados": 55,
+        "gols_sofridos": 70,
+        "pontos": 50,
+        "odds": {
+            "homeWin": 0.26,
+            "draw": 0.3,
+            "awayWin": 0.43
+        },
+        "_id": "67b1246d7a869bdaa5948550"
+    },
+    {
+        "time": "Fortaleza",
+        "season": 2003,
+        "jogos": 46,
+        "vitorias": 12,
+        "empates": 13,
+        "derrotas": 21,
+        "gols_marcados": 58,
+        "gols_sofridos": 74,
+        "pontos": 49,
+        "odds": {
+            "homeWin": 0.26,
+            "draw": 0.28,
+            "awayWin": 0.46
+        },
+        "_id": "67b1246d7a869bdaa5948551"
+    },
+    {
+        "time": "Cruzeiro",
+        "season": 2003,
+        "jogos": 46,
+        "vitorias": 31,
+        "empates": 7,
+        "derrotas": 8,
+        "gols_marcados": 102,
+        "gols_sofridos": 47,
+        "pontos": 100,
+        "odds": {
+            "homeWin": 0.67,
+            "draw": 0.15,
+            "awayWin": 0.17
+        },
+        "_id": "67b1246d7a869bdaa5948552"
+    },
+    {
+        "time": "Vitoria",
+        "season": 2003,
+        "jogos": 46,
+        "vitorias": 15,
+        "empates": 11,
+        "derrotas": 20,
+        "gols_marcados": 50,
+        "gols_sofridos": 64,
+        "pontos": 56,
+        "odds": {
+            "homeWin": 0.33,
+            "draw": 0.24,
+            "awayWin": 0.43
+        },
+        "_id": "67b1246d7a869bdaa5948553"
+    },
+    {
+        "time": "Santos",
+        "season": 2003,
+        "jogos": 46,
+        "vitorias": 25,
+        "empates": 12,
+        "derrotas": 9,
+        "gols_marcados": 93,
+        "gols_sofridos": 60,
+        "pontos": 87,
+        "odds": {
+            "homeWin": 0.54,
+            "draw": 0.26,
+            "awayWin": 0.2
+        },
+        "_id": "67b1246d7a869bdaa5948554"
+    },
+    {
+        "time": "Corinthians",
+        "season": 2003,
+        "jogos": 46,
+        "vitorias": 15,
+        "empates": 12,
+        "derrotas": 19,
+        "gols_marcados": 61,
+        "gols_sofridos": 63,
+        "pontos": 57,
+        "odds": {
+            "homeWin": 0.33,
+            "draw": 0.26,
+            "awayWin": 0.41
+        },
+        "_id": "67b1246d7a869bdaa5948555"
+    },
+    {
+        "time": "Fluminense",
+        "season": 2003,
+        "jogos": 46,
+        "vitorias": 13,
+        "empates": 11,
+        "derrotas": 22,
+        "gols_marcados": 52,
+        "gols_sofridos": 77,
+        "pontos": 50,
+        "odds": {
+            "homeWin": 0.28,
+            "draw": 0.24,
+            "awayWin": 0.48
+        },
+        "_id": "67b1246d7a869bdaa5948556"
+    },
+    {
+        "time": "Atletico-MG",
+        "season": 2003,
+        "jogos": 46,
+        "vitorias": 19,
+        "empates": 15,
+        "derrotas": 12,
+        "gols_marcados": 76,
+        "gols_sofridos": 62,
+        "pontos": 72,
+        "odds": {
+            "homeWin": 0.41,
+            "draw": 0.33,
+            "awayWin": 0.26
+        },
+        "_id": "67b1246d7a869bdaa5948557"
+    },
+    {
+        "time": "Coritiba",
+        "season": 2003,
+        "jogos": 46,
+        "vitorias": 21,
+        "empates": 10,
+        "derrotas": 15,
+        "gols_marcados": 67,
+        "gols_sofridos": 58,
+        "pontos": 73,
+        "odds": {
+            "homeWin": 0.46,
+            "draw": 0.22,
+            "awayWin": 0.33
+        },
+        "_id": "67b1246d7a869bdaa5948558"
+    },
+    {
+        "time": "Gremio",
+        "season": 2003,
+        "jogos": 46,
+        "vitorias": 13,
+        "empates": 11,
+        "derrotas": 22,
+        "gols_marcados": 54,
+        "gols_sofridos": 68,
+        "pontos": 50,
+        "odds": {
+            "homeWin": 0.28,
+            "draw": 0.24,
+            "awayWin": 0.48
+        },
+        "_id": "67b1246d7a869bdaa5948559"
+    },
+    {
+        "time": "Bahia",
+        "season": 2003,
+        "jogos": 46,
+        "vitorias": 12,
+        "empates": 10,
+        "derrotas": 24,
+        "gols_marcados": 59,
+        "gols_sofridos": 92,
+        "pontos": 46,
+        "odds": {
+            "homeWin": 0.26,
+            "draw": 0.22,
+            "awayWin": 0.52
+        },
+        "_id": "67b1246d7a869bdaa594855a"
+    },
+    {
+        "time": "Figueirense",
+        "season": 2003,
+        "jogos": 46,
+        "vitorias": 17,
+        "empates": 14,
+        "derrotas": 15,
+        "gols_marcados": 62,
+        "gols_sofridos": 54,
+        "pontos": 65,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.3,
+            "awayWin": 0.33
+        },
+        "_id": "67b1246d7a869bdaa594855b"
+    },
+    {
+        "time": "Paysandu",
+        "season": 2003,
+        "jogos": 46,
+        "vitorias": 15,
+        "empates": 12,
+        "derrotas": 19,
+        "gols_marcados": 74,
+        "gols_sofridos": 77,
+        "pontos": 57,
+        "odds": {
+            "homeWin": 0.33,
+            "draw": 0.26,
+            "awayWin": 0.41
+        },
+        "_id": "67b1246d7a869bdaa594855c"
+    },
+    {
+        "time": "Ponte Preta",
+        "season": 2003,
+        "jogos": 46,
+        "vitorias": 11,
+        "empates": 18,
+        "derrotas": 17,
+        "gols_marcados": 63,
+        "gols_sofridos": 73,
+        "pontos": 51,
+        "odds": {
+            "homeWin": 0.24,
+            "draw": 0.39,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa594855d"
+    },
+    {
+        "time": "Parana",
+        "season": 2003,
+        "jogos": 46,
+        "vitorias": 18,
+        "empates": 11,
+        "derrotas": 17,
+        "gols_marcados": 85,
+        "gols_sofridos": 75,
+        "pontos": 65,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.24,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa594855e"
+    },
+    {
+        "time": "Sao Caetano",
+        "season": 2003,
+        "jogos": 46,
+        "vitorias": 19,
+        "empates": 14,
+        "derrotas": 13,
+        "gols_marcados": 53,
+        "gols_sofridos": 37,
+        "pontos": 71,
+        "odds": {
+            "homeWin": 0.41,
+            "draw": 0.3,
+            "awayWin": 0.28
+        },
+        "_id": "67b1246d7a869bdaa594855f"
+    },
+    {
+        "time": "Sao Paulo",
+        "season": 2003,
+        "jogos": 46,
+        "vitorias": 22,
+        "empates": 12,
+        "derrotas": 12,
+        "gols_marcados": 81,
+        "gols_sofridos": 67,
+        "pontos": 78,
+        "odds": {
+            "homeWin": 0.48,
+            "draw": 0.26,
+            "awayWin": 0.26
+        },
+        "_id": "67b1246d7a869bdaa5948560"
+    },
+    {
+        "time": "Vasco",
+        "season": 2003,
+        "jogos": 46,
+        "vitorias": 13,
+        "empates": 15,
+        "derrotas": 18,
+        "gols_marcados": 57,
+        "gols_sofridos": 69,
+        "pontos": 54,
+        "odds": {
+            "homeWin": 0.28,
+            "draw": 0.33,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa5948561"
+    },
+    {
+        "time": "Botafogo-RJ",
+        "season": 2004,
+        "jogos": 46,
+        "vitorias": 11,
+        "empates": 18,
+        "derrotas": 17,
+        "gols_marcados": 62,
+        "gols_sofridos": 71,
+        "pontos": 51,
+        "odds": {
+            "homeWin": 0.24,
+            "draw": 0.39,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa5948562"
+    },
+    {
+        "time": "Figueirense",
+        "season": 2004,
+        "jogos": 46,
+        "vitorias": 17,
+        "empates": 12,
+        "derrotas": 17,
+        "gols_marcados": 57,
+        "gols_sofridos": 59,
+        "pontos": 63,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.26,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa5948563"
+    },
+    {
+        "time": "Sao Caetano",
+        "season": 2004,
+        "jogos": 46,
+        "vitorias": 23,
+        "empates": 8,
+        "derrotas": 15,
+        "gols_marcados": 65,
+        "gols_sofridos": 49,
+        "pontos": 77,
+        "odds": {
+            "homeWin": 0.5,
+            "draw": 0.17,
+            "awayWin": 0.33
+        },
+        "_id": "67b1246d7a869bdaa5948564"
+    },
+    {
+        "time": "Cruzeiro",
+        "season": 2004,
+        "jogos": 46,
+        "vitorias": 16,
+        "empates": 8,
+        "derrotas": 22,
+        "gols_marcados": 69,
+        "gols_sofridos": 81,
+        "pontos": 56,
+        "odds": {
+            "homeWin": 0.35,
+            "draw": 0.17,
+            "awayWin": 0.48
+        },
+        "_id": "67b1246d7a869bdaa5948565"
+    },
+    {
+        "time": "Palmeiras",
+        "season": 2004,
+        "jogos": 46,
+        "vitorias": 22,
+        "empates": 13,
+        "derrotas": 11,
+        "gols_marcados": 72,
+        "gols_sofridos": 47,
+        "pontos": 79,
+        "odds": {
+            "homeWin": 0.48,
+            "draw": 0.28,
+            "awayWin": 0.24
+        },
+        "_id": "67b1246d7a869bdaa5948566"
+    },
+    {
+        "time": "Gremio",
+        "season": 2004,
+        "jogos": 46,
+        "vitorias": 9,
+        "empates": 12,
+        "derrotas": 25,
+        "gols_marcados": 60,
+        "gols_sofridos": 80,
+        "pontos": 39,
+        "odds": {
+            "homeWin": 0.2,
+            "draw": 0.26,
+            "awayWin": 0.54
+        },
+        "_id": "67b1246d7a869bdaa5948567"
+    },
+    {
+        "time": "Ponte Preta",
+        "season": 2004,
+        "jogos": 46,
+        "vitorias": 19,
+        "empates": 7,
+        "derrotas": 20,
+        "gols_marcados": 43,
+        "gols_sofridos": 73,
+        "pontos": 64,
+        "odds": {
+            "homeWin": 0.41,
+            "draw": 0.15,
+            "awayWin": 0.43
+        },
+        "_id": "67b1246d7a869bdaa5948568"
+    },
+    {
+        "time": "Parana",
+        "season": 2004,
+        "jogos": 46,
+        "vitorias": 15,
+        "empates": 9,
+        "derrotas": 22,
+        "gols_marcados": 52,
+        "gols_sofridos": 73,
+        "pontos": 54,
+        "odds": {
+            "homeWin": 0.33,
+            "draw": 0.2,
+            "awayWin": 0.48
+        },
+        "_id": "67b1246d7a869bdaa5948569"
+    },
+    {
+        "time": "Coritiba",
+        "season": 2004,
+        "jogos": 46,
+        "vitorias": 15,
+        "empates": 17,
+        "derrotas": 14,
+        "gols_marcados": 53,
+        "gols_sofridos": 48,
+        "pontos": 62,
+        "odds": {
+            "homeWin": 0.33,
+            "draw": 0.37,
+            "awayWin": 0.3
+        },
+        "_id": "67b1246d7a869bdaa594856a"
+    },
+    {
+        "time": "Vasco",
+        "season": 2004,
+        "jogos": 46,
+        "vitorias": 14,
+        "empates": 12,
+        "derrotas": 20,
+        "gols_marcados": 64,
+        "gols_sofridos": 68,
+        "pontos": 54,
+        "odds": {
+            "homeWin": 0.3,
+            "draw": 0.26,
+            "awayWin": 0.43
+        },
+        "_id": "67b1246d7a869bdaa594856b"
+    },
+    {
+        "time": "Paysandu",
+        "season": 2004,
+        "jogos": 46,
+        "vitorias": 14,
+        "empates": 14,
+        "derrotas": 18,
+        "gols_marcados": 56,
+        "gols_sofridos": 76,
+        "pontos": 56,
+        "odds": {
+            "homeWin": 0.3,
+            "draw": 0.3,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa594856c"
+    },
+    {
+        "time": "Sao Paulo",
+        "season": 2004,
+        "jogos": 46,
+        "vitorias": 24,
+        "empates": 10,
+        "derrotas": 12,
+        "gols_marcados": 78,
+        "gols_sofridos": 43,
+        "pontos": 82,
+        "odds": {
+            "homeWin": 0.52,
+            "draw": 0.22,
+            "awayWin": 0.26
+        },
+        "_id": "67b1246d7a869bdaa594856d"
+    },
+    {
+        "time": "Flamengo",
+        "season": 2004,
+        "jogos": 46,
+        "vitorias": 13,
+        "empates": 15,
+        "derrotas": 18,
+        "gols_marcados": 51,
+        "gols_sofridos": 53,
+        "pontos": 54,
+        "odds": {
+            "homeWin": 0.28,
+            "draw": 0.33,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa594856e"
+    },
+    {
+        "time": "Goias",
+        "season": 2004,
+        "jogos": 46,
+        "vitorias": 21,
+        "empates": 9,
+        "derrotas": 16,
+        "gols_marcados": 81,
+        "gols_sofridos": 68,
+        "pontos": 72,
+        "odds": {
+            "homeWin": 0.46,
+            "draw": 0.2,
+            "awayWin": 0.35
+        },
+        "_id": "67b1246d7a869bdaa594856f"
+    },
+    {
+        "time": "Juventude",
+        "season": 2004,
+        "jogos": 46,
+        "vitorias": 20,
+        "empates": 10,
+        "derrotas": 16,
+        "gols_marcados": 60,
+        "gols_sofridos": 66,
+        "pontos": 70,
+        "odds": {
+            "homeWin": 0.43,
+            "draw": 0.22,
+            "awayWin": 0.35
+        },
+        "_id": "67b1246d7a869bdaa5948570"
+    },
+    {
+        "time": "Internacional",
+        "season": 2004,
+        "jogos": 46,
+        "vitorias": 20,
+        "empates": 7,
+        "derrotas": 19,
+        "gols_marcados": 65,
+        "gols_sofridos": 58,
+        "pontos": 67,
+        "odds": {
+            "homeWin": 0.43,
+            "draw": 0.15,
+            "awayWin": 0.41
+        },
+        "_id": "67b1246d7a869bdaa5948571"
+    },
+    {
+        "time": "Atletico-MG",
+        "season": 2004,
+        "jogos": 46,
+        "vitorias": 12,
+        "empates": 17,
+        "derrotas": 17,
+        "gols_marcados": 60,
+        "gols_sofridos": 66,
+        "pontos": 53,
+        "odds": {
+            "homeWin": 0.26,
+            "draw": 0.37,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa5948572"
+    },
+    {
+        "time": "Fluminense",
+        "season": 2004,
+        "jogos": 46,
+        "vitorias": 18,
+        "empates": 13,
+        "derrotas": 15,
+        "gols_marcados": 65,
+        "gols_sofridos": 68,
+        "pontos": 67,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.28,
+            "awayWin": 0.33
+        },
+        "_id": "67b1246d7a869bdaa5948573"
+    },
+    {
+        "time": "Corinthians",
+        "season": 2004,
+        "jogos": 46,
+        "vitorias": 20,
+        "empates": 14,
+        "derrotas": 12,
+        "gols_marcados": 54,
+        "gols_sofridos": 54,
+        "pontos": 74,
+        "odds": {
+            "homeWin": 0.43,
+            "draw": 0.3,
+            "awayWin": 0.26
+        },
+        "_id": "67b1246d7a869bdaa5948574"
+    },
+    {
+        "time": "Guarani",
+        "season": 2004,
+        "jogos": 46,
+        "vitorias": 11,
+        "empates": 16,
+        "derrotas": 19,
+        "gols_marcados": 43,
+        "gols_sofridos": 55,
+        "pontos": 49,
+        "odds": {
+            "homeWin": 0.24,
+            "draw": 0.35,
+            "awayWin": 0.41
+        },
+        "_id": "67b1246d7a869bdaa5948575"
+    },
+    {
+        "time": "Athletico-PR",
+        "season": 2004,
+        "jogos": 46,
+        "vitorias": 25,
+        "empates": 11,
+        "derrotas": 10,
+        "gols_marcados": 93,
+        "gols_sofridos": 56,
+        "pontos": 86,
+        "odds": {
+            "homeWin": 0.54,
+            "draw": 0.24,
+            "awayWin": 0.22
+        },
+        "_id": "67b1246d7a869bdaa5948576"
+    },
+    {
+        "time": "Vitoria",
+        "season": 2004,
+        "jogos": 46,
+        "vitorias": 13,
+        "empates": 9,
+        "derrotas": 24,
+        "gols_marcados": 68,
+        "gols_sofridos": 87,
+        "pontos": 48,
+        "odds": {
+            "homeWin": 0.28,
+            "draw": 0.2,
+            "awayWin": 0.52
+        },
+        "_id": "67b1246d7a869bdaa5948577"
+    },
+    {
+        "time": "Criciuma",
+        "season": 2004,
+        "jogos": 46,
+        "vitorias": 13,
+        "empates": 11,
+        "derrotas": 22,
+        "gols_marcados": 60,
+        "gols_sofridos": 77,
+        "pontos": 50,
+        "odds": {
+            "homeWin": 0.28,
+            "draw": 0.24,
+            "awayWin": 0.48
+        },
+        "_id": "67b1246d7a869bdaa5948578"
+    },
+    {
+        "time": "Santos",
+        "season": 2004,
+        "jogos": 46,
+        "vitorias": 27,
+        "empates": 8,
+        "derrotas": 11,
+        "gols_marcados": 103,
+        "gols_sofridos": 58,
+        "pontos": 89,
+        "odds": {
+            "homeWin": 0.59,
+            "draw": 0.17,
+            "awayWin": 0.24
+        },
+        "_id": "67b1246d7a869bdaa5948579"
+    },
+    {
+        "time": "Parana",
+        "season": 2005,
+        "jogos": 42,
+        "vitorias": 17,
+        "empates": 10,
+        "derrotas": 15,
+        "gols_marcados": 59,
+        "gols_sofridos": 51,
+        "pontos": 61,
+        "odds": {
+            "homeWin": 0.4,
+            "draw": 0.24,
+            "awayWin": 0.36
+        },
+        "_id": "67b1246d7a869bdaa594857a"
+    },
+    {
+        "time": "Atletico-MG",
+        "season": 2005,
+        "jogos": 42,
+        "vitorias": 13,
+        "empates": 8,
+        "derrotas": 21,
+        "gols_marcados": 54,
+        "gols_sofridos": 59,
+        "pontos": 47,
+        "odds": {
+            "homeWin": 0.31,
+            "draw": 0.19,
+            "awayWin": 0.5
+        },
+        "_id": "67b1246d7a869bdaa594857b"
+    },
+    {
+        "time": "Sao Caetano",
+        "season": 2005,
+        "jogos": 42,
+        "vitorias": 14,
+        "empates": 10,
+        "derrotas": 18,
+        "gols_marcados": 54,
+        "gols_sofridos": 60,
+        "pontos": 52,
+        "odds": {
+            "homeWin": 0.33,
+            "draw": 0.24,
+            "awayWin": 0.43
+        },
+        "_id": "67b1246d7a869bdaa594857c"
+    },
+    {
+        "time": "Flamengo",
+        "season": 2005,
+        "jogos": 42,
+        "vitorias": 14,
+        "empates": 13,
+        "derrotas": 15,
+        "gols_marcados": 56,
+        "gols_sofridos": 60,
+        "pontos": 55,
+        "odds": {
+            "homeWin": 0.33,
+            "draw": 0.31,
+            "awayWin": 0.36
+        },
+        "_id": "67b1246d7a869bdaa594857d"
+    },
+    {
+        "time": "Internacional",
+        "season": 2005,
+        "jogos": 42,
+        "vitorias": 23,
+        "empates": 9,
+        "derrotas": 10,
+        "gols_marcados": 72,
+        "gols_sofridos": 49,
+        "pontos": 78,
+        "odds": {
+            "homeWin": 0.55,
+            "draw": 0.21,
+            "awayWin": 0.24
+        },
+        "_id": "67b1246d7a869bdaa594857e"
+    },
+    {
+        "time": "Fortaleza",
+        "season": 2005,
+        "jogos": 42,
+        "vitorias": 16,
+        "empates": 7,
+        "derrotas": 19,
+        "gols_marcados": 58,
+        "gols_sofridos": 64,
+        "pontos": 55,
+        "odds": {
+            "homeWin": 0.38,
+            "draw": 0.17,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa594857f"
+    },
+    {
+        "time": "Fluminense",
+        "season": 2005,
+        "jogos": 42,
+        "vitorias": 19,
+        "empates": 11,
+        "derrotas": 12,
+        "gols_marcados": 79,
+        "gols_sofridos": 70,
+        "pontos": 68,
+        "odds": {
+            "homeWin": 0.45,
+            "draw": 0.26,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa5948580"
+    },
+    {
+        "time": "Corinthians",
+        "season": 2005,
+        "jogos": 42,
+        "vitorias": 24,
+        "empates": 9,
+        "derrotas": 9,
+        "gols_marcados": 87,
+        "gols_sofridos": 59,
+        "pontos": 81,
+        "odds": {
+            "homeWin": 0.57,
+            "draw": 0.21,
+            "awayWin": 0.21
+        },
+        "_id": "67b1246d7a869bdaa5948581"
+    },
+    {
+        "time": "Athletico-PR",
+        "season": 2005,
+        "jogos": 42,
+        "vitorias": 18,
+        "empates": 7,
+        "derrotas": 17,
+        "gols_marcados": 76,
+        "gols_sofridos": 67,
+        "pontos": 61,
+        "odds": {
+            "homeWin": 0.43,
+            "draw": 0.17,
+            "awayWin": 0.4
+        },
+        "_id": "67b1246d7a869bdaa5948582"
+    },
+    {
+        "time": "Brasiliense",
+        "season": 2005,
+        "jogos": 42,
+        "vitorias": 10,
+        "empates": 12,
+        "derrotas": 20,
+        "gols_marcados": 49,
+        "gols_sofridos": 68,
+        "pontos": 42,
+        "odds": {
+            "homeWin": 0.24,
+            "draw": 0.29,
+            "awayWin": 0.48
+        },
+        "_id": "67b1246d7a869bdaa5948583"
+    },
+    {
+        "time": "Santos",
+        "season": 2005,
+        "jogos": 42,
+        "vitorias": 16,
+        "empates": 11,
+        "derrotas": 15,
+        "gols_marcados": 68,
+        "gols_sofridos": 71,
+        "pontos": 59,
+        "odds": {
+            "homeWin": 0.38,
+            "draw": 0.26,
+            "awayWin": 0.36
+        },
+        "_id": "67b1246d7a869bdaa5948584"
+    },
+    {
+        "time": "Goias",
+        "season": 2005,
+        "jogos": 42,
+        "vitorias": 22,
+        "empates": 8,
+        "derrotas": 12,
+        "gols_marcados": 68,
+        "gols_sofridos": 51,
+        "pontos": 74,
+        "odds": {
+            "homeWin": 0.52,
+            "draw": 0.19,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa5948585"
+    },
+    {
+        "time": "Vasco",
+        "season": 2005,
+        "jogos": 42,
+        "vitorias": 14,
+        "empates": 12,
+        "derrotas": 16,
+        "gols_marcados": 75,
+        "gols_sofridos": 86,
+        "pontos": 54,
+        "odds": {
+            "homeWin": 0.33,
+            "draw": 0.29,
+            "awayWin": 0.38
+        },
+        "_id": "67b1246d7a869bdaa5948586"
+    },
+    {
+        "time": "Palmeiras",
+        "season": 2005,
+        "jogos": 42,
+        "vitorias": 20,
+        "empates": 10,
+        "derrotas": 12,
+        "gols_marcados": 81,
+        "gols_sofridos": 65,
+        "pontos": 70,
+        "odds": {
+            "homeWin": 0.48,
+            "draw": 0.24,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa5948587"
+    },
+    {
+        "time": "Ponte Preta",
+        "season": 2005,
+        "jogos": 42,
+        "vitorias": 15,
+        "empates": 6,
+        "derrotas": 21,
+        "gols_marcados": 63,
+        "gols_sofridos": 80,
+        "pontos": 51,
+        "odds": {
+            "homeWin": 0.36,
+            "draw": 0.14,
+            "awayWin": 0.5
+        },
+        "_id": "67b1246d7a869bdaa5948588"
+    },
+    {
+        "time": "Sao Paulo",
+        "season": 2005,
+        "jogos": 42,
+        "vitorias": 16,
+        "empates": 10,
+        "derrotas": 16,
+        "gols_marcados": 77,
+        "gols_sofridos": 67,
+        "pontos": 58,
+        "odds": {
+            "homeWin": 0.38,
+            "draw": 0.24,
+            "awayWin": 0.38
+        },
+        "_id": "67b1246d7a869bdaa5948589"
+    },
+    {
+        "time": "Cruzeiro",
+        "season": 2005,
+        "jogos": 42,
+        "vitorias": 17,
+        "empates": 9,
+        "derrotas": 16,
+        "gols_marcados": 73,
+        "gols_sofridos": 72,
+        "pontos": 60,
+        "odds": {
+            "homeWin": 0.4,
+            "draw": 0.21,
+            "awayWin": 0.38
+        },
+        "_id": "67b1246d7a869bdaa594858a"
+    },
+    {
+        "time": "Juventude",
+        "season": 2005,
+        "jogos": 42,
+        "vitorias": 15,
+        "empates": 10,
+        "derrotas": 17,
+        "gols_marcados": 66,
+        "gols_sofridos": 72,
+        "pontos": 55,
+        "odds": {
+            "homeWin": 0.36,
+            "draw": 0.24,
+            "awayWin": 0.4
+        },
+        "_id": "67b1246d7a869bdaa594858b"
+    },
+    {
+        "time": "Figueirense",
+        "season": 2005,
+        "jogos": 42,
+        "vitorias": 14,
+        "empates": 11,
+        "derrotas": 17,
+        "gols_marcados": 65,
+        "gols_sofridos": 72,
+        "pontos": 53,
+        "odds": {
+            "homeWin": 0.33,
+            "draw": 0.26,
+            "awayWin": 0.4
+        },
+        "_id": "67b1246d7a869bdaa594858c"
+    },
+    {
+        "time": "Botafogo-RJ",
+        "season": 2005,
+        "jogos": 42,
+        "vitorias": 17,
+        "empates": 8,
+        "derrotas": 17,
+        "gols_marcados": 57,
+        "gols_sofridos": 56,
+        "pontos": 59,
+        "odds": {
+            "homeWin": 0.4,
+            "draw": 0.19,
+            "awayWin": 0.4
+        },
+        "_id": "67b1246d7a869bdaa594858d"
+    },
+    {
+        "time": "Coritiba",
+        "season": 2005,
+        "jogos": 42,
+        "vitorias": 13,
+        "empates": 10,
+        "derrotas": 19,
+        "gols_marcados": 51,
+        "gols_sofridos": 60,
+        "pontos": 49,
+        "odds": {
+            "homeWin": 0.31,
+            "draw": 0.24,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa594858e"
+    },
+    {
+        "time": "Paysandu",
+        "season": 2005,
+        "jogos": 42,
+        "vitorias": 12,
+        "empates": 5,
+        "derrotas": 25,
+        "gols_marcados": 63,
+        "gols_sofridos": 92,
+        "pontos": 41,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.12,
+            "awayWin": 0.6
+        },
+        "_id": "67b1246d7a869bdaa594858f"
+    },
+    {
+        "time": "Juventude",
+        "season": 2006,
+        "jogos": 38,
+        "vitorias": 13,
+        "empates": 8,
+        "derrotas": 17,
+        "gols_marcados": 44,
+        "gols_sofridos": 54,
+        "pontos": 47,
+        "odds": {
+            "homeWin": 0.34,
+            "draw": 0.21,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa5948590"
+    },
+    {
+        "time": "Vasco",
+        "season": 2006,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 14,
+        "derrotas": 9,
+        "gols_marcados": 57,
+        "gols_sofridos": 50,
+        "pontos": 59,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.37,
+            "awayWin": 0.24
+        },
+        "_id": "67b1246d7a869bdaa5948591"
+    },
+    {
+        "time": "Sao Paulo",
+        "season": 2006,
+        "jogos": 38,
+        "vitorias": 22,
+        "empates": 12,
+        "derrotas": 4,
+        "gols_marcados": 66,
+        "gols_sofridos": 32,
+        "pontos": 78,
+        "odds": {
+            "homeWin": 0.58,
+            "draw": 0.32,
+            "awayWin": 0.11
+        },
+        "_id": "67b1246d7a869bdaa5948592"
+    },
+    {
+        "time": "Gremio",
+        "season": 2006,
+        "jogos": 38,
+        "vitorias": 20,
+        "empates": 7,
+        "derrotas": 11,
+        "gols_marcados": 64,
+        "gols_sofridos": 45,
+        "pontos": 67,
+        "odds": {
+            "homeWin": 0.53,
+            "draw": 0.18,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa5948593"
+    },
+    {
+        "time": "Botafogo-RJ",
+        "season": 2006,
+        "jogos": 38,
+        "vitorias": 13,
+        "empates": 12,
+        "derrotas": 13,
+        "gols_marcados": 52,
+        "gols_sofridos": 50,
+        "pontos": 51,
+        "odds": {
+            "homeWin": 0.34,
+            "draw": 0.32,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa5948594"
+    },
+    {
+        "time": "Sao Caetano",
+        "season": 2006,
+        "jogos": 38,
+        "vitorias": 9,
+        "empates": 9,
+        "derrotas": 20,
+        "gols_marcados": 37,
+        "gols_sofridos": 53,
+        "pontos": 36,
+        "odds": {
+            "homeWin": 0.24,
+            "draw": 0.24,
+            "awayWin": 0.53
+        },
+        "_id": "67b1246d7a869bdaa5948595"
+    },
+    {
+        "time": "Palmeiras",
+        "season": 2006,
+        "jogos": 38,
+        "vitorias": 12,
+        "empates": 8,
+        "derrotas": 18,
+        "gols_marcados": 58,
+        "gols_sofridos": 70,
+        "pontos": 44,
+        "odds": {
+            "homeWin": 0.32,
+            "draw": 0.21,
+            "awayWin": 0.47
+        },
+        "_id": "67b1246d7a869bdaa5948596"
+    },
+    {
+        "time": "Santa Cruz",
+        "season": 2006,
+        "jogos": 38,
+        "vitorias": 7,
+        "empates": 7,
+        "derrotas": 24,
+        "gols_marcados": 41,
+        "gols_sofridos": 76,
+        "pontos": 28,
+        "odds": {
+            "homeWin": 0.18,
+            "draw": 0.18,
+            "awayWin": 0.63
+        },
+        "_id": "67b1246d7a869bdaa5948597"
+    },
+    {
+        "time": "Athletico-PR",
+        "season": 2006,
+        "jogos": 38,
+        "vitorias": 13,
+        "empates": 9,
+        "derrotas": 16,
+        "gols_marcados": 61,
+        "gols_sofridos": 62,
+        "pontos": 48,
+        "odds": {
+            "homeWin": 0.34,
+            "draw": 0.24,
+            "awayWin": 0.42
+        },
+        "_id": "67b1246d7a869bdaa5948598"
+    },
+    {
+        "time": "Goias",
+        "season": 2006,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 10,
+        "derrotas": 13,
+        "gols_marcados": 63,
+        "gols_sofridos": 49,
+        "pontos": 55,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.26,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa5948599"
+    },
+    {
+        "time": "Corinthians",
+        "season": 2006,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 8,
+        "derrotas": 15,
+        "gols_marcados": 41,
+        "gols_sofridos": 46,
+        "pontos": 53,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.21,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa594859a"
+    },
+    {
+        "time": "Fluminense",
+        "season": 2006,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 12,
+        "derrotas": 15,
+        "gols_marcados": 48,
+        "gols_sofridos": 58,
+        "pontos": 45,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.32,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa594859b"
+    },
+    {
+        "time": "Figueirense",
+        "season": 2006,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 12,
+        "derrotas": 11,
+        "gols_marcados": 52,
+        "gols_sofridos": 44,
+        "pontos": 57,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.32,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa594859c"
+    },
+    {
+        "time": "Internacional",
+        "season": 2006,
+        "jogos": 38,
+        "vitorias": 20,
+        "empates": 9,
+        "derrotas": 9,
+        "gols_marcados": 52,
+        "gols_sofridos": 36,
+        "pontos": 69,
+        "odds": {
+            "homeWin": 0.53,
+            "draw": 0.24,
+            "awayWin": 0.24
+        },
+        "_id": "67b1246d7a869bdaa594859d"
+    },
+    {
+        "time": "Santos",
+        "season": 2006,
+        "jogos": 38,
+        "vitorias": 18,
+        "empates": 10,
+        "derrotas": 10,
+        "gols_marcados": 58,
+        "gols_sofridos": 36,
+        "pontos": 64,
+        "odds": {
+            "homeWin": 0.47,
+            "draw": 0.26,
+            "awayWin": 0.26
+        },
+        "_id": "67b1246d7a869bdaa594859e"
+    },
+    {
+        "time": "Ponte Preta",
+        "season": 2006,
+        "jogos": 38,
+        "vitorias": 10,
+        "empates": 9,
+        "derrotas": 19,
+        "gols_marcados": 45,
+        "gols_sofridos": 65,
+        "pontos": 39,
+        "odds": {
+            "homeWin": 0.26,
+            "draw": 0.24,
+            "awayWin": 0.5
+        },
+        "_id": "67b1246d7a869bdaa594859f"
+    },
+    {
+        "time": "Flamengo",
+        "season": 2006,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 7,
+        "derrotas": 16,
+        "gols_marcados": 44,
+        "gols_sofridos": 48,
+        "pontos": 52,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.18,
+            "awayWin": 0.42
+        },
+        "_id": "67b1246d7a869bdaa59485a0"
+    },
+    {
+        "time": "Cruzeiro",
+        "season": 2006,
+        "jogos": 38,
+        "vitorias": 14,
+        "empates": 11,
+        "derrotas": 13,
+        "gols_marcados": 52,
+        "gols_sofridos": 45,
+        "pontos": 53,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.29,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa59485a1"
+    },
+    {
+        "time": "Parana",
+        "season": 2006,
+        "jogos": 38,
+        "vitorias": 18,
+        "empates": 6,
+        "derrotas": 14,
+        "gols_marcados": 56,
+        "gols_sofridos": 49,
+        "pontos": 60,
+        "odds": {
+            "homeWin": 0.47,
+            "draw": 0.16,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa59485a2"
+    },
+    {
+        "time": "Fortaleza",
+        "season": 2006,
+        "jogos": 38,
+        "vitorias": 8,
+        "empates": 14,
+        "derrotas": 16,
+        "gols_marcados": 39,
+        "gols_sofridos": 62,
+        "pontos": 38,
+        "odds": {
+            "homeWin": 0.21,
+            "draw": 0.37,
+            "awayWin": 0.42
+        },
+        "_id": "67b1246d7a869bdaa59485a3"
+    },
+    {
+        "time": "Figueirense",
+        "season": 2007,
+        "jogos": 38,
+        "vitorias": 14,
+        "empates": 11,
+        "derrotas": 13,
+        "gols_marcados": 57,
+        "gols_sofridos": 56,
+        "pontos": 53,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.29,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa59485a4"
+    },
+    {
+        "time": "Sao Paulo",
+        "season": 2007,
+        "jogos": 38,
+        "vitorias": 23,
+        "empates": 8,
+        "derrotas": 7,
+        "gols_marcados": 55,
+        "gols_sofridos": 19,
+        "pontos": 77,
+        "odds": {
+            "homeWin": 0.61,
+            "draw": 0.21,
+            "awayWin": 0.18
+        },
+        "_id": "67b1246d7a869bdaa59485a5"
+    },
+    {
+        "time": "Fluminense",
+        "season": 2007,
+        "jogos": 38,
+        "vitorias": 16,
+        "empates": 13,
+        "derrotas": 9,
+        "gols_marcados": 57,
+        "gols_sofridos": 39,
+        "pontos": 61,
+        "odds": {
+            "homeWin": 0.42,
+            "draw": 0.34,
+            "awayWin": 0.24
+        },
+        "_id": "67b1246d7a869bdaa59485a6"
+    },
+    {
+        "time": "Flamengo",
+        "season": 2007,
+        "jogos": 38,
+        "vitorias": 17,
+        "empates": 10,
+        "derrotas": 11,
+        "gols_marcados": 55,
+        "gols_sofridos": 49,
+        "pontos": 61,
+        "odds": {
+            "homeWin": 0.45,
+            "draw": 0.26,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa59485a7"
+    },
+    {
+        "time": "Internacional",
+        "season": 2007,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 9,
+        "derrotas": 14,
+        "gols_marcados": 49,
+        "gols_sofridos": 44,
+        "pontos": 54,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.24,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa59485a8"
+    },
+    {
+        "time": "Parana",
+        "season": 2007,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 8,
+        "derrotas": 19,
+        "gols_marcados": 42,
+        "gols_sofridos": 64,
+        "pontos": 41,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.21,
+            "awayWin": 0.5
+        },
+        "_id": "67b1246d7a869bdaa59485a9"
+    },
+    {
+        "time": "Atletico-MG",
+        "season": 2007,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 10,
+        "derrotas": 13,
+        "gols_marcados": 63,
+        "gols_sofridos": 51,
+        "pontos": 55,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.26,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa59485aa"
+    },
+    {
+        "time": "Corinthians",
+        "season": 2007,
+        "jogos": 38,
+        "vitorias": 10,
+        "empates": 14,
+        "derrotas": 14,
+        "gols_marcados": 40,
+        "gols_sofridos": 50,
+        "pontos": 44,
+        "odds": {
+            "homeWin": 0.26,
+            "draw": 0.37,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa59485ab"
+    },
+    {
+        "time": "America-RN",
+        "season": 2007,
+        "jogos": 38,
+        "vitorias": 4,
+        "empates": 5,
+        "derrotas": 29,
+        "gols_marcados": 24,
+        "gols_sofridos": 80,
+        "pontos": 17,
+        "odds": {
+            "homeWin": 0.11,
+            "draw": 0.13,
+            "awayWin": 0.76
+        },
+        "_id": "67b1246d7a869bdaa59485ac"
+    },
+    {
+        "time": "Sport",
+        "season": 2007,
+        "jogos": 38,
+        "vitorias": 14,
+        "empates": 9,
+        "derrotas": 15,
+        "gols_marcados": 54,
+        "gols_sofridos": 55,
+        "pontos": 51,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.24,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa59485ad"
+    },
+    {
+        "time": "Juventude",
+        "season": 2007,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 8,
+        "derrotas": 19,
+        "gols_marcados": 43,
+        "gols_sofridos": 65,
+        "pontos": 41,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.21,
+            "awayWin": 0.5
+        },
+        "_id": "67b1246d7a869bdaa59485ae"
+    },
+    {
+        "time": "Athletico-PR",
+        "season": 2007,
+        "jogos": 38,
+        "vitorias": 14,
+        "empates": 12,
+        "derrotas": 12,
+        "gols_marcados": 51,
+        "gols_sofridos": 50,
+        "pontos": 54,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.32,
+            "awayWin": 0.32
+        },
+        "_id": "67b1246d7a869bdaa59485af"
+    },
+    {
+        "time": "Santos",
+        "season": 2007,
+        "jogos": 38,
+        "vitorias": 19,
+        "empates": 5,
+        "derrotas": 14,
+        "gols_marcados": 57,
+        "gols_sofridos": 47,
+        "pontos": 62,
+        "odds": {
+            "homeWin": 0.5,
+            "draw": 0.13,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa59485b0"
+    },
+    {
+        "time": "Cruzeiro",
+        "season": 2007,
+        "jogos": 38,
+        "vitorias": 18,
+        "empates": 6,
+        "derrotas": 14,
+        "gols_marcados": 73,
+        "gols_sofridos": 58,
+        "pontos": 60,
+        "odds": {
+            "homeWin": 0.47,
+            "draw": 0.16,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa59485b1"
+    },
+    {
+        "time": "Goias",
+        "season": 2007,
+        "jogos": 38,
+        "vitorias": 13,
+        "empates": 6,
+        "derrotas": 19,
+        "gols_marcados": 49,
+        "gols_sofridos": 62,
+        "pontos": 45,
+        "odds": {
+            "homeWin": 0.34,
+            "draw": 0.16,
+            "awayWin": 0.5
+        },
+        "_id": "67b1246d7a869bdaa59485b2"
+    },
+    {
+        "time": "Palmeiras",
+        "season": 2007,
+        "jogos": 38,
+        "vitorias": 16,
+        "empates": 10,
+        "derrotas": 12,
+        "gols_marcados": 48,
+        "gols_sofridos": 47,
+        "pontos": 58,
+        "odds": {
+            "homeWin": 0.42,
+            "draw": 0.26,
+            "awayWin": 0.32
+        },
+        "_id": "67b1246d7a869bdaa59485b3"
+    },
+    {
+        "time": "Botafogo-RJ",
+        "season": 2007,
+        "jogos": 38,
+        "vitorias": 14,
+        "empates": 13,
+        "derrotas": 11,
+        "gols_marcados": 62,
+        "gols_sofridos": 58,
+        "pontos": 55,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.34,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa59485b4"
+    },
+    {
+        "time": "Gremio",
+        "season": 2007,
+        "jogos": 38,
+        "vitorias": 17,
+        "empates": 7,
+        "derrotas": 14,
+        "gols_marcados": 44,
+        "gols_sofridos": 43,
+        "pontos": 58,
+        "odds": {
+            "homeWin": 0.45,
+            "draw": 0.18,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa59485b5"
+    },
+    {
+        "time": "Nautico",
+        "season": 2007,
+        "jogos": 38,
+        "vitorias": 14,
+        "empates": 7,
+        "derrotas": 17,
+        "gols_marcados": 66,
+        "gols_sofridos": 63,
+        "pontos": 49,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.18,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa59485b6"
+    },
+    {
+        "time": "Vasco",
+        "season": 2007,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 9,
+        "derrotas": 14,
+        "gols_marcados": 58,
+        "gols_sofridos": 47,
+        "pontos": 54,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.24,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa59485b7"
+    },
+    {
+        "time": "Nautico",
+        "season": 2008,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 11,
+        "derrotas": 16,
+        "gols_marcados": 44,
+        "gols_sofridos": 54,
+        "pontos": 44,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.29,
+            "awayWin": 0.42
+        },
+        "_id": "67b1246d7a869bdaa59485b8"
+    },
+    {
+        "time": "Sao Paulo",
+        "season": 2008,
+        "jogos": 38,
+        "vitorias": 21,
+        "empates": 12,
+        "derrotas": 5,
+        "gols_marcados": 66,
+        "gols_sofridos": 36,
+        "pontos": 75,
+        "odds": {
+            "homeWin": 0.55,
+            "draw": 0.32,
+            "awayWin": 0.13
+        },
+        "_id": "67b1246d7a869bdaa59485b9"
+    },
+    {
+        "time": "Vitoria",
+        "season": 2008,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 7,
+        "derrotas": 16,
+        "gols_marcados": 48,
+        "gols_sofridos": 44,
+        "pontos": 52,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.18,
+            "awayWin": 0.42
+        },
+        "_id": "67b1246d7a869bdaa59485ba"
+    },
+    {
+        "time": "Coritiba",
+        "season": 2008,
+        "jogos": 38,
+        "vitorias": 14,
+        "empates": 11,
+        "derrotas": 13,
+        "gols_marcados": 55,
+        "gols_sofridos": 48,
+        "pontos": 53,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.29,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa59485bb"
+    },
+    {
+        "time": "Internacional",
+        "season": 2008,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 9,
+        "derrotas": 14,
+        "gols_marcados": 48,
+        "gols_sofridos": 47,
+        "pontos": 54,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.24,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa59485bc"
+    },
+    {
+        "time": "Botafogo-RJ",
+        "season": 2008,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 8,
+        "derrotas": 15,
+        "gols_marcados": 51,
+        "gols_sofridos": 44,
+        "pontos": 53,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.21,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa59485bd"
+    },
+    {
+        "time": "Ipatinga",
+        "season": 2008,
+        "jogos": 38,
+        "vitorias": 9,
+        "empates": 8,
+        "derrotas": 21,
+        "gols_marcados": 37,
+        "gols_sofridos": 67,
+        "pontos": 35,
+        "odds": {
+            "homeWin": 0.24,
+            "draw": 0.21,
+            "awayWin": 0.55
+        },
+        "_id": "67b1246d7a869bdaa59485be"
+    },
+    {
+        "time": "Portuguesa",
+        "season": 2008,
+        "jogos": 38,
+        "vitorias": 9,
+        "empates": 11,
+        "derrotas": 18,
+        "gols_marcados": 48,
+        "gols_sofridos": 70,
+        "pontos": 38,
+        "odds": {
+            "homeWin": 0.24,
+            "draw": 0.29,
+            "awayWin": 0.47
+        },
+        "_id": "67b1246d7a869bdaa59485bf"
+    },
+    {
+        "time": "Atletico-MG",
+        "season": 2008,
+        "jogos": 38,
+        "vitorias": 12,
+        "empates": 12,
+        "derrotas": 14,
+        "gols_marcados": 50,
+        "gols_sofridos": 61,
+        "pontos": 48,
+        "odds": {
+            "homeWin": 0.32,
+            "draw": 0.32,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa59485c0"
+    },
+    {
+        "time": "Flamengo",
+        "season": 2008,
+        "jogos": 38,
+        "vitorias": 18,
+        "empates": 10,
+        "derrotas": 10,
+        "gols_marcados": 67,
+        "gols_sofridos": 48,
+        "pontos": 64,
+        "odds": {
+            "homeWin": 0.47,
+            "draw": 0.26,
+            "awayWin": 0.26
+        },
+        "_id": "67b1246d7a869bdaa59485c1"
+    },
+    {
+        "time": "Cruzeiro",
+        "season": 2008,
+        "jogos": 38,
+        "vitorias": 21,
+        "empates": 4,
+        "derrotas": 13,
+        "gols_marcados": 59,
+        "gols_sofridos": 44,
+        "pontos": 67,
+        "odds": {
+            "homeWin": 0.55,
+            "draw": 0.11,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa59485c2"
+    },
+    {
+        "time": "Sport",
+        "season": 2008,
+        "jogos": 38,
+        "vitorias": 14,
+        "empates": 10,
+        "derrotas": 14,
+        "gols_marcados": 48,
+        "gols_sofridos": 45,
+        "pontos": 52,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.26,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa59485c3"
+    },
+    {
+        "time": "Vasco",
+        "season": 2008,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 7,
+        "derrotas": 20,
+        "gols_marcados": 56,
+        "gols_sofridos": 72,
+        "pontos": 40,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.18,
+            "awayWin": 0.53
+        },
+        "_id": "67b1246d7a869bdaa59485c4"
+    },
+    {
+        "time": "Gremio",
+        "season": 2008,
+        "jogos": 38,
+        "vitorias": 21,
+        "empates": 9,
+        "derrotas": 8,
+        "gols_marcados": 59,
+        "gols_sofridos": 35,
+        "pontos": 72,
+        "odds": {
+            "homeWin": 0.55,
+            "draw": 0.24,
+            "awayWin": 0.21
+        },
+        "_id": "67b1246d7a869bdaa59485c5"
+    },
+    {
+        "time": "Athletico-PR",
+        "season": 2008,
+        "jogos": 38,
+        "vitorias": 12,
+        "empates": 9,
+        "derrotas": 17,
+        "gols_marcados": 45,
+        "gols_sofridos": 54,
+        "pontos": 45,
+        "odds": {
+            "homeWin": 0.32,
+            "draw": 0.24,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa59485c6"
+    },
+    {
+        "time": "Fluminense",
+        "season": 2008,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 12,
+        "derrotas": 15,
+        "gols_marcados": 49,
+        "gols_sofridos": 48,
+        "pontos": 45,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.32,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa59485c7"
+    },
+    {
+        "time": "Goias",
+        "season": 2008,
+        "jogos": 38,
+        "vitorias": 14,
+        "empates": 11,
+        "derrotas": 13,
+        "gols_marcados": 57,
+        "gols_sofridos": 47,
+        "pontos": 53,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.29,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa59485c8"
+    },
+    {
+        "time": "Figueirense",
+        "season": 2008,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 11,
+        "derrotas": 16,
+        "gols_marcados": 49,
+        "gols_sofridos": 73,
+        "pontos": 44,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.29,
+            "awayWin": 0.42
+        },
+        "_id": "67b1246d7a869bdaa59485c9"
+    },
+    {
+        "time": "Palmeiras",
+        "season": 2008,
+        "jogos": 38,
+        "vitorias": 19,
+        "empates": 8,
+        "derrotas": 11,
+        "gols_marcados": 55,
+        "gols_sofridos": 45,
+        "pontos": 65,
+        "odds": {
+            "homeWin": 0.5,
+            "draw": 0.21,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa59485ca"
+    },
+    {
+        "time": "Santos",
+        "season": 2008,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 12,
+        "derrotas": 15,
+        "gols_marcados": 44,
+        "gols_sofridos": 53,
+        "pontos": 45,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.32,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa59485cb"
+    },
+    {
+        "time": "Sport",
+        "season": 2009,
+        "jogos": 38,
+        "vitorias": 7,
+        "empates": 10,
+        "derrotas": 21,
+        "gols_marcados": 48,
+        "gols_sofridos": 71,
+        "pontos": 31,
+        "odds": {
+            "homeWin": 0.18,
+            "draw": 0.26,
+            "awayWin": 0.55
+        },
+        "_id": "67b1246d7a869bdaa59485cc"
+    },
+    {
+        "time": "Palmeiras",
+        "season": 2009,
+        "jogos": 38,
+        "vitorias": 17,
+        "empates": 11,
+        "derrotas": 10,
+        "gols_marcados": 58,
+        "gols_sofridos": 45,
+        "pontos": 62,
+        "odds": {
+            "homeWin": 0.45,
+            "draw": 0.29,
+            "awayWin": 0.26
+        },
+        "_id": "67b1246d7a869bdaa59485cd"
+    },
+    {
+        "time": "Avai",
+        "season": 2009,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 12,
+        "derrotas": 11,
+        "gols_marcados": 61,
+        "gols_sofridos": 52,
+        "pontos": 57,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.32,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa59485ce"
+    },
+    {
+        "time": "Corinthians",
+        "season": 2009,
+        "jogos": 38,
+        "vitorias": 14,
+        "empates": 10,
+        "derrotas": 14,
+        "gols_marcados": 50,
+        "gols_sofridos": 54,
+        "pontos": 52,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.26,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa59485cf"
+    },
+    {
+        "time": "Fluminense",
+        "season": 2009,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 13,
+        "derrotas": 14,
+        "gols_marcados": 49,
+        "gols_sofridos": 56,
+        "pontos": 46,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.34,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa59485d0"
+    },
+    {
+        "time": "Athletico-PR",
+        "season": 2009,
+        "jogos": 38,
+        "vitorias": 13,
+        "empates": 9,
+        "derrotas": 16,
+        "gols_marcados": 42,
+        "gols_sofridos": 49,
+        "pontos": 48,
+        "odds": {
+            "homeWin": 0.34,
+            "draw": 0.24,
+            "awayWin": 0.42
+        },
+        "_id": "67b1246d7a869bdaa59485d1"
+    },
+    {
+        "time": "Cruzeiro",
+        "season": 2009,
+        "jogos": 38,
+        "vitorias": 18,
+        "empates": 8,
+        "derrotas": 12,
+        "gols_marcados": 58,
+        "gols_sofridos": 53,
+        "pontos": 62,
+        "odds": {
+            "homeWin": 0.47,
+            "draw": 0.21,
+            "awayWin": 0.32
+        },
+        "_id": "67b1246d7a869bdaa59485d2"
+    },
+    {
+        "time": "Gremio",
+        "season": 2009,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 10,
+        "derrotas": 13,
+        "gols_marcados": 67,
+        "gols_sofridos": 46,
+        "pontos": 55,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.26,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa59485d3"
+    },
+    {
+        "time": "Santo Andre",
+        "season": 2009,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 8,
+        "derrotas": 19,
+        "gols_marcados": 46,
+        "gols_sofridos": 61,
+        "pontos": 41,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.21,
+            "awayWin": 0.5
+        },
+        "_id": "67b1246d7a869bdaa59485d4"
+    },
+    {
+        "time": "Goias",
+        "season": 2009,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 10,
+        "derrotas": 13,
+        "gols_marcados": 64,
+        "gols_sofridos": 65,
+        "pontos": 55,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.26,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa59485d5"
+    },
+    {
+        "time": "Coritiba",
+        "season": 2009,
+        "jogos": 38,
+        "vitorias": 12,
+        "empates": 9,
+        "derrotas": 17,
+        "gols_marcados": 48,
+        "gols_sofridos": 60,
+        "pontos": 45,
+        "odds": {
+            "homeWin": 0.32,
+            "draw": 0.24,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa59485d6"
+    },
+    {
+        "time": "Atletico-MG",
+        "season": 2009,
+        "jogos": 38,
+        "vitorias": 16,
+        "empates": 8,
+        "derrotas": 14,
+        "gols_marcados": 55,
+        "gols_sofridos": 56,
+        "pontos": 56,
+        "odds": {
+            "homeWin": 0.42,
+            "draw": 0.21,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa59485d7"
+    },
+    {
+        "time": "Flamengo",
+        "season": 2009,
+        "jogos": 38,
+        "vitorias": 19,
+        "empates": 10,
+        "derrotas": 9,
+        "gols_marcados": 58,
+        "gols_sofridos": 44,
+        "pontos": 67,
+        "odds": {
+            "homeWin": 0.5,
+            "draw": 0.26,
+            "awayWin": 0.24
+        },
+        "_id": "67b1246d7a869bdaa59485d8"
+    },
+    {
+        "time": "Santos",
+        "season": 2009,
+        "jogos": 38,
+        "vitorias": 12,
+        "empates": 13,
+        "derrotas": 13,
+        "gols_marcados": 58,
+        "gols_sofridos": 58,
+        "pontos": 49,
+        "odds": {
+            "homeWin": 0.32,
+            "draw": 0.34,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa59485d9"
+    },
+    {
+        "time": "Sao Paulo",
+        "season": 2009,
+        "jogos": 38,
+        "vitorias": 18,
+        "empates": 11,
+        "derrotas": 9,
+        "gols_marcados": 57,
+        "gols_sofridos": 42,
+        "pontos": 65,
+        "odds": {
+            "homeWin": 0.47,
+            "draw": 0.29,
+            "awayWin": 0.24
+        },
+        "_id": "67b1246d7a869bdaa59485da"
+    },
+    {
+        "time": "Barueri",
+        "season": 2009,
+        "jogos": 38,
+        "vitorias": 12,
+        "empates": 13,
+        "derrotas": 13,
+        "gols_marcados": 59,
+        "gols_sofridos": 52,
+        "pontos": 49,
+        "odds": {
+            "homeWin": 0.32,
+            "draw": 0.34,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa59485db"
+    },
+    {
+        "time": "Internacional",
+        "season": 2009,
+        "jogos": 38,
+        "vitorias": 19,
+        "empates": 8,
+        "derrotas": 11,
+        "gols_marcados": 65,
+        "gols_sofridos": 44,
+        "pontos": 65,
+        "odds": {
+            "homeWin": 0.5,
+            "draw": 0.21,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa59485dc"
+    },
+    {
+        "time": "Botafogo-RJ",
+        "season": 2009,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 14,
+        "derrotas": 13,
+        "gols_marcados": 52,
+        "gols_sofridos": 58,
+        "pontos": 47,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.37,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa59485dd"
+    },
+    {
+        "time": "Vitoria",
+        "season": 2009,
+        "jogos": 38,
+        "vitorias": 13,
+        "empates": 9,
+        "derrotas": 16,
+        "gols_marcados": 51,
+        "gols_sofridos": 57,
+        "pontos": 48,
+        "odds": {
+            "homeWin": 0.34,
+            "draw": 0.24,
+            "awayWin": 0.42
+        },
+        "_id": "67b1246d7a869bdaa59485de"
+    },
+    {
+        "time": "Nautico",
+        "season": 2009,
+        "jogos": 38,
+        "vitorias": 10,
+        "empates": 8,
+        "derrotas": 20,
+        "gols_marcados": 48,
+        "gols_sofridos": 71,
+        "pontos": 38,
+        "odds": {
+            "homeWin": 0.26,
+            "draw": 0.21,
+            "awayWin": 0.53
+        },
+        "_id": "67b1246d7a869bdaa59485df"
+    },
+    {
+        "time": "Botafogo-RJ",
+        "season": 2010,
+        "jogos": 38,
+        "vitorias": 14,
+        "empates": 17,
+        "derrotas": 7,
+        "gols_marcados": 54,
+        "gols_sofridos": 42,
+        "pontos": 59,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.45,
+            "awayWin": 0.18
+        },
+        "_id": "67b1246d7a869bdaa59485e0"
+    },
+    {
+        "time": "Atletico-GO",
+        "season": 2010,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 9,
+        "derrotas": 18,
+        "gols_marcados": 51,
+        "gols_sofridos": 57,
+        "pontos": 42,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.24,
+            "awayWin": 0.47
+        },
+        "_id": "67b1246d7a869bdaa59485e1"
+    },
+    {
+        "time": "Palmeiras",
+        "season": 2010,
+        "jogos": 38,
+        "vitorias": 12,
+        "empates": 14,
+        "derrotas": 12,
+        "gols_marcados": 42,
+        "gols_sofridos": 43,
+        "pontos": 50,
+        "odds": {
+            "homeWin": 0.32,
+            "draw": 0.37,
+            "awayWin": 0.32
+        },
+        "_id": "67b1246d7a869bdaa59485e2"
+    },
+    {
+        "time": "Flamengo",
+        "season": 2010,
+        "jogos": 38,
+        "vitorias": 9,
+        "empates": 17,
+        "derrotas": 12,
+        "gols_marcados": 41,
+        "gols_sofridos": 44,
+        "pontos": 44,
+        "odds": {
+            "homeWin": 0.24,
+            "draw": 0.45,
+            "awayWin": 0.32
+        },
+        "_id": "67b1246d7a869bdaa59485e3"
+    },
+    {
+        "time": "Atletico-MG",
+        "season": 2010,
+        "jogos": 38,
+        "vitorias": 13,
+        "empates": 6,
+        "derrotas": 19,
+        "gols_marcados": 52,
+        "gols_sofridos": 64,
+        "pontos": 45,
+        "odds": {
+            "homeWin": 0.34,
+            "draw": 0.16,
+            "awayWin": 0.5
+        },
+        "_id": "67b1246d7a869bdaa59485e4"
+    },
+    {
+        "time": "Internacional",
+        "season": 2010,
+        "jogos": 38,
+        "vitorias": 16,
+        "empates": 10,
+        "derrotas": 12,
+        "gols_marcados": 48,
+        "gols_sofridos": 41,
+        "pontos": 58,
+        "odds": {
+            "homeWin": 0.42,
+            "draw": 0.26,
+            "awayWin": 0.32
+        },
+        "_id": "67b1246d7a869bdaa59485e5"
+    },
+    {
+        "time": "Corinthians",
+        "season": 2010,
+        "jogos": 38,
+        "vitorias": 19,
+        "empates": 11,
+        "derrotas": 8,
+        "gols_marcados": 65,
+        "gols_sofridos": 41,
+        "pontos": 68,
+        "odds": {
+            "homeWin": 0.5,
+            "draw": 0.29,
+            "awayWin": 0.21
+        },
+        "_id": "67b1246d7a869bdaa59485e6"
+    },
+    {
+        "time": "Ceara",
+        "season": 2010,
+        "jogos": 38,
+        "vitorias": 10,
+        "empates": 17,
+        "derrotas": 11,
+        "gols_marcados": 35,
+        "gols_sofridos": 44,
+        "pontos": 47,
+        "odds": {
+            "homeWin": 0.26,
+            "draw": 0.45,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa59485e7"
+    },
+    {
+        "time": "Guarani",
+        "season": 2010,
+        "jogos": 38,
+        "vitorias": 8,
+        "empates": 13,
+        "derrotas": 17,
+        "gols_marcados": 33,
+        "gols_sofridos": 53,
+        "pontos": 37,
+        "odds": {
+            "homeWin": 0.21,
+            "draw": 0.34,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa59485e8"
+    },
+    {
+        "time": "Avai",
+        "season": 2010,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 10,
+        "derrotas": 17,
+        "gols_marcados": 49,
+        "gols_sofridos": 58,
+        "pontos": 43,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.26,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa59485e9"
+    },
+    {
+        "time": "Fluminense",
+        "season": 2010,
+        "jogos": 38,
+        "vitorias": 20,
+        "empates": 11,
+        "derrotas": 7,
+        "gols_marcados": 62,
+        "gols_sofridos": 36,
+        "pontos": 71,
+        "odds": {
+            "homeWin": 0.53,
+            "draw": 0.29,
+            "awayWin": 0.18
+        },
+        "_id": "67b1246d7a869bdaa59485ea"
+    },
+    {
+        "time": "Gremio Prudente",
+        "season": 2010,
+        "jogos": 38,
+        "vitorias": 7,
+        "empates": 10,
+        "derrotas": 21,
+        "gols_marcados": 39,
+        "gols_sofridos": 64,
+        "pontos": 31,
+        "odds": {
+            "homeWin": 0.18,
+            "draw": 0.26,
+            "awayWin": 0.55
+        },
+        "_id": "67b1246d7a869bdaa59485eb"
+    },
+    {
+        "time": "Vitoria",
+        "season": 2010,
+        "jogos": 38,
+        "vitorias": 9,
+        "empates": 15,
+        "derrotas": 14,
+        "gols_marcados": 42,
+        "gols_sofridos": 48,
+        "pontos": 42,
+        "odds": {
+            "homeWin": 0.24,
+            "draw": 0.39,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa59485ec"
+    },
+    {
+        "time": "Santos",
+        "season": 2010,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 11,
+        "derrotas": 12,
+        "gols_marcados": 63,
+        "gols_sofridos": 50,
+        "pontos": 56,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.29,
+            "awayWin": 0.32
+        },
+        "_id": "67b1246d7a869bdaa59485ed"
+    },
+    {
+        "time": "Sao Paulo",
+        "season": 2010,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 10,
+        "derrotas": 13,
+        "gols_marcados": 54,
+        "gols_sofridos": 54,
+        "pontos": 55,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.26,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa59485ee"
+    },
+    {
+        "time": "Gremio",
+        "season": 2010,
+        "jogos": 38,
+        "vitorias": 17,
+        "empates": 12,
+        "derrotas": 9,
+        "gols_marcados": 68,
+        "gols_sofridos": 43,
+        "pontos": 63,
+        "odds": {
+            "homeWin": 0.45,
+            "draw": 0.32,
+            "awayWin": 0.24
+        },
+        "_id": "67b1246d7a869bdaa59485ef"
+    },
+    {
+        "time": "Goias",
+        "season": 2010,
+        "jogos": 38,
+        "vitorias": 8,
+        "empates": 9,
+        "derrotas": 21,
+        "gols_marcados": 41,
+        "gols_sofridos": 68,
+        "pontos": 33,
+        "odds": {
+            "homeWin": 0.21,
+            "draw": 0.24,
+            "awayWin": 0.55
+        },
+        "_id": "67b1246d7a869bdaa59485f0"
+    },
+    {
+        "time": "Vasco",
+        "season": 2010,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 16,
+        "derrotas": 11,
+        "gols_marcados": 43,
+        "gols_sofridos": 45,
+        "pontos": 49,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.42,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa59485f1"
+    },
+    {
+        "time": "Cruzeiro",
+        "season": 2010,
+        "jogos": 38,
+        "vitorias": 20,
+        "empates": 9,
+        "derrotas": 9,
+        "gols_marcados": 53,
+        "gols_sofridos": 38,
+        "pontos": 69,
+        "odds": {
+            "homeWin": 0.53,
+            "draw": 0.24,
+            "awayWin": 0.24
+        },
+        "_id": "67b1246d7a869bdaa59485f2"
+    },
+    {
+        "time": "Athletico-PR",
+        "season": 2010,
+        "jogos": 38,
+        "vitorias": 17,
+        "empates": 9,
+        "derrotas": 12,
+        "gols_marcados": 43,
+        "gols_sofridos": 45,
+        "pontos": 60,
+        "odds": {
+            "homeWin": 0.45,
+            "draw": 0.24,
+            "awayWin": 0.32
+        },
+        "_id": "67b1246d7a869bdaa59485f3"
+    },
+    {
+        "time": "Atletico-MG",
+        "season": 2011,
+        "jogos": 38,
+        "vitorias": 13,
+        "empates": 6,
+        "derrotas": 19,
+        "gols_marcados": 50,
+        "gols_sofridos": 60,
+        "pontos": 45,
+        "odds": {
+            "homeWin": 0.34,
+            "draw": 0.16,
+            "awayWin": 0.5
+        },
+        "_id": "67b1246d7a869bdaa59485f4"
+    },
+    {
+        "time": "Flamengo",
+        "season": 2011,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 16,
+        "derrotas": 7,
+        "gols_marcados": 59,
+        "gols_sofridos": 47,
+        "pontos": 61,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.42,
+            "awayWin": 0.18
+        },
+        "_id": "67b1246d7a869bdaa59485f5"
+    },
+    {
+        "time": "Ceara",
+        "season": 2011,
+        "jogos": 38,
+        "vitorias": 10,
+        "empates": 9,
+        "derrotas": 19,
+        "gols_marcados": 47,
+        "gols_sofridos": 64,
+        "pontos": 39,
+        "odds": {
+            "homeWin": 0.26,
+            "draw": 0.24,
+            "awayWin": 0.5
+        },
+        "_id": "67b1246d7a869bdaa59485f6"
+    },
+    {
+        "time": "Santos",
+        "season": 2011,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 8,
+        "derrotas": 15,
+        "gols_marcados": 55,
+        "gols_sofridos": 55,
+        "pontos": 53,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.21,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa59485f7"
+    },
+    {
+        "time": "Palmeiras",
+        "season": 2011,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 17,
+        "derrotas": 10,
+        "gols_marcados": 43,
+        "gols_sofridos": 39,
+        "pontos": 50,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.45,
+            "awayWin": 0.26
+        },
+        "_id": "67b1246d7a869bdaa59485f8"
+    },
+    {
+        "time": "Gremio",
+        "season": 2011,
+        "jogos": 38,
+        "vitorias": 13,
+        "empates": 9,
+        "derrotas": 16,
+        "gols_marcados": 49,
+        "gols_sofridos": 57,
+        "pontos": 48,
+        "odds": {
+            "homeWin": 0.34,
+            "draw": 0.24,
+            "awayWin": 0.42
+        },
+        "_id": "67b1246d7a869bdaa59485f9"
+    },
+    {
+        "time": "Coritiba",
+        "season": 2011,
+        "jogos": 38,
+        "vitorias": 16,
+        "empates": 9,
+        "derrotas": 13,
+        "gols_marcados": 57,
+        "gols_sofridos": 41,
+        "pontos": 57,
+        "odds": {
+            "homeWin": 0.42,
+            "draw": 0.24,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa59485fa"
+    },
+    {
+        "time": "Figueirense",
+        "season": 2011,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 13,
+        "derrotas": 10,
+        "gols_marcados": 46,
+        "gols_sofridos": 45,
+        "pontos": 58,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.34,
+            "awayWin": 0.26
+        },
+        "_id": "67b1246d7a869bdaa59485fb"
+    },
+    {
+        "time": "Fluminense",
+        "season": 2011,
+        "jogos": 38,
+        "vitorias": 20,
+        "empates": 3,
+        "derrotas": 15,
+        "gols_marcados": 60,
+        "gols_sofridos": 51,
+        "pontos": 63,
+        "odds": {
+            "homeWin": 0.53,
+            "draw": 0.08,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa59485fc"
+    },
+    {
+        "time": "America-MG",
+        "season": 2011,
+        "jogos": 38,
+        "vitorias": 8,
+        "empates": 13,
+        "derrotas": 17,
+        "gols_marcados": 51,
+        "gols_sofridos": 69,
+        "pontos": 37,
+        "odds": {
+            "homeWin": 0.21,
+            "draw": 0.34,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa59485fd"
+    },
+    {
+        "time": "Internacional",
+        "season": 2011,
+        "jogos": 38,
+        "vitorias": 16,
+        "empates": 12,
+        "derrotas": 10,
+        "gols_marcados": 57,
+        "gols_sofridos": 43,
+        "pontos": 60,
+        "odds": {
+            "homeWin": 0.42,
+            "draw": 0.32,
+            "awayWin": 0.26
+        },
+        "_id": "67b1246d7a869bdaa59485fe"
+    },
+    {
+        "time": "Botafogo-RJ",
+        "season": 2011,
+        "jogos": 38,
+        "vitorias": 16,
+        "empates": 8,
+        "derrotas": 14,
+        "gols_marcados": 52,
+        "gols_sofridos": 49,
+        "pontos": 56,
+        "odds": {
+            "homeWin": 0.42,
+            "draw": 0.21,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa59485ff"
+    },
+    {
+        "time": "Avai",
+        "season": 2011,
+        "jogos": 38,
+        "vitorias": 7,
+        "empates": 10,
+        "derrotas": 21,
+        "gols_marcados": 45,
+        "gols_sofridos": 75,
+        "pontos": 31,
+        "odds": {
+            "homeWin": 0.18,
+            "draw": 0.26,
+            "awayWin": 0.55
+        },
+        "_id": "67b1246d7a869bdaa5948600"
+    },
+    {
+        "time": "Sao Paulo",
+        "season": 2011,
+        "jogos": 38,
+        "vitorias": 16,
+        "empates": 11,
+        "derrotas": 11,
+        "gols_marcados": 57,
+        "gols_sofridos": 46,
+        "pontos": 59,
+        "odds": {
+            "homeWin": 0.42,
+            "draw": 0.29,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa5948601"
+    },
+    {
+        "time": "Corinthians",
+        "season": 2011,
+        "jogos": 38,
+        "vitorias": 21,
+        "empates": 8,
+        "derrotas": 9,
+        "gols_marcados": 53,
+        "gols_sofridos": 36,
+        "pontos": 71,
+        "odds": {
+            "homeWin": 0.55,
+            "draw": 0.21,
+            "awayWin": 0.24
+        },
+        "_id": "67b1246d7a869bdaa5948602"
+    },
+    {
+        "time": "Bahia",
+        "season": 2011,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 13,
+        "derrotas": 14,
+        "gols_marcados": 43,
+        "gols_sofridos": 49,
+        "pontos": 46,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.34,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa5948603"
+    },
+    {
+        "time": "Athletico-PR",
+        "season": 2011,
+        "jogos": 38,
+        "vitorias": 10,
+        "empates": 11,
+        "derrotas": 17,
+        "gols_marcados": 38,
+        "gols_sofridos": 55,
+        "pontos": 41,
+        "odds": {
+            "homeWin": 0.26,
+            "draw": 0.29,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa5948604"
+    },
+    {
+        "time": "Cruzeiro",
+        "season": 2011,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 10,
+        "derrotas": 17,
+        "gols_marcados": 48,
+        "gols_sofridos": 51,
+        "pontos": 43,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.26,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa5948605"
+    },
+    {
+        "time": "Vasco",
+        "season": 2011,
+        "jogos": 38,
+        "vitorias": 19,
+        "empates": 12,
+        "derrotas": 7,
+        "gols_marcados": 57,
+        "gols_sofridos": 40,
+        "pontos": 69,
+        "odds": {
+            "homeWin": 0.5,
+            "draw": 0.32,
+            "awayWin": 0.18
+        },
+        "_id": "67b1246d7a869bdaa5948606"
+    },
+    {
+        "time": "Atletico-GO",
+        "season": 2011,
+        "jogos": 38,
+        "vitorias": 12,
+        "empates": 12,
+        "derrotas": 14,
+        "gols_marcados": 50,
+        "gols_sofridos": 45,
+        "pontos": 48,
+        "odds": {
+            "homeWin": 0.32,
+            "draw": 0.32,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa5948607"
+    },
+    {
+        "time": "Palmeiras",
+        "season": 2012,
+        "jogos": 38,
+        "vitorias": 9,
+        "empates": 7,
+        "derrotas": 22,
+        "gols_marcados": 39,
+        "gols_sofridos": 54,
+        "pontos": 34,
+        "odds": {
+            "homeWin": 0.24,
+            "draw": 0.18,
+            "awayWin": 0.58
+        },
+        "_id": "67b1246d7a869bdaa5948608"
+    },
+    {
+        "time": "Sport",
+        "season": 2012,
+        "jogos": 38,
+        "vitorias": 10,
+        "empates": 11,
+        "derrotas": 17,
+        "gols_marcados": 39,
+        "gols_sofridos": 56,
+        "pontos": 41,
+        "odds": {
+            "homeWin": 0.26,
+            "draw": 0.29,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa5948609"
+    },
+    {
+        "time": "Figueirense",
+        "season": 2012,
+        "jogos": 38,
+        "vitorias": 7,
+        "empates": 9,
+        "derrotas": 22,
+        "gols_marcados": 39,
+        "gols_sofridos": 72,
+        "pontos": 30,
+        "odds": {
+            "homeWin": 0.18,
+            "draw": 0.24,
+            "awayWin": 0.58
+        },
+        "_id": "67b1246d7a869bdaa594860a"
+    },
+    {
+        "time": "Corinthians",
+        "season": 2012,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 12,
+        "derrotas": 11,
+        "gols_marcados": 51,
+        "gols_sofridos": 39,
+        "pontos": 57,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.32,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa594860b"
+    },
+    {
+        "time": "Internacional",
+        "season": 2012,
+        "jogos": 38,
+        "vitorias": 13,
+        "empates": 13,
+        "derrotas": 12,
+        "gols_marcados": 44,
+        "gols_sofridos": 40,
+        "pontos": 52,
+        "odds": {
+            "homeWin": 0.34,
+            "draw": 0.34,
+            "awayWin": 0.32
+        },
+        "_id": "67b1246d7a869bdaa594860c"
+    },
+    {
+        "time": "Botafogo-RJ",
+        "season": 2012,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 10,
+        "derrotas": 13,
+        "gols_marcados": 60,
+        "gols_sofridos": 50,
+        "pontos": 55,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.26,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa594860d"
+    },
+    {
+        "time": "Ponte Preta",
+        "season": 2012,
+        "jogos": 38,
+        "vitorias": 12,
+        "empates": 12,
+        "derrotas": 14,
+        "gols_marcados": 37,
+        "gols_sofridos": 44,
+        "pontos": 48,
+        "odds": {
+            "homeWin": 0.32,
+            "draw": 0.32,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa594860e"
+    },
+    {
+        "time": "Cruzeiro",
+        "season": 2012,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 7,
+        "derrotas": 16,
+        "gols_marcados": 47,
+        "gols_sofridos": 51,
+        "pontos": 52,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.18,
+            "awayWin": 0.42
+        },
+        "_id": "67b1246d7a869bdaa594860f"
+    },
+    {
+        "time": "Bahia",
+        "season": 2012,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 14,
+        "derrotas": 13,
+        "gols_marcados": 37,
+        "gols_sofridos": 41,
+        "pontos": 47,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.37,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa5948610"
+    },
+    {
+        "time": "Vasco",
+        "season": 2012,
+        "jogos": 38,
+        "vitorias": 16,
+        "empates": 10,
+        "derrotas": 12,
+        "gols_marcados": 45,
+        "gols_sofridos": 44,
+        "pontos": 58,
+        "odds": {
+            "homeWin": 0.42,
+            "draw": 0.26,
+            "awayWin": 0.32
+        },
+        "_id": "67b1246d7a869bdaa5948611"
+    },
+    {
+        "time": "Atletico-GO",
+        "season": 2012,
+        "jogos": 38,
+        "vitorias": 7,
+        "empates": 9,
+        "derrotas": 22,
+        "gols_marcados": 37,
+        "gols_sofridos": 67,
+        "pontos": 30,
+        "odds": {
+            "homeWin": 0.18,
+            "draw": 0.24,
+            "awayWin": 0.58
+        },
+        "_id": "67b1246d7a869bdaa5948612"
+    },
+    {
+        "time": "Flamengo",
+        "season": 2012,
+        "jogos": 38,
+        "vitorias": 12,
+        "empates": 14,
+        "derrotas": 12,
+        "gols_marcados": 39,
+        "gols_sofridos": 46,
+        "pontos": 50,
+        "odds": {
+            "homeWin": 0.32,
+            "draw": 0.37,
+            "awayWin": 0.32
+        },
+        "_id": "67b1246d7a869bdaa5948613"
+    },
+    {
+        "time": "Portuguesa",
+        "season": 2012,
+        "jogos": 38,
+        "vitorias": 10,
+        "empates": 15,
+        "derrotas": 13,
+        "gols_marcados": 39,
+        "gols_sofridos": 41,
+        "pontos": 45,
+        "odds": {
+            "homeWin": 0.26,
+            "draw": 0.39,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa5948614"
+    },
+    {
+        "time": "Nautico",
+        "season": 2012,
+        "jogos": 38,
+        "vitorias": 14,
+        "empates": 7,
+        "derrotas": 17,
+        "gols_marcados": 44,
+        "gols_sofridos": 51,
+        "pontos": 49,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.18,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa5948615"
+    },
+    {
+        "time": "Sao Paulo",
+        "season": 2012,
+        "jogos": 38,
+        "vitorias": 20,
+        "empates": 6,
+        "derrotas": 12,
+        "gols_marcados": 59,
+        "gols_sofridos": 37,
+        "pontos": 66,
+        "odds": {
+            "homeWin": 0.53,
+            "draw": 0.16,
+            "awayWin": 0.32
+        },
+        "_id": "67b1246d7a869bdaa5948616"
+    },
+    {
+        "time": "Atletico-MG",
+        "season": 2012,
+        "jogos": 38,
+        "vitorias": 20,
+        "empates": 12,
+        "derrotas": 6,
+        "gols_marcados": 64,
+        "gols_sofridos": 37,
+        "pontos": 72,
+        "odds": {
+            "homeWin": 0.53,
+            "draw": 0.32,
+            "awayWin": 0.16
+        },
+        "_id": "67b1246d7a869bdaa5948617"
+    },
+    {
+        "time": "Coritiba",
+        "season": 2012,
+        "jogos": 38,
+        "vitorias": 14,
+        "empates": 6,
+        "derrotas": 18,
+        "gols_marcados": 53,
+        "gols_sofridos": 60,
+        "pontos": 48,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.16,
+            "awayWin": 0.47
+        },
+        "_id": "67b1246d7a869bdaa5948618"
+    },
+    {
+        "time": "Santos",
+        "season": 2012,
+        "jogos": 38,
+        "vitorias": 13,
+        "empates": 14,
+        "derrotas": 11,
+        "gols_marcados": 50,
+        "gols_sofridos": 44,
+        "pontos": 53,
+        "odds": {
+            "homeWin": 0.34,
+            "draw": 0.37,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa5948619"
+    },
+    {
+        "time": "Gremio",
+        "season": 2012,
+        "jogos": 38,
+        "vitorias": 20,
+        "empates": 11,
+        "derrotas": 7,
+        "gols_marcados": 56,
+        "gols_sofridos": 33,
+        "pontos": 71,
+        "odds": {
+            "homeWin": 0.53,
+            "draw": 0.29,
+            "awayWin": 0.18
+        },
+        "_id": "67b1246d7a869bdaa594861a"
+    },
+    {
+        "time": "Fluminense",
+        "season": 2012,
+        "jogos": 38,
+        "vitorias": 22,
+        "empates": 11,
+        "derrotas": 5,
+        "gols_marcados": 61,
+        "gols_sofridos": 33,
+        "pontos": 77,
+        "odds": {
+            "homeWin": 0.58,
+            "draw": 0.29,
+            "awayWin": 0.13
+        },
+        "_id": "67b1246d7a869bdaa594861b"
+    },
+    {
+        "time": "Vitoria",
+        "season": 2013,
+        "jogos": 38,
+        "vitorias": 16,
+        "empates": 11,
+        "derrotas": 11,
+        "gols_marcados": 59,
+        "gols_sofridos": 53,
+        "pontos": 59,
+        "odds": {
+            "homeWin": 0.42,
+            "draw": 0.29,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa594861c"
+    },
+    {
+        "time": "Vasco",
+        "season": 2013,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 11,
+        "derrotas": 16,
+        "gols_marcados": 50,
+        "gols_sofridos": 61,
+        "pontos": 44,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.29,
+            "awayWin": 0.42
+        },
+        "_id": "67b1246d7a869bdaa594861d"
+    },
+    {
+        "time": "Corinthians",
+        "season": 2013,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 17,
+        "derrotas": 10,
+        "gols_marcados": 27,
+        "gols_sofridos": 22,
+        "pontos": 50,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.45,
+            "awayWin": 0.26
+        },
+        "_id": "67b1246d7a869bdaa594861e"
+    },
+    {
+        "time": "Gremio",
+        "season": 2013,
+        "jogos": 38,
+        "vitorias": 18,
+        "empates": 11,
+        "derrotas": 9,
+        "gols_marcados": 42,
+        "gols_sofridos": 35,
+        "pontos": 65,
+        "odds": {
+            "homeWin": 0.47,
+            "draw": 0.29,
+            "awayWin": 0.24
+        },
+        "_id": "67b1246d7a869bdaa594861f"
+    },
+    {
+        "time": "Criciuma",
+        "season": 2013,
+        "jogos": 38,
+        "vitorias": 13,
+        "empates": 7,
+        "derrotas": 18,
+        "gols_marcados": 49,
+        "gols_sofridos": 63,
+        "pontos": 46,
+        "odds": {
+            "homeWin": 0.34,
+            "draw": 0.18,
+            "awayWin": 0.47
+        },
+        "_id": "67b1246d7a869bdaa5948620"
+    },
+    {
+        "time": "Ponte Preta",
+        "season": 2013,
+        "jogos": 38,
+        "vitorias": 9,
+        "empates": 10,
+        "derrotas": 19,
+        "gols_marcados": 37,
+        "gols_sofridos": 55,
+        "pontos": 37,
+        "odds": {
+            "homeWin": 0.24,
+            "draw": 0.26,
+            "awayWin": 0.5
+        },
+        "_id": "67b1246d7a869bdaa5948621"
+    },
+    {
+        "time": "Santos",
+        "season": 2013,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 12,
+        "derrotas": 11,
+        "gols_marcados": 51,
+        "gols_sofridos": 38,
+        "pontos": 57,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.32,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa5948622"
+    },
+    {
+        "time": "Coritiba",
+        "season": 2013,
+        "jogos": 38,
+        "vitorias": 12,
+        "empates": 12,
+        "derrotas": 14,
+        "gols_marcados": 42,
+        "gols_sofridos": 45,
+        "pontos": 48,
+        "odds": {
+            "homeWin": 0.32,
+            "draw": 0.32,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa5948623"
+    },
+    {
+        "time": "Cruzeiro",
+        "season": 2013,
+        "jogos": 38,
+        "vitorias": 23,
+        "empates": 7,
+        "derrotas": 8,
+        "gols_marcados": 77,
+        "gols_sofridos": 37,
+        "pontos": 76,
+        "odds": {
+            "homeWin": 0.61,
+            "draw": 0.18,
+            "awayWin": 0.21
+        },
+        "_id": "67b1246d7a869bdaa5948624"
+    },
+    {
+        "time": "Fluminense",
+        "season": 2013,
+        "jogos": 38,
+        "vitorias": 12,
+        "empates": 10,
+        "derrotas": 16,
+        "gols_marcados": 43,
+        "gols_sofridos": 47,
+        "pontos": 46,
+        "odds": {
+            "homeWin": 0.32,
+            "draw": 0.26,
+            "awayWin": 0.42
+        },
+        "_id": "67b1246d7a869bdaa5948625"
+    },
+    {
+        "time": "Athletico-PR",
+        "season": 2013,
+        "jogos": 38,
+        "vitorias": 18,
+        "empates": 10,
+        "derrotas": 10,
+        "gols_marcados": 65,
+        "gols_sofridos": 49,
+        "pontos": 64,
+        "odds": {
+            "homeWin": 0.47,
+            "draw": 0.26,
+            "awayWin": 0.26
+        },
+        "_id": "67b1246d7a869bdaa5948626"
+    },
+    {
+        "time": "Botafogo-RJ",
+        "season": 2013,
+        "jogos": 38,
+        "vitorias": 17,
+        "empates": 10,
+        "derrotas": 11,
+        "gols_marcados": 55,
+        "gols_sofridos": 41,
+        "pontos": 61,
+        "odds": {
+            "homeWin": 0.45,
+            "draw": 0.26,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa5948627"
+    },
+    {
+        "time": "Sao Paulo",
+        "season": 2013,
+        "jogos": 38,
+        "vitorias": 14,
+        "empates": 8,
+        "derrotas": 16,
+        "gols_marcados": 39,
+        "gols_sofridos": 40,
+        "pontos": 50,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.21,
+            "awayWin": 0.42
+        },
+        "_id": "67b1246d7a869bdaa5948628"
+    },
+    {
+        "time": "Flamengo",
+        "season": 2013,
+        "jogos": 38,
+        "vitorias": 12,
+        "empates": 13,
+        "derrotas": 13,
+        "gols_marcados": 43,
+        "gols_sofridos": 46,
+        "pontos": 49,
+        "odds": {
+            "homeWin": 0.32,
+            "draw": 0.34,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa5948629"
+    },
+    {
+        "time": "Bahia",
+        "season": 2013,
+        "jogos": 38,
+        "vitorias": 12,
+        "empates": 12,
+        "derrotas": 14,
+        "gols_marcados": 37,
+        "gols_sofridos": 45,
+        "pontos": 48,
+        "odds": {
+            "homeWin": 0.32,
+            "draw": 0.32,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa594862a"
+    },
+    {
+        "time": "Nautico",
+        "season": 2013,
+        "jogos": 38,
+        "vitorias": 5,
+        "empates": 5,
+        "derrotas": 28,
+        "gols_marcados": 22,
+        "gols_sofridos": 79,
+        "pontos": 20,
+        "odds": {
+            "homeWin": 0.13,
+            "draw": 0.13,
+            "awayWin": 0.74
+        },
+        "_id": "67b1246d7a869bdaa594862b"
+    },
+    {
+        "time": "Goias",
+        "season": 2013,
+        "jogos": 38,
+        "vitorias": 16,
+        "empates": 11,
+        "derrotas": 11,
+        "gols_marcados": 48,
+        "gols_sofridos": 44,
+        "pontos": 59,
+        "odds": {
+            "homeWin": 0.42,
+            "draw": 0.29,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa594862c"
+    },
+    {
+        "time": "Internacional",
+        "season": 2013,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 15,
+        "derrotas": 12,
+        "gols_marcados": 51,
+        "gols_sofridos": 52,
+        "pontos": 48,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.39,
+            "awayWin": 0.32
+        },
+        "_id": "67b1246d7a869bdaa594862d"
+    },
+    {
+        "time": "Atletico-MG",
+        "season": 2013,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 12,
+        "derrotas": 11,
+        "gols_marcados": 49,
+        "gols_sofridos": 38,
+        "pontos": 57,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.32,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa594862e"
+    },
+    {
+        "time": "Portuguesa",
+        "season": 2013,
+        "jogos": 38,
+        "vitorias": 12,
+        "empates": 12,
+        "derrotas": 14,
+        "gols_marcados": 50,
+        "gols_sofridos": 46,
+        "pontos": 48,
+        "odds": {
+            "homeWin": 0.32,
+            "draw": 0.32,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa594862f"
+    },
+    {
+        "time": "Fluminense",
+        "season": 2014,
+        "jogos": 38,
+        "vitorias": 17,
+        "empates": 10,
+        "derrotas": 11,
+        "gols_marcados": 61,
+        "gols_sofridos": 42,
+        "pontos": 61,
+        "odds": {
+            "homeWin": 0.45,
+            "draw": 0.26,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa5948630"
+    },
+    {
+        "time": "Internacional",
+        "season": 2014,
+        "jogos": 38,
+        "vitorias": 21,
+        "empates": 6,
+        "derrotas": 11,
+        "gols_marcados": 53,
+        "gols_sofridos": 41,
+        "pontos": 69,
+        "odds": {
+            "homeWin": 0.55,
+            "draw": 0.16,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa5948631"
+    },
+    {
+        "time": "Chapecoense",
+        "season": 2014,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 10,
+        "derrotas": 17,
+        "gols_marcados": 39,
+        "gols_sofridos": 44,
+        "pontos": 43,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.26,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa5948632"
+    },
+    {
+        "time": "Athletico-PR",
+        "season": 2014,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 9,
+        "derrotas": 14,
+        "gols_marcados": 43,
+        "gols_sofridos": 42,
+        "pontos": 54,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.24,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa5948633"
+    },
+    {
+        "time": "Sao Paulo",
+        "season": 2014,
+        "jogos": 38,
+        "vitorias": 20,
+        "empates": 10,
+        "derrotas": 8,
+        "gols_marcados": 59,
+        "gols_sofridos": 40,
+        "pontos": 70,
+        "odds": {
+            "homeWin": 0.53,
+            "draw": 0.26,
+            "awayWin": 0.21
+        },
+        "_id": "67b1246d7a869bdaa5948634"
+    },
+    {
+        "time": "Bahia",
+        "season": 2014,
+        "jogos": 38,
+        "vitorias": 9,
+        "empates": 10,
+        "derrotas": 19,
+        "gols_marcados": 31,
+        "gols_sofridos": 43,
+        "pontos": 37,
+        "odds": {
+            "homeWin": 0.24,
+            "draw": 0.26,
+            "awayWin": 0.5
+        },
+        "_id": "67b1246d7a869bdaa5948635"
+    },
+    {
+        "time": "Atletico-MG",
+        "season": 2014,
+        "jogos": 38,
+        "vitorias": 17,
+        "empates": 11,
+        "derrotas": 10,
+        "gols_marcados": 51,
+        "gols_sofridos": 38,
+        "pontos": 62,
+        "odds": {
+            "homeWin": 0.45,
+            "draw": 0.29,
+            "awayWin": 0.26
+        },
+        "_id": "67b1246d7a869bdaa5948636"
+    },
+    {
+        "time": "Flamengo",
+        "season": 2014,
+        "jogos": 38,
+        "vitorias": 14,
+        "empates": 10,
+        "derrotas": 14,
+        "gols_marcados": 46,
+        "gols_sofridos": 47,
+        "pontos": 52,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.26,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa5948637"
+    },
+    {
+        "time": "Santos",
+        "season": 2014,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 8,
+        "derrotas": 15,
+        "gols_marcados": 42,
+        "gols_sofridos": 35,
+        "pontos": 53,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.21,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa5948638"
+    },
+    {
+        "time": "Criciuma",
+        "season": 2014,
+        "jogos": 38,
+        "vitorias": 7,
+        "empates": 11,
+        "derrotas": 20,
+        "gols_marcados": 28,
+        "gols_sofridos": 56,
+        "pontos": 32,
+        "odds": {
+            "homeWin": 0.18,
+            "draw": 0.29,
+            "awayWin": 0.53
+        },
+        "_id": "67b1246d7a869bdaa5948639"
+    },
+    {
+        "time": "Coritiba",
+        "season": 2014,
+        "jogos": 38,
+        "vitorias": 12,
+        "empates": 11,
+        "derrotas": 15,
+        "gols_marcados": 42,
+        "gols_sofridos": 45,
+        "pontos": 47,
+        "odds": {
+            "homeWin": 0.32,
+            "draw": 0.29,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa594863a"
+    },
+    {
+        "time": "Palmeiras",
+        "season": 2014,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 7,
+        "derrotas": 20,
+        "gols_marcados": 34,
+        "gols_sofridos": 59,
+        "pontos": 40,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.18,
+            "awayWin": 0.53
+        },
+        "_id": "67b1246d7a869bdaa594863b"
+    },
+    {
+        "time": "Botafogo-RJ",
+        "season": 2014,
+        "jogos": 38,
+        "vitorias": 9,
+        "empates": 7,
+        "derrotas": 22,
+        "gols_marcados": 31,
+        "gols_sofridos": 48,
+        "pontos": 34,
+        "odds": {
+            "homeWin": 0.24,
+            "draw": 0.18,
+            "awayWin": 0.58
+        },
+        "_id": "67b1246d7a869bdaa594863c"
+    },
+    {
+        "time": "Vitoria",
+        "season": 2014,
+        "jogos": 38,
+        "vitorias": 10,
+        "empates": 8,
+        "derrotas": 20,
+        "gols_marcados": 37,
+        "gols_sofridos": 54,
+        "pontos": 38,
+        "odds": {
+            "homeWin": 0.26,
+            "draw": 0.21,
+            "awayWin": 0.53
+        },
+        "_id": "67b1246d7a869bdaa594863d"
+    },
+    {
+        "time": "Corinthians",
+        "season": 2014,
+        "jogos": 38,
+        "vitorias": 19,
+        "empates": 12,
+        "derrotas": 7,
+        "gols_marcados": 49,
+        "gols_sofridos": 31,
+        "pontos": 69,
+        "odds": {
+            "homeWin": 0.5,
+            "draw": 0.32,
+            "awayWin": 0.18
+        },
+        "_id": "67b1246d7a869bdaa594863e"
+    },
+    {
+        "time": "Cruzeiro",
+        "season": 2014,
+        "jogos": 38,
+        "vitorias": 24,
+        "empates": 8,
+        "derrotas": 6,
+        "gols_marcados": 67,
+        "gols_sofridos": 38,
+        "pontos": 80,
+        "odds": {
+            "homeWin": 0.63,
+            "draw": 0.21,
+            "awayWin": 0.16
+        },
+        "_id": "67b1246d7a869bdaa594863f"
+    },
+    {
+        "time": "Figueirense",
+        "season": 2014,
+        "jogos": 38,
+        "vitorias": 13,
+        "empates": 8,
+        "derrotas": 17,
+        "gols_marcados": 37,
+        "gols_sofridos": 47,
+        "pontos": 47,
+        "odds": {
+            "homeWin": 0.34,
+            "draw": 0.21,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa5948640"
+    },
+    {
+        "time": "Gremio",
+        "season": 2014,
+        "jogos": 38,
+        "vitorias": 17,
+        "empates": 10,
+        "derrotas": 11,
+        "gols_marcados": 36,
+        "gols_sofridos": 24,
+        "pontos": 61,
+        "odds": {
+            "homeWin": 0.45,
+            "draw": 0.26,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa5948641"
+    },
+    {
+        "time": "Goias",
+        "season": 2014,
+        "jogos": 38,
+        "vitorias": 13,
+        "empates": 8,
+        "derrotas": 17,
+        "gols_marcados": 38,
+        "gols_sofridos": 40,
+        "pontos": 47,
+        "odds": {
+            "homeWin": 0.34,
+            "draw": 0.21,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa5948642"
+    },
+    {
+        "time": "Sport",
+        "season": 2014,
+        "jogos": 38,
+        "vitorias": 14,
+        "empates": 10,
+        "derrotas": 14,
+        "gols_marcados": 36,
+        "gols_sofridos": 46,
+        "pontos": 52,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.26,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa5948643"
+    },
+    {
+        "time": "Chapecoense",
+        "season": 2015,
+        "jogos": 38,
+        "vitorias": 12,
+        "empates": 11,
+        "derrotas": 15,
+        "gols_marcados": 34,
+        "gols_sofridos": 44,
+        "pontos": 47,
+        "odds": {
+            "homeWin": 0.32,
+            "draw": 0.29,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa5948644"
+    },
+    {
+        "time": "Palmeiras",
+        "season": 2015,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 8,
+        "derrotas": 15,
+        "gols_marcados": 60,
+        "gols_sofridos": 51,
+        "pontos": 53,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.21,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa5948645"
+    },
+    {
+        "time": "Fluminense",
+        "season": 2015,
+        "jogos": 38,
+        "vitorias": 14,
+        "empates": 5,
+        "derrotas": 19,
+        "gols_marcados": 40,
+        "gols_sofridos": 49,
+        "pontos": 47,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.13,
+            "awayWin": 0.5
+        },
+        "_id": "67b1246d7a869bdaa5948646"
+    },
+    {
+        "time": "Gremio",
+        "season": 2015,
+        "jogos": 38,
+        "vitorias": 20,
+        "empates": 8,
+        "derrotas": 10,
+        "gols_marcados": 52,
+        "gols_sofridos": 32,
+        "pontos": 68,
+        "odds": {
+            "homeWin": 0.53,
+            "draw": 0.21,
+            "awayWin": 0.26
+        },
+        "_id": "67b1246d7a869bdaa5948647"
+    },
+    {
+        "time": "Athletico-PR",
+        "season": 2015,
+        "jogos": 38,
+        "vitorias": 14,
+        "empates": 9,
+        "derrotas": 15,
+        "gols_marcados": 43,
+        "gols_sofridos": 48,
+        "pontos": 51,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.24,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa5948648"
+    },
+    {
+        "time": "Sao Paulo",
+        "season": 2015,
+        "jogos": 38,
+        "vitorias": 18,
+        "empates": 8,
+        "derrotas": 12,
+        "gols_marcados": 53,
+        "gols_sofridos": 47,
+        "pontos": 62,
+        "odds": {
+            "homeWin": 0.47,
+            "draw": 0.21,
+            "awayWin": 0.32
+        },
+        "_id": "67b1246d7a869bdaa5948649"
+    },
+    {
+        "time": "Cruzeiro",
+        "season": 2015,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 10,
+        "derrotas": 13,
+        "gols_marcados": 44,
+        "gols_sofridos": 35,
+        "pontos": 55,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.26,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa594864a"
+    },
+    {
+        "time": "Sport",
+        "season": 2015,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 14,
+        "derrotas": 9,
+        "gols_marcados": 53,
+        "gols_sofridos": 38,
+        "pontos": 59,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.37,
+            "awayWin": 0.24
+        },
+        "_id": "67b1246d7a869bdaa594864b"
+    },
+    {
+        "time": "Avai",
+        "season": 2015,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 9,
+        "derrotas": 18,
+        "gols_marcados": 38,
+        "gols_sofridos": 60,
+        "pontos": 42,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.24,
+            "awayWin": 0.47
+        },
+        "_id": "67b1246d7a869bdaa594864c"
+    },
+    {
+        "time": "Vasco",
+        "season": 2015,
+        "jogos": 38,
+        "vitorias": 10,
+        "empates": 11,
+        "derrotas": 17,
+        "gols_marcados": 28,
+        "gols_sofridos": 54,
+        "pontos": 41,
+        "odds": {
+            "homeWin": 0.26,
+            "draw": 0.29,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa594864d"
+    },
+    {
+        "time": "Goias",
+        "season": 2015,
+        "jogos": 38,
+        "vitorias": 10,
+        "empates": 8,
+        "derrotas": 20,
+        "gols_marcados": 39,
+        "gols_sofridos": 49,
+        "pontos": 38,
+        "odds": {
+            "homeWin": 0.26,
+            "draw": 0.21,
+            "awayWin": 0.53
+        },
+        "_id": "67b1246d7a869bdaa594864e"
+    },
+    {
+        "time": "Coritiba",
+        "season": 2015,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 11,
+        "derrotas": 16,
+        "gols_marcados": 31,
+        "gols_sofridos": 42,
+        "pontos": 44,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.29,
+            "awayWin": 0.42
+        },
+        "_id": "67b1246d7a869bdaa594864f"
+    },
+    {
+        "time": "Corinthians",
+        "season": 2015,
+        "jogos": 38,
+        "vitorias": 24,
+        "empates": 9,
+        "derrotas": 5,
+        "gols_marcados": 71,
+        "gols_sofridos": 31,
+        "pontos": 81,
+        "odds": {
+            "homeWin": 0.63,
+            "draw": 0.24,
+            "awayWin": 0.13
+        },
+        "_id": "67b1246d7a869bdaa5948650"
+    },
+    {
+        "time": "Figueirense",
+        "season": 2015,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 10,
+        "derrotas": 17,
+        "gols_marcados": 36,
+        "gols_sofridos": 50,
+        "pontos": 43,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.26,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa5948651"
+    },
+    {
+        "time": "Atletico-MG",
+        "season": 2015,
+        "jogos": 38,
+        "vitorias": 21,
+        "empates": 6,
+        "derrotas": 11,
+        "gols_marcados": 65,
+        "gols_sofridos": 47,
+        "pontos": 69,
+        "odds": {
+            "homeWin": 0.55,
+            "draw": 0.16,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa5948652"
+    },
+    {
+        "time": "Flamengo",
+        "season": 2015,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 4,
+        "derrotas": 19,
+        "gols_marcados": 45,
+        "gols_sofridos": 53,
+        "pontos": 49,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.11,
+            "awayWin": 0.5
+        },
+        "_id": "67b1246d7a869bdaa5948653"
+    },
+    {
+        "time": "Santos",
+        "season": 2015,
+        "jogos": 38,
+        "vitorias": 16,
+        "empates": 10,
+        "derrotas": 12,
+        "gols_marcados": 59,
+        "gols_sofridos": 41,
+        "pontos": 58,
+        "odds": {
+            "homeWin": 0.42,
+            "draw": 0.26,
+            "awayWin": 0.32
+        },
+        "_id": "67b1246d7a869bdaa5948654"
+    },
+    {
+        "time": "Joinville",
+        "season": 2015,
+        "jogos": 38,
+        "vitorias": 7,
+        "empates": 10,
+        "derrotas": 21,
+        "gols_marcados": 26,
+        "gols_sofridos": 48,
+        "pontos": 31,
+        "odds": {
+            "homeWin": 0.18,
+            "draw": 0.26,
+            "awayWin": 0.55
+        },
+        "_id": "67b1246d7a869bdaa5948655"
+    },
+    {
+        "time": "Ponte Preta",
+        "season": 2015,
+        "jogos": 38,
+        "vitorias": 13,
+        "empates": 12,
+        "derrotas": 13,
+        "gols_marcados": 41,
+        "gols_sofridos": 40,
+        "pontos": 51,
+        "odds": {
+            "homeWin": 0.34,
+            "draw": 0.32,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa5948656"
+    },
+    {
+        "time": "Internacional",
+        "season": 2015,
+        "jogos": 38,
+        "vitorias": 17,
+        "empates": 9,
+        "derrotas": 12,
+        "gols_marcados": 39,
+        "gols_sofridos": 38,
+        "pontos": 60,
+        "odds": {
+            "homeWin": 0.45,
+            "draw": 0.24,
+            "awayWin": 0.32
+        },
+        "_id": "67b1246d7a869bdaa5948657"
+    },
+    {
+        "time": "Palmeiras",
+        "season": 2016,
+        "jogos": 38,
+        "vitorias": 24,
+        "empates": 8,
+        "derrotas": 6,
+        "gols_marcados": 62,
+        "gols_sofridos": 32,
+        "pontos": 80,
+        "odds": {
+            "homeWin": 0.63,
+            "draw": 0.21,
+            "awayWin": 0.16
+        },
+        "_id": "67b1246d7a869bdaa5948658"
+    },
+    {
+        "time": "Flamengo",
+        "season": 2016,
+        "jogos": 38,
+        "vitorias": 20,
+        "empates": 11,
+        "derrotas": 7,
+        "gols_marcados": 52,
+        "gols_sofridos": 35,
+        "pontos": 71,
+        "odds": {
+            "homeWin": 0.53,
+            "draw": 0.29,
+            "awayWin": 0.18
+        },
+        "_id": "67b1246d7a869bdaa5948659"
+    },
+    {
+        "time": "Atletico-MG",
+        "season": 2016,
+        "jogos": 37,
+        "vitorias": 17,
+        "empates": 11,
+        "derrotas": 9,
+        "gols_marcados": 61,
+        "gols_sofridos": 50,
+        "pontos": 62,
+        "odds": {
+            "homeWin": 0.46,
+            "draw": 0.3,
+            "awayWin": 0.24
+        },
+        "_id": "67b1246d7a869bdaa594865a"
+    },
+    {
+        "time": "Coritiba",
+        "season": 2016,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 13,
+        "derrotas": 14,
+        "gols_marcados": 41,
+        "gols_sofridos": 42,
+        "pontos": 46,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.34,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa594865b"
+    },
+    {
+        "time": "Santa Cruz",
+        "season": 2016,
+        "jogos": 38,
+        "vitorias": 8,
+        "empates": 7,
+        "derrotas": 23,
+        "gols_marcados": 45,
+        "gols_sofridos": 69,
+        "pontos": 31,
+        "odds": {
+            "homeWin": 0.21,
+            "draw": 0.18,
+            "awayWin": 0.61
+        },
+        "_id": "67b1246d7a869bdaa594865c"
+    },
+    {
+        "time": "Botafogo-RJ",
+        "season": 2016,
+        "jogos": 38,
+        "vitorias": 17,
+        "empates": 8,
+        "derrotas": 13,
+        "gols_marcados": 43,
+        "gols_sofridos": 39,
+        "pontos": 59,
+        "odds": {
+            "homeWin": 0.45,
+            "draw": 0.21,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa594865d"
+    },
+    {
+        "time": "Figueirense",
+        "season": 2016,
+        "jogos": 38,
+        "vitorias": 8,
+        "empates": 13,
+        "derrotas": 17,
+        "gols_marcados": 30,
+        "gols_sofridos": 50,
+        "pontos": 37,
+        "odds": {
+            "homeWin": 0.21,
+            "draw": 0.34,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa594865e"
+    },
+    {
+        "time": "Corinthians",
+        "season": 2016,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 10,
+        "derrotas": 13,
+        "gols_marcados": 48,
+        "gols_sofridos": 42,
+        "pontos": 55,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.26,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa594865f"
+    },
+    {
+        "time": "America-MG",
+        "season": 2016,
+        "jogos": 38,
+        "vitorias": 7,
+        "empates": 7,
+        "derrotas": 24,
+        "gols_marcados": 23,
+        "gols_sofridos": 58,
+        "pontos": 28,
+        "odds": {
+            "homeWin": 0.18,
+            "draw": 0.18,
+            "awayWin": 0.63
+        },
+        "_id": "67b1246d7a869bdaa5948660"
+    },
+    {
+        "time": "Internacional",
+        "season": 2016,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 10,
+        "derrotas": 17,
+        "gols_marcados": 35,
+        "gols_sofridos": 41,
+        "pontos": 43,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.26,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa5948661"
+    },
+    {
+        "time": "Ponte Preta",
+        "season": 2016,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 8,
+        "derrotas": 15,
+        "gols_marcados": 48,
+        "gols_sofridos": 52,
+        "pontos": 53,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.21,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa5948662"
+    },
+    {
+        "time": "Fluminense",
+        "season": 2016,
+        "jogos": 38,
+        "vitorias": 13,
+        "empates": 11,
+        "derrotas": 14,
+        "gols_marcados": 45,
+        "gols_sofridos": 45,
+        "pontos": 50,
+        "odds": {
+            "homeWin": 0.34,
+            "draw": 0.29,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa5948663"
+    },
+    {
+        "time": "Cruzeiro",
+        "season": 2016,
+        "jogos": 38,
+        "vitorias": 14,
+        "empates": 9,
+        "derrotas": 15,
+        "gols_marcados": 48,
+        "gols_sofridos": 49,
+        "pontos": 51,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.24,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa5948664"
+    },
+    {
+        "time": "Santos",
+        "season": 2016,
+        "jogos": 38,
+        "vitorias": 22,
+        "empates": 5,
+        "derrotas": 11,
+        "gols_marcados": 59,
+        "gols_sofridos": 35,
+        "pontos": 71,
+        "odds": {
+            "homeWin": 0.58,
+            "draw": 0.13,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa5948665"
+    },
+    {
+        "time": "Athletico-PR",
+        "season": 2016,
+        "jogos": 38,
+        "vitorias": 17,
+        "empates": 6,
+        "derrotas": 15,
+        "gols_marcados": 38,
+        "gols_sofridos": 32,
+        "pontos": 57,
+        "odds": {
+            "homeWin": 0.45,
+            "draw": 0.16,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa5948666"
+    },
+    {
+        "time": "Vitoria",
+        "season": 2016,
+        "jogos": 38,
+        "vitorias": 12,
+        "empates": 9,
+        "derrotas": 17,
+        "gols_marcados": 51,
+        "gols_sofridos": 53,
+        "pontos": 45,
+        "odds": {
+            "homeWin": 0.32,
+            "draw": 0.24,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa5948667"
+    },
+    {
+        "time": "Chapecoense",
+        "season": 2016,
+        "jogos": 37,
+        "vitorias": 13,
+        "empates": 13,
+        "derrotas": 11,
+        "gols_marcados": 49,
+        "gols_sofridos": 53,
+        "pontos": 52,
+        "odds": {
+            "homeWin": 0.35,
+            "draw": 0.35,
+            "awayWin": 0.3
+        },
+        "_id": "67b1246d7a869bdaa5948668"
+    },
+    {
+        "time": "Sao Paulo",
+        "season": 2016,
+        "jogos": 38,
+        "vitorias": 14,
+        "empates": 10,
+        "derrotas": 14,
+        "gols_marcados": 44,
+        "gols_sofridos": 36,
+        "pontos": 52,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.26,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa5948669"
+    },
+    {
+        "time": "Gremio",
+        "season": 2016,
+        "jogos": 38,
+        "vitorias": 14,
+        "empates": 11,
+        "derrotas": 13,
+        "gols_marcados": 41,
+        "gols_sofridos": 44,
+        "pontos": 53,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.29,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa594866a"
+    },
+    {
+        "time": "Sport",
+        "season": 2016,
+        "jogos": 38,
+        "vitorias": 13,
+        "empates": 8,
+        "derrotas": 17,
+        "gols_marcados": 49,
+        "gols_sofridos": 55,
+        "pontos": 47,
+        "odds": {
+            "homeWin": 0.34,
+            "draw": 0.21,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa594866b"
+    },
+    {
+        "time": "Flamengo",
+        "season": 2017,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 11,
+        "derrotas": 12,
+        "gols_marcados": 49,
+        "gols_sofridos": 38,
+        "pontos": 56,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.29,
+            "awayWin": 0.32
+        },
+        "_id": "67b1246d7a869bdaa594866c"
+    },
+    {
+        "time": "Corinthians",
+        "season": 2017,
+        "jogos": 38,
+        "vitorias": 21,
+        "empates": 9,
+        "derrotas": 8,
+        "gols_marcados": 50,
+        "gols_sofridos": 30,
+        "pontos": 72,
+        "odds": {
+            "homeWin": 0.55,
+            "draw": 0.24,
+            "awayWin": 0.21
+        },
+        "_id": "67b1246d7a869bdaa594866d"
+    },
+    {
+        "time": "Fluminense",
+        "season": 2017,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 14,
+        "derrotas": 13,
+        "gols_marcados": 50,
+        "gols_sofridos": 53,
+        "pontos": 47,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.37,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa594866e"
+    },
+    {
+        "time": "Cruzeiro",
+        "season": 2017,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 12,
+        "derrotas": 11,
+        "gols_marcados": 47,
+        "gols_sofridos": 39,
+        "pontos": 57,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.32,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa594866f"
+    },
+    {
+        "time": "Bahia",
+        "season": 2017,
+        "jogos": 38,
+        "vitorias": 13,
+        "empates": 11,
+        "derrotas": 14,
+        "gols_marcados": 50,
+        "gols_sofridos": 48,
+        "pontos": 50,
+        "odds": {
+            "homeWin": 0.34,
+            "draw": 0.29,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa5948670"
+    },
+    {
+        "time": "Ponte Preta",
+        "season": 2017,
+        "jogos": 38,
+        "vitorias": 10,
+        "empates": 9,
+        "derrotas": 19,
+        "gols_marcados": 37,
+        "gols_sofridos": 52,
+        "pontos": 39,
+        "odds": {
+            "homeWin": 0.26,
+            "draw": 0.24,
+            "awayWin": 0.5
+        },
+        "_id": "67b1246d7a869bdaa5948671"
+    },
+    {
+        "time": "Avai",
+        "season": 2017,
+        "jogos": 38,
+        "vitorias": 10,
+        "empates": 13,
+        "derrotas": 15,
+        "gols_marcados": 29,
+        "gols_sofridos": 48,
+        "pontos": 43,
+        "odds": {
+            "homeWin": 0.26,
+            "draw": 0.34,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa5948672"
+    },
+    {
+        "time": "Palmeiras",
+        "season": 2017,
+        "jogos": 38,
+        "vitorias": 19,
+        "empates": 6,
+        "derrotas": 13,
+        "gols_marcados": 61,
+        "gols_sofridos": 45,
+        "pontos": 63,
+        "odds": {
+            "homeWin": 0.5,
+            "draw": 0.16,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa5948673"
+    },
+    {
+        "time": "Gremio",
+        "season": 2017,
+        "jogos": 38,
+        "vitorias": 18,
+        "empates": 8,
+        "derrotas": 12,
+        "gols_marcados": 55,
+        "gols_sofridos": 36,
+        "pontos": 62,
+        "odds": {
+            "homeWin": 0.47,
+            "draw": 0.21,
+            "awayWin": 0.32
+        },
+        "_id": "67b1246d7a869bdaa5948674"
+    },
+    {
+        "time": "Coritiba",
+        "season": 2017,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 10,
+        "derrotas": 17,
+        "gols_marcados": 42,
+        "gols_sofridos": 51,
+        "pontos": 43,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.26,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa5948675"
+    },
+    {
+        "time": "Santos",
+        "season": 2017,
+        "jogos": 38,
+        "vitorias": 17,
+        "empates": 12,
+        "derrotas": 9,
+        "gols_marcados": 42,
+        "gols_sofridos": 32,
+        "pontos": 63,
+        "odds": {
+            "homeWin": 0.45,
+            "draw": 0.32,
+            "awayWin": 0.24
+        },
+        "_id": "67b1246d7a869bdaa5948676"
+    },
+    {
+        "time": "Atletico-GO",
+        "season": 2017,
+        "jogos": 38,
+        "vitorias": 9,
+        "empates": 9,
+        "derrotas": 20,
+        "gols_marcados": 38,
+        "gols_sofridos": 56,
+        "pontos": 36,
+        "odds": {
+            "homeWin": 0.24,
+            "draw": 0.24,
+            "awayWin": 0.53
+        },
+        "_id": "67b1246d7a869bdaa5948677"
+    },
+    {
+        "time": "Chapecoense",
+        "season": 2017,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 9,
+        "derrotas": 14,
+        "gols_marcados": 47,
+        "gols_sofridos": 49,
+        "pontos": 54,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.24,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa5948678"
+    },
+    {
+        "time": "Vasco",
+        "season": 2017,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 11,
+        "derrotas": 12,
+        "gols_marcados": 40,
+        "gols_sofridos": 47,
+        "pontos": 56,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.29,
+            "awayWin": 0.32
+        },
+        "_id": "67b1246d7a869bdaa5948679"
+    },
+    {
+        "time": "Athletico-PR",
+        "season": 2017,
+        "jogos": 38,
+        "vitorias": 14,
+        "empates": 9,
+        "derrotas": 15,
+        "gols_marcados": 45,
+        "gols_sofridos": 43,
+        "pontos": 51,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.24,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa594867a"
+    },
+    {
+        "time": "Vitoria",
+        "season": 2017,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 10,
+        "derrotas": 17,
+        "gols_marcados": 50,
+        "gols_sofridos": 58,
+        "pontos": 43,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.26,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa594867b"
+    },
+    {
+        "time": "Atletico-MG",
+        "season": 2017,
+        "jogos": 38,
+        "vitorias": 14,
+        "empates": 12,
+        "derrotas": 12,
+        "gols_marcados": 52,
+        "gols_sofridos": 49,
+        "pontos": 54,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.32,
+            "awayWin": 0.32
+        },
+        "_id": "67b1246d7a869bdaa594867c"
+    },
+    {
+        "time": "Botafogo-RJ",
+        "season": 2017,
+        "jogos": 38,
+        "vitorias": 14,
+        "empates": 11,
+        "derrotas": 13,
+        "gols_marcados": 45,
+        "gols_sofridos": 42,
+        "pontos": 53,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.29,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa594867d"
+    },
+    {
+        "time": "Sport",
+        "season": 2017,
+        "jogos": 38,
+        "vitorias": 12,
+        "empates": 9,
+        "derrotas": 17,
+        "gols_marcados": 46,
+        "gols_sofridos": 58,
+        "pontos": 45,
+        "odds": {
+            "homeWin": 0.32,
+            "draw": 0.24,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa594867e"
+    },
+    {
+        "time": "Sao Paulo",
+        "season": 2017,
+        "jogos": 38,
+        "vitorias": 13,
+        "empates": 11,
+        "derrotas": 14,
+        "gols_marcados": 48,
+        "gols_sofridos": 49,
+        "pontos": 50,
+        "odds": {
+            "homeWin": 0.34,
+            "draw": 0.29,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa594867f"
+    },
+    {
+        "time": "Cruzeiro",
+        "season": 2018,
+        "jogos": 38,
+        "vitorias": 14,
+        "empates": 11,
+        "derrotas": 13,
+        "gols_marcados": 34,
+        "gols_sofridos": 34,
+        "pontos": 53,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.29,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa5948680"
+    },
+    {
+        "time": "Vitoria",
+        "season": 2018,
+        "jogos": 38,
+        "vitorias": 9,
+        "empates": 10,
+        "derrotas": 19,
+        "gols_marcados": 36,
+        "gols_sofridos": 63,
+        "pontos": 37,
+        "odds": {
+            "homeWin": 0.24,
+            "draw": 0.26,
+            "awayWin": 0.5
+        },
+        "_id": "67b1246d7a869bdaa5948681"
+    },
+    {
+        "time": "Santos",
+        "season": 2018,
+        "jogos": 38,
+        "vitorias": 13,
+        "empates": 11,
+        "derrotas": 14,
+        "gols_marcados": 46,
+        "gols_sofridos": 40,
+        "pontos": 50,
+        "odds": {
+            "homeWin": 0.34,
+            "draw": 0.29,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa5948682"
+    },
+    {
+        "time": "America-MG",
+        "season": 2018,
+        "jogos": 38,
+        "vitorias": 10,
+        "empates": 10,
+        "derrotas": 18,
+        "gols_marcados": 30,
+        "gols_sofridos": 47,
+        "pontos": 40,
+        "odds": {
+            "homeWin": 0.26,
+            "draw": 0.26,
+            "awayWin": 0.47
+        },
+        "_id": "67b1246d7a869bdaa5948683"
+    },
+    {
+        "time": "Vasco",
+        "season": 2018,
+        "jogos": 38,
+        "vitorias": 10,
+        "empates": 13,
+        "derrotas": 15,
+        "gols_marcados": 41,
+        "gols_sofridos": 48,
+        "pontos": 43,
+        "odds": {
+            "homeWin": 0.26,
+            "draw": 0.34,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa5948684"
+    },
+    {
+        "time": "Internacional",
+        "season": 2018,
+        "jogos": 38,
+        "vitorias": 19,
+        "empates": 12,
+        "derrotas": 7,
+        "gols_marcados": 51,
+        "gols_sofridos": 29,
+        "pontos": 69,
+        "odds": {
+            "homeWin": 0.5,
+            "draw": 0.32,
+            "awayWin": 0.18
+        },
+        "_id": "67b1246d7a869bdaa5948685"
+    },
+    {
+        "time": "Corinthians",
+        "season": 2018,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 11,
+        "derrotas": 16,
+        "gols_marcados": 34,
+        "gols_sofridos": 35,
+        "pontos": 44,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.29,
+            "awayWin": 0.42
+        },
+        "_id": "67b1246d7a869bdaa5948686"
+    },
+    {
+        "time": "Athletico-PR",
+        "season": 2018,
+        "jogos": 38,
+        "vitorias": 16,
+        "empates": 9,
+        "derrotas": 13,
+        "gols_marcados": 54,
+        "gols_sofridos": 37,
+        "pontos": 57,
+        "odds": {
+            "homeWin": 0.42,
+            "draw": 0.24,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa5948687"
+    },
+    {
+        "time": "Sao Paulo",
+        "season": 2018,
+        "jogos": 38,
+        "vitorias": 16,
+        "empates": 15,
+        "derrotas": 7,
+        "gols_marcados": 46,
+        "gols_sofridos": 34,
+        "pontos": 63,
+        "odds": {
+            "homeWin": 0.42,
+            "draw": 0.39,
+            "awayWin": 0.18
+        },
+        "_id": "67b1246d7a869bdaa5948688"
+    },
+    {
+        "time": "Botafogo-RJ",
+        "season": 2018,
+        "jogos": 38,
+        "vitorias": 13,
+        "empates": 12,
+        "derrotas": 13,
+        "gols_marcados": 38,
+        "gols_sofridos": 46,
+        "pontos": 51,
+        "odds": {
+            "homeWin": 0.34,
+            "draw": 0.32,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa5948689"
+    },
+    {
+        "time": "Bahia",
+        "season": 2018,
+        "jogos": 38,
+        "vitorias": 12,
+        "empates": 12,
+        "derrotas": 14,
+        "gols_marcados": 39,
+        "gols_sofridos": 41,
+        "pontos": 48,
+        "odds": {
+            "homeWin": 0.32,
+            "draw": 0.32,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa594868a"
+    },
+    {
+        "time": "Flamengo",
+        "season": 2018,
+        "jogos": 38,
+        "vitorias": 21,
+        "empates": 9,
+        "derrotas": 8,
+        "gols_marcados": 59,
+        "gols_sofridos": 29,
+        "pontos": 72,
+        "odds": {
+            "homeWin": 0.55,
+            "draw": 0.24,
+            "awayWin": 0.21
+        },
+        "_id": "67b1246d7a869bdaa594868b"
+    },
+    {
+        "time": "Parana",
+        "season": 2018,
+        "jogos": 38,
+        "vitorias": 4,
+        "empates": 11,
+        "derrotas": 23,
+        "gols_marcados": 18,
+        "gols_sofridos": 57,
+        "pontos": 23,
+        "odds": {
+            "homeWin": 0.11,
+            "draw": 0.29,
+            "awayWin": 0.61
+        },
+        "_id": "67b1246d7a869bdaa594868c"
+    },
+    {
+        "time": "Ceara",
+        "season": 2018,
+        "jogos": 38,
+        "vitorias": 10,
+        "empates": 14,
+        "derrotas": 14,
+        "gols_marcados": 32,
+        "gols_sofridos": 38,
+        "pontos": 44,
+        "odds": {
+            "homeWin": 0.26,
+            "draw": 0.37,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa594868d"
+    },
+    {
+        "time": "Atletico-MG",
+        "season": 2018,
+        "jogos": 38,
+        "vitorias": 17,
+        "empates": 8,
+        "derrotas": 13,
+        "gols_marcados": 56,
+        "gols_sofridos": 43,
+        "pontos": 59,
+        "odds": {
+            "homeWin": 0.45,
+            "draw": 0.21,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa594868e"
+    },
+    {
+        "time": "Fluminense",
+        "season": 2018,
+        "jogos": 38,
+        "vitorias": 12,
+        "empates": 9,
+        "derrotas": 17,
+        "gols_marcados": 32,
+        "gols_sofridos": 46,
+        "pontos": 45,
+        "odds": {
+            "homeWin": 0.32,
+            "draw": 0.24,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa594868f"
+    },
+    {
+        "time": "Chapecoense",
+        "season": 2018,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 11,
+        "derrotas": 16,
+        "gols_marcados": 34,
+        "gols_sofridos": 50,
+        "pontos": 44,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.29,
+            "awayWin": 0.42
+        },
+        "_id": "67b1246d7a869bdaa5948690"
+    },
+    {
+        "time": "Palmeiras",
+        "season": 2018,
+        "jogos": 38,
+        "vitorias": 23,
+        "empates": 11,
+        "derrotas": 4,
+        "gols_marcados": 64,
+        "gols_sofridos": 26,
+        "pontos": 80,
+        "odds": {
+            "homeWin": 0.61,
+            "draw": 0.29,
+            "awayWin": 0.11
+        },
+        "_id": "67b1246d7a869bdaa5948691"
+    },
+    {
+        "time": "Gremio",
+        "season": 2018,
+        "jogos": 38,
+        "vitorias": 18,
+        "empates": 12,
+        "derrotas": 8,
+        "gols_marcados": 48,
+        "gols_sofridos": 27,
+        "pontos": 66,
+        "odds": {
+            "homeWin": 0.47,
+            "draw": 0.32,
+            "awayWin": 0.21
+        },
+        "_id": "67b1246d7a869bdaa5948692"
+    },
+    {
+        "time": "Sport",
+        "season": 2018,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 9,
+        "derrotas": 18,
+        "gols_marcados": 35,
+        "gols_sofridos": 57,
+        "pontos": 42,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.24,
+            "awayWin": 0.47
+        },
+        "_id": "67b1246d7a869bdaa5948693"
+    },
+    {
+        "time": "Sao Paulo",
+        "season": 2019,
+        "jogos": 38,
+        "vitorias": 17,
+        "empates": 12,
+        "derrotas": 9,
+        "gols_marcados": 39,
+        "gols_sofridos": 30,
+        "pontos": 63,
+        "odds": {
+            "homeWin": 0.45,
+            "draw": 0.32,
+            "awayWin": 0.24
+        },
+        "_id": "67b1246d7a869bdaa5948694"
+    },
+    {
+        "time": "Atletico-MG",
+        "season": 2019,
+        "jogos": 38,
+        "vitorias": 13,
+        "empates": 9,
+        "derrotas": 16,
+        "gols_marcados": 45,
+        "gols_sofridos": 49,
+        "pontos": 48,
+        "odds": {
+            "homeWin": 0.34,
+            "draw": 0.24,
+            "awayWin": 0.42
+        },
+        "_id": "67b1246d7a869bdaa5948695"
+    },
+    {
+        "time": "Chapecoense",
+        "season": 2019,
+        "jogos": 38,
+        "vitorias": 7,
+        "empates": 11,
+        "derrotas": 20,
+        "gols_marcados": 31,
+        "gols_sofridos": 52,
+        "pontos": 32,
+        "odds": {
+            "homeWin": 0.18,
+            "draw": 0.29,
+            "awayWin": 0.53
+        },
+        "_id": "67b1246d7a869bdaa5948696"
+    },
+    {
+        "time": "Flamengo",
+        "season": 2019,
+        "jogos": 38,
+        "vitorias": 28,
+        "empates": 6,
+        "derrotas": 4,
+        "gols_marcados": 86,
+        "gols_sofridos": 37,
+        "pontos": 90,
+        "odds": {
+            "homeWin": 0.74,
+            "draw": 0.16,
+            "awayWin": 0.11
+        },
+        "_id": "67b1246d7a869bdaa5948697"
+    },
+    {
+        "time": "Gremio",
+        "season": 2019,
+        "jogos": 38,
+        "vitorias": 19,
+        "empates": 8,
+        "derrotas": 11,
+        "gols_marcados": 64,
+        "gols_sofridos": 39,
+        "pontos": 65,
+        "odds": {
+            "homeWin": 0.5,
+            "draw": 0.21,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa5948698"
+    },
+    {
+        "time": "Bahia",
+        "season": 2019,
+        "jogos": 38,
+        "vitorias": 12,
+        "empates": 13,
+        "derrotas": 13,
+        "gols_marcados": 44,
+        "gols_sofridos": 43,
+        "pontos": 49,
+        "odds": {
+            "homeWin": 0.32,
+            "draw": 0.34,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa5948699"
+    },
+    {
+        "time": "Athletico-PR",
+        "season": 2019,
+        "jogos": 38,
+        "vitorias": 18,
+        "empates": 10,
+        "derrotas": 10,
+        "gols_marcados": 51,
+        "gols_sofridos": 32,
+        "pontos": 64,
+        "odds": {
+            "homeWin": 0.47,
+            "draw": 0.26,
+            "awayWin": 0.26
+        },
+        "_id": "67b1246d7a869bdaa594869a"
+    },
+    {
+        "time": "Ceara",
+        "season": 2019,
+        "jogos": 38,
+        "vitorias": 10,
+        "empates": 9,
+        "derrotas": 19,
+        "gols_marcados": 36,
+        "gols_sofridos": 41,
+        "pontos": 39,
+        "odds": {
+            "homeWin": 0.26,
+            "draw": 0.24,
+            "awayWin": 0.5
+        },
+        "_id": "67b1246d7a869bdaa594869b"
+    },
+    {
+        "time": "Palmeiras",
+        "season": 2019,
+        "jogos": 38,
+        "vitorias": 21,
+        "empates": 11,
+        "derrotas": 6,
+        "gols_marcados": 61,
+        "gols_sofridos": 32,
+        "pontos": 74,
+        "odds": {
+            "homeWin": 0.55,
+            "draw": 0.29,
+            "awayWin": 0.16
+        },
+        "_id": "67b1246d7a869bdaa594869c"
+    },
+    {
+        "time": "Fluminense",
+        "season": 2019,
+        "jogos": 38,
+        "vitorias": 12,
+        "empates": 10,
+        "derrotas": 16,
+        "gols_marcados": 38,
+        "gols_sofridos": 46,
+        "pontos": 46,
+        "odds": {
+            "homeWin": 0.32,
+            "draw": 0.26,
+            "awayWin": 0.42
+        },
+        "_id": "67b1246d7a869bdaa594869d"
+    },
+    {
+        "time": "Internacional",
+        "season": 2019,
+        "jogos": 38,
+        "vitorias": 16,
+        "empates": 9,
+        "derrotas": 13,
+        "gols_marcados": 44,
+        "gols_sofridos": 39,
+        "pontos": 57,
+        "odds": {
+            "homeWin": 0.42,
+            "draw": 0.24,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa594869e"
+    },
+    {
+        "time": "CSA",
+        "season": 2019,
+        "jogos": 38,
+        "vitorias": 8,
+        "empates": 8,
+        "derrotas": 22,
+        "gols_marcados": 24,
+        "gols_sofridos": 58,
+        "pontos": 32,
+        "odds": {
+            "homeWin": 0.21,
+            "draw": 0.21,
+            "awayWin": 0.58
+        },
+        "_id": "67b1246d7a869bdaa594869f"
+    },
+    {
+        "time": "Corinthians",
+        "season": 2019,
+        "jogos": 38,
+        "vitorias": 14,
+        "empates": 14,
+        "derrotas": 10,
+        "gols_marcados": 42,
+        "gols_sofridos": 34,
+        "pontos": 56,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.37,
+            "awayWin": 0.26
+        },
+        "_id": "67b1246d7a869bdaa59486a0"
+    },
+    {
+        "time": "Cruzeiro",
+        "season": 2019,
+        "jogos": 38,
+        "vitorias": 7,
+        "empates": 15,
+        "derrotas": 16,
+        "gols_marcados": 27,
+        "gols_sofridos": 46,
+        "pontos": 36,
+        "odds": {
+            "homeWin": 0.18,
+            "draw": 0.39,
+            "awayWin": 0.42
+        },
+        "_id": "67b1246d7a869bdaa59486a1"
+    },
+    {
+        "time": "Avai",
+        "season": 2019,
+        "jogos": 38,
+        "vitorias": 3,
+        "empates": 11,
+        "derrotas": 24,
+        "gols_marcados": 18,
+        "gols_sofridos": 62,
+        "pontos": 20,
+        "odds": {
+            "homeWin": 0.08,
+            "draw": 0.29,
+            "awayWin": 0.63
+        },
+        "_id": "67b1246d7a869bdaa59486a2"
+    },
+    {
+        "time": "Goias",
+        "season": 2019,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 7,
+        "derrotas": 16,
+        "gols_marcados": 46,
+        "gols_sofridos": 64,
+        "pontos": 52,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.18,
+            "awayWin": 0.42
+        },
+        "_id": "67b1246d7a869bdaa59486a3"
+    },
+    {
+        "time": "Vasco",
+        "season": 2019,
+        "jogos": 38,
+        "vitorias": 12,
+        "empates": 13,
+        "derrotas": 13,
+        "gols_marcados": 39,
+        "gols_sofridos": 45,
+        "pontos": 49,
+        "odds": {
+            "homeWin": 0.32,
+            "draw": 0.34,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa59486a4"
+    },
+    {
+        "time": "Fortaleza",
+        "season": 2019,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 8,
+        "derrotas": 15,
+        "gols_marcados": 50,
+        "gols_sofridos": 49,
+        "pontos": 53,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.21,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa59486a5"
+    },
+    {
+        "time": "Santos",
+        "season": 2019,
+        "jogos": 38,
+        "vitorias": 22,
+        "empates": 8,
+        "derrotas": 8,
+        "gols_marcados": 60,
+        "gols_sofridos": 33,
+        "pontos": 74,
+        "odds": {
+            "homeWin": 0.58,
+            "draw": 0.21,
+            "awayWin": 0.21
+        },
+        "_id": "67b1246d7a869bdaa59486a6"
+    },
+    {
+        "time": "Botafogo-RJ",
+        "season": 2019,
+        "jogos": 38,
+        "vitorias": 13,
+        "empates": 4,
+        "derrotas": 21,
+        "gols_marcados": 31,
+        "gols_sofridos": 45,
+        "pontos": 43,
+        "odds": {
+            "homeWin": 0.34,
+            "draw": 0.11,
+            "awayWin": 0.55
+        },
+        "_id": "67b1246d7a869bdaa59486a7"
+    },
+    {
+        "time": "Fortaleza",
+        "season": 2020,
+        "jogos": 27,
+        "vitorias": 7,
+        "empates": 10,
+        "derrotas": 10,
+        "gols_marcados": 24,
+        "gols_sofridos": 25,
+        "pontos": 31,
+        "odds": {
+            "homeWin": 0.26,
+            "draw": 0.37,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa59486a8"
+    },
+    {
+        "time": "Coritiba",
+        "season": 2020,
+        "jogos": 27,
+        "vitorias": 5,
+        "empates": 6,
+        "derrotas": 16,
+        "gols_marcados": 21,
+        "gols_sofridos": 37,
+        "pontos": 21,
+        "odds": {
+            "homeWin": 0.19,
+            "draw": 0.22,
+            "awayWin": 0.59
+        },
+        "_id": "67b1246d7a869bdaa59486a9"
+    },
+    {
+        "time": "Sport",
+        "season": 2020,
+        "jogos": 27,
+        "vitorias": 8,
+        "empates": 5,
+        "derrotas": 14,
+        "gols_marcados": 23,
+        "gols_sofridos": 36,
+        "pontos": 29,
+        "odds": {
+            "homeWin": 0.3,
+            "draw": 0.19,
+            "awayWin": 0.52
+        },
+        "_id": "67b1246d7a869bdaa59486aa"
+    },
+    {
+        "time": "Santos",
+        "season": 2020,
+        "jogos": 27,
+        "vitorias": 10,
+        "empates": 9,
+        "derrotas": 8,
+        "gols_marcados": 38,
+        "gols_sofridos": 35,
+        "pontos": 39,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.33,
+            "awayWin": 0.3
+        },
+        "_id": "67b1246d7a869bdaa59486ab"
+    },
+    {
+        "time": "Flamengo",
+        "season": 2020,
+        "jogos": 26,
+        "vitorias": 14,
+        "empates": 7,
+        "derrotas": 5,
+        "gols_marcados": 46,
+        "gols_sofridos": 35,
+        "pontos": 49,
+        "odds": {
+            "homeWin": 0.54,
+            "draw": 0.27,
+            "awayWin": 0.19
+        },
+        "_id": "67b1246d7a869bdaa59486ac"
+    },
+    {
+        "time": "Gremio",
+        "season": 2020,
+        "jogos": 26,
+        "vitorias": 11,
+        "empates": 12,
+        "derrotas": 3,
+        "gols_marcados": 35,
+        "gols_sofridos": 22,
+        "pontos": 45,
+        "odds": {
+            "homeWin": 0.42,
+            "draw": 0.46,
+            "awayWin": 0.12
+        },
+        "_id": "67b1246d7a869bdaa59486ad"
+    },
+    {
+        "time": "Athletico-PR",
+        "season": 2020,
+        "jogos": 27,
+        "vitorias": 10,
+        "empates": 4,
+        "derrotas": 13,
+        "gols_marcados": 24,
+        "gols_sofridos": 28,
+        "pontos": 34,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.15,
+            "awayWin": 0.48
+        },
+        "_id": "67b1246d7a869bdaa59486ae"
+    },
+    {
+        "time": "Atletico-MG",
+        "season": 2020,
+        "jogos": 27,
+        "vitorias": 15,
+        "empates": 4,
+        "derrotas": 8,
+        "gols_marcados": 46,
+        "gols_sofridos": 34,
+        "pontos": 49,
+        "odds": {
+            "homeWin": 0.56,
+            "draw": 0.15,
+            "awayWin": 0.3
+        },
+        "_id": "67b1246d7a869bdaa59486af"
+    },
+    {
+        "time": "Bragantino",
+        "season": 2020,
+        "jogos": 27,
+        "vitorias": 7,
+        "empates": 10,
+        "derrotas": 10,
+        "gols_marcados": 31,
+        "gols_sofridos": 31,
+        "pontos": 31,
+        "odds": {
+            "homeWin": 0.26,
+            "draw": 0.37,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa59486b0"
+    },
+    {
+        "time": "Bahia",
+        "season": 2020,
+        "jogos": 27,
+        "vitorias": 8,
+        "empates": 4,
+        "derrotas": 15,
+        "gols_marcados": 33,
+        "gols_sofridos": 48,
+        "pontos": 28,
+        "odds": {
+            "homeWin": 0.3,
+            "draw": 0.15,
+            "awayWin": 0.56
+        },
+        "_id": "67b1246d7a869bdaa59486b1"
+    },
+    {
+        "time": "Atletico-GO",
+        "season": 2020,
+        "jogos": 27,
+        "vitorias": 8,
+        "empates": 10,
+        "derrotas": 9,
+        "gols_marcados": 25,
+        "gols_sofridos": 32,
+        "pontos": 34,
+        "odds": {
+            "homeWin": 0.3,
+            "draw": 0.37,
+            "awayWin": 0.33
+        },
+        "_id": "67b1246d7a869bdaa59486b2"
+    },
+    {
+        "time": "Ceara",
+        "season": 2020,
+        "jogos": 27,
+        "vitorias": 9,
+        "empates": 9,
+        "derrotas": 9,
+        "gols_marcados": 38,
+        "gols_sofridos": 37,
+        "pontos": 36,
+        "odds": {
+            "homeWin": 0.33,
+            "draw": 0.33,
+            "awayWin": 0.33
+        },
+        "_id": "67b1246d7a869bdaa59486b3"
+    },
+    {
+        "time": "Fluminense",
+        "season": 2020,
+        "jogos": 27,
+        "vitorias": 11,
+        "empates": 7,
+        "derrotas": 9,
+        "gols_marcados": 37,
+        "gols_sofridos": 31,
+        "pontos": 40,
+        "odds": {
+            "homeWin": 0.41,
+            "draw": 0.26,
+            "awayWin": 0.33
+        },
+        "_id": "67b1246d7a869bdaa59486b4"
+    },
+    {
+        "time": "Sao Paulo",
+        "season": 2020,
+        "jogos": 27,
+        "vitorias": 16,
+        "empates": 8,
+        "derrotas": 3,
+        "gols_marcados": 47,
+        "gols_sofridos": 22,
+        "pontos": 56,
+        "odds": {
+            "homeWin": 0.59,
+            "draw": 0.3,
+            "awayWin": 0.11
+        },
+        "_id": "67b1246d7a869bdaa59486b5"
+    },
+    {
+        "time": "Internacional",
+        "season": 2020,
+        "jogos": 27,
+        "vitorias": 13,
+        "empates": 8,
+        "derrotas": 6,
+        "gols_marcados": 41,
+        "gols_sofridos": 26,
+        "pontos": 47,
+        "odds": {
+            "homeWin": 0.48,
+            "draw": 0.3,
+            "awayWin": 0.22
+        },
+        "_id": "67b1246d7a869bdaa59486b6"
+    },
+    {
+        "time": "Vasco",
+        "season": 2020,
+        "jogos": 26,
+        "vitorias": 7,
+        "empates": 7,
+        "derrotas": 12,
+        "gols_marcados": 26,
+        "gols_sofridos": 39,
+        "pontos": 28,
+        "odds": {
+            "homeWin": 0.27,
+            "draw": 0.27,
+            "awayWin": 0.46
+        },
+        "_id": "67b1246d7a869bdaa59486b7"
+    },
+    {
+        "time": "Palmeiras",
+        "season": 2020,
+        "jogos": 26,
+        "vitorias": 12,
+        "empates": 8,
+        "derrotas": 6,
+        "gols_marcados": 37,
+        "gols_sofridos": 25,
+        "pontos": 44,
+        "odds": {
+            "homeWin": 0.46,
+            "draw": 0.31,
+            "awayWin": 0.23
+        },
+        "_id": "67b1246d7a869bdaa59486b8"
+    },
+    {
+        "time": "Goias",
+        "season": 2020,
+        "jogos": 27,
+        "vitorias": 5,
+        "empates": 8,
+        "derrotas": 14,
+        "gols_marcados": 27,
+        "gols_sofridos": 42,
+        "pontos": 23,
+        "odds": {
+            "homeWin": 0.19,
+            "draw": 0.3,
+            "awayWin": 0.52
+        },
+        "_id": "67b1246d7a869bdaa59486b9"
+    },
+    {
+        "time": "Corinthians",
+        "season": 2020,
+        "jogos": 27,
+        "vitorias": 10,
+        "empates": 9,
+        "derrotas": 8,
+        "gols_marcados": 30,
+        "gols_sofridos": 30,
+        "pontos": 39,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.33,
+            "awayWin": 0.3
+        },
+        "_id": "67b1246d7a869bdaa59486ba"
+    },
+    {
+        "time": "Botafogo-RJ",
+        "season": 2020,
+        "jogos": 27,
+        "vitorias": 4,
+        "empates": 11,
+        "derrotas": 12,
+        "gols_marcados": 25,
+        "gols_sofridos": 39,
+        "pontos": 23,
+        "odds": {
+            "homeWin": 0.15,
+            "draw": 0.41,
+            "awayWin": 0.44
+        },
+        "_id": "67b1246d7a869bdaa59486bb"
+    },
+    {
+        "time": "Gremio",
+        "season": 2021,
+        "jogos": 50,
+        "vitorias": 15,
+        "empates": 12,
+        "derrotas": 23,
+        "gols_marcados": 62,
+        "gols_sofridos": 69,
+        "pontos": 57,
+        "odds": {
+            "homeWin": 0.3,
+            "draw": 0.24,
+            "awayWin": 0.46
+        },
+        "_id": "67b1246d7a869bdaa59486bc"
+    },
+    {
+        "time": "Botafogo-RJ",
+        "season": 2021,
+        "jogos": 11,
+        "vitorias": 1,
+        "empates": 1,
+        "derrotas": 9,
+        "gols_marcados": 7,
+        "gols_sofridos": 23,
+        "pontos": 4,
+        "odds": {
+            "homeWin": 0.09,
+            "draw": 0.09,
+            "awayWin": 0.82
+        },
+        "_id": "67b1246d7a869bdaa59486bd"
+    },
+    {
+        "time": "Coritiba",
+        "season": 2021,
+        "jogos": 11,
+        "vitorias": 2,
+        "empates": 4,
+        "derrotas": 5,
+        "gols_marcados": 10,
+        "gols_sofridos": 17,
+        "pontos": 10,
+        "odds": {
+            "homeWin": 0.18,
+            "draw": 0.36,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa59486be"
+    },
+    {
+        "time": "Sport",
+        "season": 2021,
+        "jogos": 49,
+        "vitorias": 13,
+        "empates": 12,
+        "derrotas": 24,
+        "gols_marcados": 32,
+        "gols_sofridos": 51,
+        "pontos": 51,
+        "odds": {
+            "homeWin": 0.27,
+            "draw": 0.24,
+            "awayWin": 0.49
+        },
+        "_id": "67b1246d7a869bdaa59486bf"
+    },
+    {
+        "time": "Flamengo",
+        "season": 2021,
+        "jogos": 50,
+        "vitorias": 28,
+        "empates": 9,
+        "derrotas": 13,
+        "gols_marcados": 91,
+        "gols_sofridos": 49,
+        "pontos": 93,
+        "odds": {
+            "homeWin": 0.56,
+            "draw": 0.18,
+            "awayWin": 0.26
+        },
+        "_id": "67b1246d7a869bdaa59486c0"
+    },
+    {
+        "time": "Bragantino",
+        "season": 2021,
+        "jogos": 49,
+        "vitorias": 20,
+        "empates": 18,
+        "derrotas": 11,
+        "gols_marcados": 74,
+        "gols_sofridos": 55,
+        "pontos": 78,
+        "odds": {
+            "homeWin": 0.41,
+            "draw": 0.37,
+            "awayWin": 0.22
+        },
+        "_id": "67b1246d7a869bdaa59486c1"
+    },
+    {
+        "time": "Ceara",
+        "season": 2021,
+        "jogos": 49,
+        "vitorias": 16,
+        "empates": 18,
+        "derrotas": 15,
+        "gols_marcados": 55,
+        "gols_sofridos": 52,
+        "pontos": 66,
+        "odds": {
+            "homeWin": 0.33,
+            "draw": 0.37,
+            "awayWin": 0.31
+        },
+        "_id": "67b1246d7a869bdaa59486c2"
+    },
+    {
+        "time": "Atletico-GO",
+        "season": 2021,
+        "jogos": 49,
+        "vitorias": 17,
+        "empates": 18,
+        "derrotas": 14,
+        "gols_marcados": 48,
+        "gols_sofridos": 49,
+        "pontos": 69,
+        "odds": {
+            "homeWin": 0.35,
+            "draw": 0.37,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa59486c3"
+    },
+    {
+        "time": "Fortaleza",
+        "season": 2021,
+        "jogos": 49,
+        "vitorias": 20,
+        "empates": 8,
+        "derrotas": 21,
+        "gols_marcados": 54,
+        "gols_sofridos": 64,
+        "pontos": 68,
+        "odds": {
+            "homeWin": 0.41,
+            "draw": 0.16,
+            "awayWin": 0.43
+        },
+        "_id": "67b1246d7a869bdaa59486c4"
+    },
+    {
+        "time": "Sao Paulo",
+        "season": 2021,
+        "jogos": 49,
+        "vitorias": 13,
+        "empates": 19,
+        "derrotas": 17,
+        "gols_marcados": 43,
+        "gols_sofridos": 58,
+        "pontos": 58,
+        "odds": {
+            "homeWin": 0.27,
+            "draw": 0.39,
+            "awayWin": 0.35
+        },
+        "_id": "67b1246d7a869bdaa59486c5"
+    },
+    {
+        "time": "Internacional",
+        "season": 2021,
+        "jogos": 49,
+        "vitorias": 19,
+        "empates": 14,
+        "derrotas": 16,
+        "gols_marcados": 64,
+        "gols_sofridos": 51,
+        "pontos": 71,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.29,
+            "awayWin": 0.33
+        },
+        "_id": "67b1246d7a869bdaa59486c6"
+    },
+    {
+        "time": "Vasco",
+        "season": 2021,
+        "jogos": 12,
+        "vitorias": 3,
+        "empates": 4,
+        "derrotas": 5,
+        "gols_marcados": 11,
+        "gols_sofridos": 17,
+        "pontos": 13,
+        "odds": {
+            "homeWin": 0.25,
+            "draw": 0.33,
+            "awayWin": 0.42
+        },
+        "_id": "67b1246d7a869bdaa59486c7"
+    },
+    {
+        "time": "Corinthians",
+        "season": 2021,
+        "jogos": 49,
+        "vitorias": 18,
+        "empates": 15,
+        "derrotas": 16,
+        "gols_marcados": 55,
+        "gols_sofridos": 51,
+        "pontos": 69,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.31,
+            "awayWin": 0.33
+        },
+        "_id": "67b1246d7a869bdaa59486c8"
+    },
+    {
+        "time": "Palmeiras",
+        "season": 2021,
+        "jogos": 50,
+        "vitorias": 23,
+        "empates": 11,
+        "derrotas": 16,
+        "gols_marcados": 72,
+        "gols_sofridos": 55,
+        "pontos": 80,
+        "odds": {
+            "homeWin": 0.46,
+            "draw": 0.22,
+            "awayWin": 0.32
+        },
+        "_id": "67b1246d7a869bdaa59486c9"
+    },
+    {
+        "time": "Fluminense",
+        "season": 2021,
+        "jogos": 49,
+        "vitorias": 22,
+        "empates": 12,
+        "derrotas": 15,
+        "gols_marcados": 56,
+        "gols_sofridos": 49,
+        "pontos": 78,
+        "odds": {
+            "homeWin": 0.45,
+            "draw": 0.24,
+            "awayWin": 0.31
+        },
+        "_id": "67b1246d7a869bdaa59486ca"
+    },
+    {
+        "time": "Athletico-PR",
+        "season": 2021,
+        "jogos": 49,
+        "vitorias": 18,
+        "empates": 12,
+        "derrotas": 19,
+        "gols_marcados": 55,
+        "gols_sofridos": 53,
+        "pontos": 66,
+        "odds": {
+            "homeWin": 0.37,
+            "draw": 0.24,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa59486cb"
+    },
+    {
+        "time": "Santos",
+        "season": 2021,
+        "jogos": 49,
+        "vitorias": 16,
+        "empates": 17,
+        "derrotas": 16,
+        "gols_marcados": 49,
+        "gols_sofridos": 56,
+        "pontos": 65,
+        "odds": {
+            "homeWin": 0.33,
+            "draw": 0.35,
+            "awayWin": 0.33
+        },
+        "_id": "67b1246d7a869bdaa59486cc"
+    },
+    {
+        "time": "Atletico-MG",
+        "season": 2021,
+        "jogos": 49,
+        "vitorias": 31,
+        "empates": 10,
+        "derrotas": 8,
+        "gols_marcados": 85,
+        "gols_sofridos": 45,
+        "pontos": 103,
+        "odds": {
+            "homeWin": 0.63,
+            "draw": 0.2,
+            "awayWin": 0.16
+        },
+        "_id": "67b1246d7a869bdaa59486cd"
+    },
+    {
+        "time": "Goias",
+        "season": 2021,
+        "jogos": 11,
+        "vitorias": 4,
+        "empates": 2,
+        "derrotas": 5,
+        "gols_marcados": 14,
+        "gols_sofridos": 21,
+        "pontos": 14,
+        "odds": {
+            "homeWin": 0.36,
+            "draw": 0.18,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa59486ce"
+    },
+    {
+        "time": "Bahia",
+        "season": 2021,
+        "jogos": 49,
+        "vitorias": 15,
+        "empates": 14,
+        "derrotas": 20,
+        "gols_marcados": 57,
+        "gols_sofridos": 62,
+        "pontos": 59,
+        "odds": {
+            "homeWin": 0.31,
+            "draw": 0.29,
+            "awayWin": 0.41
+        },
+        "_id": "67b1246d7a869bdaa59486cf"
+    },
+    {
+        "time": "Cuiaba",
+        "season": 2021,
+        "jogos": 38,
+        "vitorias": 10,
+        "empates": 17,
+        "derrotas": 11,
+        "gols_marcados": 34,
+        "gols_sofridos": 37,
+        "pontos": 47,
+        "odds": {
+            "homeWin": 0.26,
+            "draw": 0.45,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa59486d0"
+    },
+    {
+        "time": "Chapecoense",
+        "season": 2021,
+        "jogos": 38,
+        "vitorias": 1,
+        "empates": 12,
+        "derrotas": 25,
+        "gols_marcados": 27,
+        "gols_sofridos": 67,
+        "pontos": 15,
+        "odds": {
+            "homeWin": 0.03,
+            "draw": 0.32,
+            "awayWin": 0.66
+        },
+        "_id": "67b1246d7a869bdaa59486d1"
+    },
+    {
+        "time": "America-MG",
+        "season": 2021,
+        "jogos": 38,
+        "vitorias": 13,
+        "empates": 14,
+        "derrotas": 11,
+        "gols_marcados": 41,
+        "gols_sofridos": 37,
+        "pontos": 53,
+        "odds": {
+            "homeWin": 0.34,
+            "draw": 0.37,
+            "awayWin": 0.29
+        },
+        "_id": "67b1246d7a869bdaa59486d2"
+    },
+    {
+        "time": "Juventude",
+        "season": 2021,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 13,
+        "derrotas": 14,
+        "gols_marcados": 36,
+        "gols_sofridos": 44,
+        "pontos": 46,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.34,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa59486d3"
+    },
+    {
+        "time": "Fluminense",
+        "season": 2022,
+        "jogos": 38,
+        "vitorias": 21,
+        "empates": 7,
+        "derrotas": 10,
+        "gols_marcados": 63,
+        "gols_sofridos": 41,
+        "pontos": 70,
+        "odds": {
+            "homeWin": 0.55,
+            "draw": 0.18,
+            "awayWin": 0.26
+        },
+        "_id": "67b1246d7a869bdaa59486d4"
+    },
+    {
+        "time": "Atletico-GO",
+        "season": 2022,
+        "jogos": 38,
+        "vitorias": 8,
+        "empates": 12,
+        "derrotas": 18,
+        "gols_marcados": 39,
+        "gols_sofridos": 57,
+        "pontos": 36,
+        "odds": {
+            "homeWin": 0.21,
+            "draw": 0.32,
+            "awayWin": 0.47
+        },
+        "_id": "67b1246d7a869bdaa59486d5"
+    },
+    {
+        "time": "Palmeiras",
+        "season": 2022,
+        "jogos": 38,
+        "vitorias": 23,
+        "empates": 12,
+        "derrotas": 3,
+        "gols_marcados": 66,
+        "gols_sofridos": 27,
+        "pontos": 81,
+        "odds": {
+            "homeWin": 0.61,
+            "draw": 0.32,
+            "awayWin": 0.08
+        },
+        "_id": "67b1246d7a869bdaa59486d6"
+    },
+    {
+        "time": "Coritiba",
+        "season": 2022,
+        "jogos": 38,
+        "vitorias": 12,
+        "empates": 6,
+        "derrotas": 20,
+        "gols_marcados": 39,
+        "gols_sofridos": 60,
+        "pontos": 42,
+        "odds": {
+            "homeWin": 0.32,
+            "draw": 0.16,
+            "awayWin": 0.53
+        },
+        "_id": "67b1246d7a869bdaa59486d7"
+    },
+    {
+        "time": "Botafogo-RJ",
+        "season": 2022,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 8,
+        "derrotas": 15,
+        "gols_marcados": 41,
+        "gols_sofridos": 43,
+        "pontos": 53,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.21,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa59486d8"
+    },
+    {
+        "time": "Atletico-MG",
+        "season": 2022,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 13,
+        "derrotas": 10,
+        "gols_marcados": 45,
+        "gols_sofridos": 37,
+        "pontos": 58,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.34,
+            "awayWin": 0.26
+        },
+        "_id": "67b1246d7a869bdaa59486d9"
+    },
+    {
+        "time": "Fortaleza",
+        "season": 2022,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 10,
+        "derrotas": 13,
+        "gols_marcados": 46,
+        "gols_sofridos": 39,
+        "pontos": 55,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.26,
+            "awayWin": 0.34
+        },
+        "_id": "67b1246d7a869bdaa59486da"
+    },
+    {
+        "time": "Avai",
+        "season": 2022,
+        "jogos": 38,
+        "vitorias": 9,
+        "empates": 8,
+        "derrotas": 21,
+        "gols_marcados": 34,
+        "gols_sofridos": 60,
+        "pontos": 35,
+        "odds": {
+            "homeWin": 0.24,
+            "draw": 0.21,
+            "awayWin": 0.55
+        },
+        "_id": "67b1246d7a869bdaa59486db"
+    },
+    {
+        "time": "Sao Paulo",
+        "season": 2022,
+        "jogos": 38,
+        "vitorias": 13,
+        "empates": 15,
+        "derrotas": 10,
+        "gols_marcados": 55,
+        "gols_sofridos": 42,
+        "pontos": 54,
+        "odds": {
+            "homeWin": 0.34,
+            "draw": 0.39,
+            "awayWin": 0.26
+        },
+        "_id": "67b1246d7a869bdaa59486dc"
+    },
+    {
+        "time": "Juventude",
+        "season": 2022,
+        "jogos": 38,
+        "vitorias": 3,
+        "empates": 13,
+        "derrotas": 22,
+        "gols_marcados": 29,
+        "gols_sofridos": 69,
+        "pontos": 22,
+        "odds": {
+            "homeWin": 0.08,
+            "draw": 0.34,
+            "awayWin": 0.58
+        },
+        "_id": "67b1246d7a869bdaa59486dd"
+    },
+    {
+        "time": "Goias",
+        "season": 2022,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 13,
+        "derrotas": 14,
+        "gols_marcados": 40,
+        "gols_sofridos": 53,
+        "pontos": 46,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.34,
+            "awayWin": 0.37
+        },
+        "_id": "67b1246d7a869bdaa59486de"
+    },
+    {
+        "time": "America-MG",
+        "season": 2022,
+        "jogos": 38,
+        "vitorias": 15,
+        "empates": 8,
+        "derrotas": 15,
+        "gols_marcados": 40,
+        "gols_sofridos": 40,
+        "pontos": 53,
+        "odds": {
+            "homeWin": 0.39,
+            "draw": 0.21,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa59486df"
+    },
+    {
+        "time": "Corinthians",
+        "season": 2022,
+        "jogos": 38,
+        "vitorias": 18,
+        "empates": 11,
+        "derrotas": 9,
+        "gols_marcados": 44,
+        "gols_sofridos": 36,
+        "pontos": 65,
+        "odds": {
+            "homeWin": 0.47,
+            "draw": 0.29,
+            "awayWin": 0.24
+        },
+        "_id": "67b1246d7a869bdaa59486e0"
+    },
+    {
+        "time": "Cuiaba",
+        "season": 2022,
+        "jogos": 38,
+        "vitorias": 10,
+        "empates": 11,
+        "derrotas": 17,
+        "gols_marcados": 31,
+        "gols_sofridos": 42,
+        "pontos": 41,
+        "odds": {
+            "homeWin": 0.26,
+            "draw": 0.29,
+            "awayWin": 0.45
+        },
+        "_id": "67b1246d7a869bdaa59486e1"
+    },
+    {
+        "time": "Santos",
+        "season": 2022,
+        "jogos": 38,
+        "vitorias": 12,
+        "empates": 11,
+        "derrotas": 15,
+        "gols_marcados": 44,
+        "gols_sofridos": 41,
+        "pontos": 47,
+        "odds": {
+            "homeWin": 0.32,
+            "draw": 0.29,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa59486e2"
+    },
+    {
+        "time": "Flamengo",
+        "season": 2022,
+        "jogos": 38,
+        "vitorias": 18,
+        "empates": 8,
+        "derrotas": 12,
+        "gols_marcados": 60,
+        "gols_sofridos": 39,
+        "pontos": 62,
+        "odds": {
+            "homeWin": 0.47,
+            "draw": 0.21,
+            "awayWin": 0.32
+        },
+        "_id": "67b1246d7a869bdaa59486e3"
+    },
+    {
+        "time": "Athletico-PR",
+        "season": 2022,
+        "jogos": 38,
+        "vitorias": 16,
+        "empates": 10,
+        "derrotas": 12,
+        "gols_marcados": 48,
+        "gols_sofridos": 48,
+        "pontos": 58,
+        "odds": {
+            "homeWin": 0.42,
+            "draw": 0.26,
+            "awayWin": 0.32
+        },
+        "_id": "67b1246d7a869bdaa59486e4"
+    },
+    {
+        "time": "Internacional",
+        "season": 2022,
+        "jogos": 38,
+        "vitorias": 20,
+        "empates": 13,
+        "derrotas": 5,
+        "gols_marcados": 58,
+        "gols_sofridos": 31,
+        "pontos": 73,
+        "odds": {
+            "homeWin": 0.53,
+            "draw": 0.34,
+            "awayWin": 0.13
+        },
+        "_id": "67b1246d7a869bdaa59486e5"
+    },
+    {
+        "time": "Bragantino",
+        "season": 2022,
+        "jogos": 38,
+        "vitorias": 11,
+        "empates": 11,
+        "derrotas": 16,
+        "gols_marcados": 49,
+        "gols_sofridos": 59,
+        "pontos": 44,
+        "odds": {
+            "homeWin": 0.29,
+            "draw": 0.29,
+            "awayWin": 0.42
+        },
+        "_id": "67b1246d7a869bdaa59486e6"
+    },
+    {
+        "time": "Ceara",
+        "season": 2022,
+        "jogos": 38,
+        "vitorias": 7,
+        "empates": 16,
+        "derrotas": 15,
+        "gols_marcados": 34,
+        "gols_sofridos": 41,
+        "pontos": 37,
+        "odds": {
+            "homeWin": 0.18,
+            "draw": 0.42,
+            "awayWin": 0.39
+        },
+        "_id": "67b1246d7a869bdaa59486e7"
+    }
+]

@@ -358,3 +358,111 @@ class BrasileiraoAPI:
             print(f"Inseridos {len(documentos)} documentos na coleção '{collection_name}'.")
         else:
             print("Nenhum documento para inserir.")
+            
+    
+  
+    def gerar_odds_todos_times(self, start_year=2003, end_year=2022,
+                          collection_name="odds_times_aggregados",
+                          output_path="../../data/odds_times_aggregados.json"):
+        """
+        Agrega os dados de desempenho de cada time para as temporadas de start_year a end_year,
+        incluindo as médias de vitórias (homeWin), empates (draw) e derrotas (awayWin).
+        """
+        import json
+        import pandas as pd
+        
+        df = self.consultar_dados_mongodb()
+        df["data_dt"] = pd.to_datetime(df["data"], format="%d/%m/%Y", errors="coerce")
+        df = df.dropna(subset=["data_dt"])
+        
+        odds_list = []
+        
+        for season in range(start_year, end_year + 1):
+            df_season = df[df["data_dt"].dt.year == season]
+            if df_season.empty:
+                continue
+            
+            times_home = df_season["homeTeam"].apply(lambda t: t.get("name") if isinstance(t, dict) else t)
+            times_away = df_season["awayTeam"].apply(lambda t: t.get("name") if isinstance(t, dict) else t)
+            unique_times = pd.unique(list(times_home) + list(times_away))
+            
+            for time in unique_times:
+                dados = {
+                    "time": time,
+                    "season": season,
+                    "jogos": 0,
+                    "vitorias": 0,
+                    "empates": 0,
+                    "derrotas": 0,
+                    "gols_marcados": 0,
+                    "gols_sofridos": 0,
+                    "pontos": 0,
+                    "odds": {
+                        "homeWin": None,  # média de vitórias
+                        "draw": None,     # média de empates
+                        "awayWin": None   # média de derrotas
+                    }
+                }
+                
+                df_team = df_season[
+                    (df_season["homeTeam"].apply(lambda t: t.get("name") if isinstance(t, dict) else t) == time) |
+                    (df_season["awayTeam"].apply(lambda t: t.get("name") if isinstance(t, dict) else t) == time)
+                ]
+                
+                for _, row in df_team.iterrows():
+                    dados["jogos"] += 1
+                    
+                    home_team = row["homeTeam"].get("name") if isinstance(row["homeTeam"], dict) else row["homeTeam"]
+                    away_team = row["awayTeam"].get("name") if isinstance(row["awayTeam"], dict) else row["awayTeam"]
+                    score_home = row["score"]["fullTime"]["home"]
+                    score_away = row["score"]["fullTime"]["away"]
+                    
+                    if home_team == time:
+                        dados["gols_marcados"] += score_home
+                        dados["gols_sofridos"] += score_away
+                        if score_home > score_away:
+                            dados["vitorias"] += 1
+                            dados["pontos"] += 3
+                        elif score_home == score_away:
+                            dados["empates"] += 1
+                            dados["pontos"] += 1
+                        else:
+                            dados["derrotas"] += 1
+                    elif away_team == time:
+                        dados["gols_marcados"] += score_away
+                        dados["gols_sofridos"] += score_home
+                        if score_away > score_home:
+                            dados["vitorias"] += 1
+                            dados["pontos"] += 3
+                        elif score_away == score_home:
+                            dados["empates"] += 1
+                            dados["pontos"] += 1
+                        else:
+                            dados["derrotas"] += 1
+                
+                # Calcula as médias com duas casas decimais
+                if dados["jogos"] > 0:
+                    dados["odds"]["homeWin"] = round(dados["vitorias"] / dados["jogos"], 2)
+                    dados["odds"]["draw"] = round(dados["empates"] / dados["jogos"], 2)
+                    dados["odds"]["awayWin"] = round(dados["derrotas"] / dados["jogos"], 2)
+                
+                odds_list.append(dados)
+        
+        if odds_list:
+            nova_colecao = self.db[collection_name]
+            nova_colecao.insert_many(odds_list)
+            print(f"Inseridos {len(odds_list)} documentos na coleção '{collection_name}'.")
+        
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump(odds_list, f, indent=4, ensure_ascii=False, default=str)
+        print(f"Arquivo JSON com os odds de cada time criado em: {output_path}")
+        
+        return odds_list
+        
+    def limpar_colecao_por_nome(self, collection_name):
+        """
+        Limpa a coleção especificada, removendo todos os documentos.
+        """
+        result = self.db[collection_name].delete_many({})
+        print(f"Removidos {result.deleted_count} documentos da coleção '{collection_name}'.")
+        return result.deleted_count
