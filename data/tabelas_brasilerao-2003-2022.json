@@ -1,0 +1,3768 @@
+{
+    "2003": {
+        "Guarani": {
+            "jogos": 46,
+            "vitorias": 17,
+            "empates": 10,
+            "derrotas": 19,
+            "gols_marcados": 64,
+            "gols_sofridos": 72,
+            "pontos": 61
+        },
+        "Vasco": {
+            "jogos": 46,
+            "vitorias": 13,
+            "empates": 15,
+            "derrotas": 18,
+            "gols_marcados": 57,
+            "gols_sofridos": 69,
+            "pontos": 54
+        },
+        "Athletico-PR": {
+            "jogos": 46,
+            "vitorias": 17,
+            "empates": 10,
+            "derrotas": 19,
+            "gols_marcados": 66,
+            "gols_sofridos": 72,
+            "pontos": 61
+        },
+        "Gremio": {
+            "jogos": 46,
+            "vitorias": 13,
+            "empates": 11,
+            "derrotas": 22,
+            "gols_marcados": 54,
+            "gols_sofridos": 68,
+            "pontos": 50
+        },
+        "Flamengo": {
+            "jogos": 46,
+            "vitorias": 18,
+            "empates": 12,
+            "derrotas": 16,
+            "gols_marcados": 66,
+            "gols_sofridos": 73,
+            "pontos": 66
+        },
+        "Coritiba": {
+            "jogos": 46,
+            "vitorias": 21,
+            "empates": 10,
+            "derrotas": 15,
+            "gols_marcados": 67,
+            "gols_sofridos": 58,
+            "pontos": 73
+        },
+        "Goias": {
+            "jogos": 46,
+            "vitorias": 18,
+            "empates": 11,
+            "derrotas": 17,
+            "gols_marcados": 78,
+            "gols_sofridos": 63,
+            "pontos": 65
+        },
+        "Paysandu": {
+            "jogos": 46,
+            "vitorias": 15,
+            "empates": 12,
+            "derrotas": 19,
+            "gols_marcados": 74,
+            "gols_sofridos": 77,
+            "pontos": 57
+        },
+        "Internacional": {
+            "jogos": 46,
+            "vitorias": 20,
+            "empates": 10,
+            "derrotas": 16,
+            "gols_marcados": 59,
+            "gols_sofridos": 57,
+            "pontos": 70
+        },
+        "Ponte Preta": {
+            "jogos": 46,
+            "vitorias": 11,
+            "empates": 18,
+            "derrotas": 17,
+            "gols_marcados": 63,
+            "gols_sofridos": 73,
+            "pontos": 51
+        },
+        "Criciuma": {
+            "jogos": 46,
+            "vitorias": 17,
+            "empates": 9,
+            "derrotas": 20,
+            "gols_marcados": 57,
+            "gols_sofridos": 68,
+            "pontos": 60
+        },
+        "Fluminense": {
+            "jogos": 46,
+            "vitorias": 13,
+            "empates": 11,
+            "derrotas": 22,
+            "gols_marcados": 52,
+            "gols_sofridos": 77,
+            "pontos": 50
+        },
+        "Juventude": {
+            "jogos": 46,
+            "vitorias": 12,
+            "empates": 14,
+            "derrotas": 20,
+            "gols_marcados": 55,
+            "gols_sofridos": 70,
+            "pontos": 50
+        },
+        "Sao Paulo": {
+            "jogos": 46,
+            "vitorias": 22,
+            "empates": 12,
+            "derrotas": 12,
+            "gols_marcados": 81,
+            "gols_sofridos": 67,
+            "pontos": 78
+        },
+        "Fortaleza": {
+            "jogos": 46,
+            "vitorias": 12,
+            "empates": 13,
+            "derrotas": 21,
+            "gols_marcados": 58,
+            "gols_sofridos": 74,
+            "pontos": 49
+        },
+        "Bahia": {
+            "jogos": 46,
+            "vitorias": 12,
+            "empates": 10,
+            "derrotas": 24,
+            "gols_marcados": 59,
+            "gols_sofridos": 92,
+            "pontos": 46
+        },
+        "Cruzeiro": {
+            "jogos": 46,
+            "vitorias": 31,
+            "empates": 7,
+            "derrotas": 8,
+            "gols_marcados": 102,
+            "gols_sofridos": 47,
+            "pontos": 100
+        },
+        "Sao Caetano": {
+            "jogos": 46,
+            "vitorias": 19,
+            "empates": 14,
+            "derrotas": 13,
+            "gols_marcados": 53,
+            "gols_sofridos": 37,
+            "pontos": 71
+        },
+        "Vitoria": {
+            "jogos": 46,
+            "vitorias": 15,
+            "empates": 11,
+            "derrotas": 20,
+            "gols_marcados": 50,
+            "gols_sofridos": 64,
+            "pontos": 56
+        },
+        "Figueirense": {
+            "jogos": 46,
+            "vitorias": 17,
+            "empates": 14,
+            "derrotas": 15,
+            "gols_marcados": 62,
+            "gols_sofridos": 54,
+            "pontos": 65
+        },
+        "Santos": {
+            "jogos": 46,
+            "vitorias": 25,
+            "empates": 12,
+            "derrotas": 9,
+            "gols_marcados": 93,
+            "gols_sofridos": 60,
+            "pontos": 87
+        },
+        "Parana": {
+            "jogos": 46,
+            "vitorias": 18,
+            "empates": 11,
+            "derrotas": 17,
+            "gols_marcados": 85,
+            "gols_sofridos": 75,
+            "pontos": 65
+        },
+        "Corinthians": {
+            "jogos": 46,
+            "vitorias": 15,
+            "empates": 12,
+            "derrotas": 19,
+            "gols_marcados": 61,
+            "gols_sofridos": 63,
+            "pontos": 57
+        },
+        "Atletico-MG": {
+            "jogos": 46,
+            "vitorias": 19,
+            "empates": 15,
+            "derrotas": 12,
+            "gols_marcados": 76,
+            "gols_sofridos": 62,
+            "pontos": 72
+        }
+    },
+    "2004": {
+        "Botafogo-RJ": {
+            "jogos": 46,
+            "vitorias": 11,
+            "empates": 18,
+            "derrotas": 17,
+            "gols_marcados": 62,
+            "gols_sofridos": 71,
+            "pontos": 51
+        },
+        "Goias": {
+            "jogos": 46,
+            "vitorias": 21,
+            "empates": 9,
+            "derrotas": 16,
+            "gols_marcados": 81,
+            "gols_sofridos": 68,
+            "pontos": 72
+        },
+        "Figueirense": {
+            "jogos": 46,
+            "vitorias": 17,
+            "empates": 12,
+            "derrotas": 17,
+            "gols_marcados": 57,
+            "gols_sofridos": 59,
+            "pontos": 63
+        },
+        "Internacional": {
+            "jogos": 46,
+            "vitorias": 20,
+            "empates": 7,
+            "derrotas": 19,
+            "gols_marcados": 65,
+            "gols_sofridos": 58,
+            "pontos": 67
+        },
+        "Sao Caetano": {
+            "jogos": 46,
+            "vitorias": 23,
+            "empates": 8,
+            "derrotas": 15,
+            "gols_marcados": 65,
+            "gols_sofridos": 49,
+            "pontos": 77
+        },
+        "Vitoria": {
+            "jogos": 46,
+            "vitorias": 13,
+            "empates": 9,
+            "derrotas": 24,
+            "gols_marcados": 68,
+            "gols_sofridos": 87,
+            "pontos": 48
+        },
+        "Cruzeiro": {
+            "jogos": 46,
+            "vitorias": 16,
+            "empates": 8,
+            "derrotas": 22,
+            "gols_marcados": 69,
+            "gols_sofridos": 81,
+            "pontos": 56
+        },
+        "Juventude": {
+            "jogos": 46,
+            "vitorias": 20,
+            "empates": 10,
+            "derrotas": 16,
+            "gols_marcados": 60,
+            "gols_sofridos": 66,
+            "pontos": 70
+        },
+        "Palmeiras": {
+            "jogos": 46,
+            "vitorias": 22,
+            "empates": 13,
+            "derrotas": 11,
+            "gols_marcados": 72,
+            "gols_sofridos": 47,
+            "pontos": 79
+        },
+        "Atletico-MG": {
+            "jogos": 46,
+            "vitorias": 12,
+            "empates": 17,
+            "derrotas": 17,
+            "gols_marcados": 60,
+            "gols_sofridos": 66,
+            "pontos": 53
+        },
+        "Gremio": {
+            "jogos": 46,
+            "vitorias": 9,
+            "empates": 12,
+            "derrotas": 25,
+            "gols_marcados": 60,
+            "gols_sofridos": 80,
+            "pontos": 39
+        },
+        "Flamengo": {
+            "jogos": 46,
+            "vitorias": 13,
+            "empates": 15,
+            "derrotas": 18,
+            "gols_marcados": 51,
+            "gols_sofridos": 53,
+            "pontos": 54
+        },
+        "Ponte Preta": {
+            "jogos": 46,
+            "vitorias": 19,
+            "empates": 7,
+            "derrotas": 20,
+            "gols_marcados": 43,
+            "gols_sofridos": 73,
+            "pontos": 64
+        },
+        "Corinthians": {
+            "jogos": 46,
+            "vitorias": 20,
+            "empates": 14,
+            "derrotas": 12,
+            "gols_marcados": 54,
+            "gols_sofridos": 54,
+            "pontos": 74
+        },
+        "Parana": {
+            "jogos": 46,
+            "vitorias": 15,
+            "empates": 9,
+            "derrotas": 22,
+            "gols_marcados": 52,
+            "gols_sofridos": 73,
+            "pontos": 54
+        },
+        "Santos": {
+            "jogos": 46,
+            "vitorias": 27,
+            "empates": 8,
+            "derrotas": 11,
+            "gols_marcados": 103,
+            "gols_sofridos": 58,
+            "pontos": 89
+        },
+        "Coritiba": {
+            "jogos": 46,
+            "vitorias": 15,
+            "empates": 17,
+            "derrotas": 14,
+            "gols_marcados": 53,
+            "gols_sofridos": 48,
+            "pontos": 62
+        },
+        "Guarani": {
+            "jogos": 46,
+            "vitorias": 11,
+            "empates": 16,
+            "derrotas": 19,
+            "gols_marcados": 43,
+            "gols_sofridos": 55,
+            "pontos": 49
+        },
+        "Vasco": {
+            "jogos": 46,
+            "vitorias": 14,
+            "empates": 12,
+            "derrotas": 20,
+            "gols_marcados": 64,
+            "gols_sofridos": 68,
+            "pontos": 54
+        },
+        "Criciuma": {
+            "jogos": 46,
+            "vitorias": 13,
+            "empates": 11,
+            "derrotas": 22,
+            "gols_marcados": 60,
+            "gols_sofridos": 77,
+            "pontos": 50
+        },
+        "Paysandu": {
+            "jogos": 46,
+            "vitorias": 14,
+            "empates": 14,
+            "derrotas": 18,
+            "gols_marcados": 56,
+            "gols_sofridos": 76,
+            "pontos": 56
+        },
+        "Fluminense": {
+            "jogos": 46,
+            "vitorias": 18,
+            "empates": 13,
+            "derrotas": 15,
+            "gols_marcados": 65,
+            "gols_sofridos": 68,
+            "pontos": 67
+        },
+        "Sao Paulo": {
+            "jogos": 46,
+            "vitorias": 24,
+            "empates": 10,
+            "derrotas": 12,
+            "gols_marcados": 78,
+            "gols_sofridos": 43,
+            "pontos": 82
+        },
+        "Athletico-PR": {
+            "jogos": 46,
+            "vitorias": 25,
+            "empates": 11,
+            "derrotas": 10,
+            "gols_marcados": 93,
+            "gols_sofridos": 56,
+            "pontos": 86
+        }
+    },
+    "2005": {
+        "Parana": {
+            "jogos": 42,
+            "vitorias": 17,
+            "empates": 10,
+            "derrotas": 15,
+            "gols_marcados": 59,
+            "gols_sofridos": 51,
+            "pontos": 61
+        },
+        "Goias": {
+            "jogos": 42,
+            "vitorias": 22,
+            "empates": 8,
+            "derrotas": 12,
+            "gols_marcados": 68,
+            "gols_sofridos": 51,
+            "pontos": 74
+        },
+        "Atletico-MG": {
+            "jogos": 42,
+            "vitorias": 13,
+            "empates": 8,
+            "derrotas": 21,
+            "gols_marcados": 54,
+            "gols_sofridos": 59,
+            "pontos": 47
+        },
+        "Figueirense": {
+            "jogos": 42,
+            "vitorias": 14,
+            "empates": 11,
+            "derrotas": 17,
+            "gols_marcados": 65,
+            "gols_sofridos": 72,
+            "pontos": 53
+        },
+        "Sao Caetano": {
+            "jogos": 42,
+            "vitorias": 14,
+            "empates": 10,
+            "derrotas": 18,
+            "gols_marcados": 54,
+            "gols_sofridos": 60,
+            "pontos": 52
+        },
+        "Palmeiras": {
+            "jogos": 42,
+            "vitorias": 20,
+            "empates": 10,
+            "derrotas": 12,
+            "gols_marcados": 81,
+            "gols_sofridos": 65,
+            "pontos": 70
+        },
+        "Flamengo": {
+            "jogos": 42,
+            "vitorias": 14,
+            "empates": 13,
+            "derrotas": 15,
+            "gols_marcados": 56,
+            "gols_sofridos": 60,
+            "pontos": 55
+        },
+        "Cruzeiro": {
+            "jogos": 42,
+            "vitorias": 17,
+            "empates": 9,
+            "derrotas": 16,
+            "gols_marcados": 73,
+            "gols_sofridos": 72,
+            "pontos": 60
+        },
+        "Internacional": {
+            "jogos": 42,
+            "vitorias": 23,
+            "empates": 9,
+            "derrotas": 10,
+            "gols_marcados": 72,
+            "gols_sofridos": 49,
+            "pontos": 78
+        },
+        "Botafogo-RJ": {
+            "jogos": 42,
+            "vitorias": 17,
+            "empates": 8,
+            "derrotas": 17,
+            "gols_marcados": 57,
+            "gols_sofridos": 56,
+            "pontos": 59
+        },
+        "Fortaleza": {
+            "jogos": 42,
+            "vitorias": 16,
+            "empates": 7,
+            "derrotas": 19,
+            "gols_marcados": 58,
+            "gols_sofridos": 64,
+            "pontos": 55
+        },
+        "Coritiba": {
+            "jogos": 42,
+            "vitorias": 13,
+            "empates": 10,
+            "derrotas": 19,
+            "gols_marcados": 51,
+            "gols_sofridos": 60,
+            "pontos": 49
+        },
+        "Fluminense": {
+            "jogos": 42,
+            "vitorias": 19,
+            "empates": 11,
+            "derrotas": 12,
+            "gols_marcados": 79,
+            "gols_sofridos": 70,
+            "pontos": 68
+        },
+        "Sao Paulo": {
+            "jogos": 42,
+            "vitorias": 16,
+            "empates": 10,
+            "derrotas": 16,
+            "gols_marcados": 77,
+            "gols_sofridos": 67,
+            "pontos": 58
+        },
+        "Corinthians": {
+            "jogos": 42,
+            "vitorias": 24,
+            "empates": 9,
+            "derrotas": 9,
+            "gols_marcados": 87,
+            "gols_sofridos": 59,
+            "pontos": 81
+        },
+        "Juventude": {
+            "jogos": 42,
+            "vitorias": 15,
+            "empates": 10,
+            "derrotas": 17,
+            "gols_marcados": 66,
+            "gols_sofridos": 72,
+            "pontos": 55
+        },
+        "Athletico-PR": {
+            "jogos": 42,
+            "vitorias": 18,
+            "empates": 7,
+            "derrotas": 17,
+            "gols_marcados": 76,
+            "gols_sofridos": 67,
+            "pontos": 61
+        },
+        "Ponte Preta": {
+            "jogos": 42,
+            "vitorias": 15,
+            "empates": 6,
+            "derrotas": 21,
+            "gols_marcados": 63,
+            "gols_sofridos": 80,
+            "pontos": 51
+        },
+        "Brasiliense": {
+            "jogos": 42,
+            "vitorias": 10,
+            "empates": 12,
+            "derrotas": 20,
+            "gols_marcados": 49,
+            "gols_sofridos": 68,
+            "pontos": 42
+        },
+        "Vasco": {
+            "jogos": 42,
+            "vitorias": 14,
+            "empates": 12,
+            "derrotas": 16,
+            "gols_marcados": 75,
+            "gols_sofridos": 86,
+            "pontos": 54
+        },
+        "Santos": {
+            "jogos": 42,
+            "vitorias": 16,
+            "empates": 11,
+            "derrotas": 15,
+            "gols_marcados": 68,
+            "gols_sofridos": 71,
+            "pontos": 59
+        },
+        "Paysandu": {
+            "jogos": 42,
+            "vitorias": 12,
+            "empates": 5,
+            "derrotas": 25,
+            "gols_marcados": 63,
+            "gols_sofridos": 92,
+            "pontos": 41
+        }
+    },
+    "2006": {
+        "Juventude": {
+            "jogos": 38,
+            "vitorias": 13,
+            "empates": 8,
+            "derrotas": 17,
+            "gols_marcados": 44,
+            "gols_sofridos": 54,
+            "pontos": 47
+        },
+        "Parana": {
+            "jogos": 38,
+            "vitorias": 18,
+            "empates": 6,
+            "derrotas": 14,
+            "gols_marcados": 56,
+            "gols_sofridos": 49,
+            "pontos": 60
+        },
+        "Vasco": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 14,
+            "derrotas": 9,
+            "gols_marcados": 57,
+            "gols_sofridos": 50,
+            "pontos": 59
+        },
+        "Internacional": {
+            "jogos": 38,
+            "vitorias": 20,
+            "empates": 9,
+            "derrotas": 9,
+            "gols_marcados": 52,
+            "gols_sofridos": 36,
+            "pontos": 69
+        },
+        "Sao Paulo": {
+            "jogos": 38,
+            "vitorias": 22,
+            "empates": 12,
+            "derrotas": 4,
+            "gols_marcados": 66,
+            "gols_sofridos": 32,
+            "pontos": 78
+        },
+        "Flamengo": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 7,
+            "derrotas": 16,
+            "gols_marcados": 44,
+            "gols_sofridos": 48,
+            "pontos": 52
+        },
+        "Gremio": {
+            "jogos": 38,
+            "vitorias": 20,
+            "empates": 7,
+            "derrotas": 11,
+            "gols_marcados": 64,
+            "gols_sofridos": 45,
+            "pontos": 67
+        },
+        "Corinthians": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 8,
+            "derrotas": 15,
+            "gols_marcados": 41,
+            "gols_sofridos": 46,
+            "pontos": 53
+        },
+        "Botafogo-RJ": {
+            "jogos": 38,
+            "vitorias": 13,
+            "empates": 12,
+            "derrotas": 13,
+            "gols_marcados": 52,
+            "gols_sofridos": 50,
+            "pontos": 51
+        },
+        "Fortaleza": {
+            "jogos": 38,
+            "vitorias": 8,
+            "empates": 14,
+            "derrotas": 16,
+            "gols_marcados": 39,
+            "gols_sofridos": 62,
+            "pontos": 38
+        },
+        "Sao Caetano": {
+            "jogos": 38,
+            "vitorias": 9,
+            "empates": 9,
+            "derrotas": 20,
+            "gols_marcados": 37,
+            "gols_sofridos": 53,
+            "pontos": 36
+        },
+        "Cruzeiro": {
+            "jogos": 38,
+            "vitorias": 14,
+            "empates": 11,
+            "derrotas": 13,
+            "gols_marcados": 52,
+            "gols_sofridos": 45,
+            "pontos": 53
+        },
+        "Palmeiras": {
+            "jogos": 38,
+            "vitorias": 12,
+            "empates": 8,
+            "derrotas": 18,
+            "gols_marcados": 58,
+            "gols_sofridos": 70,
+            "pontos": 44
+        },
+        "Ponte Preta": {
+            "jogos": 38,
+            "vitorias": 10,
+            "empates": 9,
+            "derrotas": 19,
+            "gols_marcados": 45,
+            "gols_sofridos": 65,
+            "pontos": 39
+        },
+        "Santa Cruz": {
+            "jogos": 38,
+            "vitorias": 7,
+            "empates": 7,
+            "derrotas": 24,
+            "gols_marcados": 41,
+            "gols_sofridos": 76,
+            "pontos": 28
+        },
+        "Figueirense": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 12,
+            "derrotas": 11,
+            "gols_marcados": 52,
+            "gols_sofridos": 44,
+            "pontos": 57
+        },
+        "Athletico-PR": {
+            "jogos": 38,
+            "vitorias": 13,
+            "empates": 9,
+            "derrotas": 16,
+            "gols_marcados": 61,
+            "gols_sofridos": 62,
+            "pontos": 48
+        },
+        "Fluminense": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 12,
+            "derrotas": 15,
+            "gols_marcados": 48,
+            "gols_sofridos": 58,
+            "pontos": 45
+        },
+        "Goias": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 10,
+            "derrotas": 13,
+            "gols_marcados": 63,
+            "gols_sofridos": 49,
+            "pontos": 55
+        },
+        "Santos": {
+            "jogos": 38,
+            "vitorias": 18,
+            "empates": 10,
+            "derrotas": 10,
+            "gols_marcados": 58,
+            "gols_sofridos": 36,
+            "pontos": 64
+        }
+    },
+    "2007": {
+        "Figueirense": {
+            "jogos": 38,
+            "vitorias": 14,
+            "empates": 11,
+            "derrotas": 13,
+            "gols_marcados": 57,
+            "gols_sofridos": 56,
+            "pontos": 53
+        },
+        "Athletico-PR": {
+            "jogos": 38,
+            "vitorias": 14,
+            "empates": 12,
+            "derrotas": 12,
+            "gols_marcados": 51,
+            "gols_sofridos": 50,
+            "pontos": 54
+        },
+        "Sao Paulo": {
+            "jogos": 38,
+            "vitorias": 23,
+            "empates": 8,
+            "derrotas": 7,
+            "gols_marcados": 55,
+            "gols_sofridos": 19,
+            "pontos": 77
+        },
+        "Goias": {
+            "jogos": 38,
+            "vitorias": 13,
+            "empates": 6,
+            "derrotas": 19,
+            "gols_marcados": 49,
+            "gols_sofridos": 62,
+            "pontos": 45
+        },
+        "Fluminense": {
+            "jogos": 38,
+            "vitorias": 16,
+            "empates": 13,
+            "derrotas": 9,
+            "gols_marcados": 57,
+            "gols_sofridos": 39,
+            "pontos": 61
+        },
+        "Cruzeiro": {
+            "jogos": 38,
+            "vitorias": 18,
+            "empates": 6,
+            "derrotas": 14,
+            "gols_marcados": 73,
+            "gols_sofridos": 58,
+            "pontos": 60
+        },
+        "Flamengo": {
+            "jogos": 38,
+            "vitorias": 17,
+            "empates": 10,
+            "derrotas": 11,
+            "gols_marcados": 55,
+            "gols_sofridos": 49,
+            "pontos": 61
+        },
+        "Palmeiras": {
+            "jogos": 38,
+            "vitorias": 16,
+            "empates": 10,
+            "derrotas": 12,
+            "gols_marcados": 48,
+            "gols_sofridos": 47,
+            "pontos": 58
+        },
+        "Internacional": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 9,
+            "derrotas": 14,
+            "gols_marcados": 49,
+            "gols_sofridos": 44,
+            "pontos": 54
+        },
+        "Botafogo-RJ": {
+            "jogos": 38,
+            "vitorias": 14,
+            "empates": 13,
+            "derrotas": 11,
+            "gols_marcados": 62,
+            "gols_sofridos": 58,
+            "pontos": 55
+        },
+        "Parana": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 8,
+            "derrotas": 19,
+            "gols_marcados": 42,
+            "gols_sofridos": 64,
+            "pontos": 41
+        },
+        "Gremio": {
+            "jogos": 38,
+            "vitorias": 17,
+            "empates": 7,
+            "derrotas": 14,
+            "gols_marcados": 44,
+            "gols_sofridos": 43,
+            "pontos": 58
+        },
+        "Atletico-MG": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 10,
+            "derrotas": 13,
+            "gols_marcados": 63,
+            "gols_sofridos": 51,
+            "pontos": 55
+        },
+        "Nautico": {
+            "jogos": 38,
+            "vitorias": 14,
+            "empates": 7,
+            "derrotas": 17,
+            "gols_marcados": 66,
+            "gols_sofridos": 63,
+            "pontos": 49
+        },
+        "Corinthians": {
+            "jogos": 38,
+            "vitorias": 10,
+            "empates": 14,
+            "derrotas": 14,
+            "gols_marcados": 40,
+            "gols_sofridos": 50,
+            "pontos": 44
+        },
+        "Juventude": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 8,
+            "derrotas": 19,
+            "gols_marcados": 43,
+            "gols_sofridos": 65,
+            "pontos": 41
+        },
+        "America-RN": {
+            "jogos": 38,
+            "vitorias": 4,
+            "empates": 5,
+            "derrotas": 29,
+            "gols_marcados": 24,
+            "gols_sofridos": 80,
+            "pontos": 17
+        },
+        "Vasco": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 9,
+            "derrotas": 14,
+            "gols_marcados": 58,
+            "gols_sofridos": 47,
+            "pontos": 54
+        },
+        "Sport": {
+            "jogos": 38,
+            "vitorias": 14,
+            "empates": 9,
+            "derrotas": 15,
+            "gols_marcados": 54,
+            "gols_sofridos": 55,
+            "pontos": 51
+        },
+        "Santos": {
+            "jogos": 38,
+            "vitorias": 19,
+            "empates": 5,
+            "derrotas": 14,
+            "gols_marcados": 57,
+            "gols_sofridos": 47,
+            "pontos": 62
+        }
+    },
+    "2008": {
+        "Nautico": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 11,
+            "derrotas": 16,
+            "gols_marcados": 44,
+            "gols_sofridos": 54,
+            "pontos": 44
+        },
+        "Goias": {
+            "jogos": 38,
+            "vitorias": 14,
+            "empates": 11,
+            "derrotas": 13,
+            "gols_marcados": 57,
+            "gols_sofridos": 47,
+            "pontos": 53
+        },
+        "Sao Paulo": {
+            "jogos": 38,
+            "vitorias": 21,
+            "empates": 12,
+            "derrotas": 5,
+            "gols_marcados": 66,
+            "gols_sofridos": 36,
+            "pontos": 75
+        },
+        "Gremio": {
+            "jogos": 38,
+            "vitorias": 21,
+            "empates": 9,
+            "derrotas": 8,
+            "gols_marcados": 59,
+            "gols_sofridos": 35,
+            "pontos": 72
+        },
+        "Vitoria": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 7,
+            "derrotas": 16,
+            "gols_marcados": 48,
+            "gols_sofridos": 44,
+            "pontos": 52
+        },
+        "Cruzeiro": {
+            "jogos": 38,
+            "vitorias": 21,
+            "empates": 4,
+            "derrotas": 13,
+            "gols_marcados": 59,
+            "gols_sofridos": 44,
+            "pontos": 67
+        },
+        "Coritiba": {
+            "jogos": 38,
+            "vitorias": 14,
+            "empates": 11,
+            "derrotas": 13,
+            "gols_marcados": 55,
+            "gols_sofridos": 48,
+            "pontos": 53
+        },
+        "Palmeiras": {
+            "jogos": 38,
+            "vitorias": 19,
+            "empates": 8,
+            "derrotas": 11,
+            "gols_marcados": 55,
+            "gols_sofridos": 45,
+            "pontos": 65
+        },
+        "Internacional": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 9,
+            "derrotas": 14,
+            "gols_marcados": 48,
+            "gols_sofridos": 47,
+            "pontos": 54
+        },
+        "Vasco": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 7,
+            "derrotas": 20,
+            "gols_marcados": 56,
+            "gols_sofridos": 72,
+            "pontos": 40
+        },
+        "Botafogo-RJ": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 8,
+            "derrotas": 15,
+            "gols_marcados": 51,
+            "gols_sofridos": 44,
+            "pontos": 53
+        },
+        "Sport": {
+            "jogos": 38,
+            "vitorias": 14,
+            "empates": 10,
+            "derrotas": 14,
+            "gols_marcados": 48,
+            "gols_sofridos": 45,
+            "pontos": 52
+        },
+        "Ipatinga": {
+            "jogos": 38,
+            "vitorias": 9,
+            "empates": 8,
+            "derrotas": 21,
+            "gols_marcados": 37,
+            "gols_sofridos": 67,
+            "pontos": 35
+        },
+        "Athletico-PR": {
+            "jogos": 38,
+            "vitorias": 12,
+            "empates": 9,
+            "derrotas": 17,
+            "gols_marcados": 45,
+            "gols_sofridos": 54,
+            "pontos": 45
+        },
+        "Portuguesa": {
+            "jogos": 38,
+            "vitorias": 9,
+            "empates": 11,
+            "derrotas": 18,
+            "gols_marcados": 48,
+            "gols_sofridos": 70,
+            "pontos": 38
+        },
+        "Figueirense": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 11,
+            "derrotas": 16,
+            "gols_marcados": 49,
+            "gols_sofridos": 73,
+            "pontos": 44
+        },
+        "Atletico-MG": {
+            "jogos": 38,
+            "vitorias": 12,
+            "empates": 12,
+            "derrotas": 14,
+            "gols_marcados": 50,
+            "gols_sofridos": 61,
+            "pontos": 48
+        },
+        "Fluminense": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 12,
+            "derrotas": 15,
+            "gols_marcados": 49,
+            "gols_sofridos": 48,
+            "pontos": 45
+        },
+        "Flamengo": {
+            "jogos": 38,
+            "vitorias": 18,
+            "empates": 10,
+            "derrotas": 10,
+            "gols_marcados": 67,
+            "gols_sofridos": 48,
+            "pontos": 64
+        },
+        "Santos": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 12,
+            "derrotas": 15,
+            "gols_marcados": 44,
+            "gols_sofridos": 53,
+            "pontos": 45
+        }
+    },
+    "2009": {
+        "Sport": {
+            "jogos": 38,
+            "vitorias": 7,
+            "empates": 10,
+            "derrotas": 21,
+            "gols_marcados": 48,
+            "gols_sofridos": 71,
+            "pontos": 31
+        },
+        "Barueri": {
+            "jogos": 38,
+            "vitorias": 12,
+            "empates": 13,
+            "derrotas": 13,
+            "gols_marcados": 59,
+            "gols_sofridos": 52,
+            "pontos": 49
+        },
+        "Palmeiras": {
+            "jogos": 38,
+            "vitorias": 17,
+            "empates": 11,
+            "derrotas": 10,
+            "gols_marcados": 58,
+            "gols_sofridos": 45,
+            "pontos": 62
+        },
+        "Coritiba": {
+            "jogos": 38,
+            "vitorias": 12,
+            "empates": 9,
+            "derrotas": 17,
+            "gols_marcados": 48,
+            "gols_sofridos": 60,
+            "pontos": 45
+        },
+        "Avai": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 12,
+            "derrotas": 11,
+            "gols_marcados": 61,
+            "gols_sofridos": 52,
+            "pontos": 57
+        },
+        "Atletico-MG": {
+            "jogos": 38,
+            "vitorias": 16,
+            "empates": 8,
+            "derrotas": 14,
+            "gols_marcados": 55,
+            "gols_sofridos": 56,
+            "pontos": 56
+        },
+        "Corinthians": {
+            "jogos": 38,
+            "vitorias": 14,
+            "empates": 10,
+            "derrotas": 14,
+            "gols_marcados": 50,
+            "gols_sofridos": 54,
+            "pontos": 52
+        },
+        "Internacional": {
+            "jogos": 38,
+            "vitorias": 19,
+            "empates": 8,
+            "derrotas": 11,
+            "gols_marcados": 65,
+            "gols_sofridos": 44,
+            "pontos": 65
+        },
+        "Fluminense": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 13,
+            "derrotas": 14,
+            "gols_marcados": 49,
+            "gols_sofridos": 56,
+            "pontos": 46
+        },
+        "Sao Paulo": {
+            "jogos": 38,
+            "vitorias": 18,
+            "empates": 11,
+            "derrotas": 9,
+            "gols_marcados": 57,
+            "gols_sofridos": 42,
+            "pontos": 65
+        },
+        "Athletico-PR": {
+            "jogos": 38,
+            "vitorias": 13,
+            "empates": 9,
+            "derrotas": 16,
+            "gols_marcados": 42,
+            "gols_sofridos": 49,
+            "pontos": 48
+        },
+        "Vitoria": {
+            "jogos": 38,
+            "vitorias": 13,
+            "empates": 9,
+            "derrotas": 16,
+            "gols_marcados": 51,
+            "gols_sofridos": 57,
+            "pontos": 48
+        },
+        "Cruzeiro": {
+            "jogos": 38,
+            "vitorias": 18,
+            "empates": 8,
+            "derrotas": 12,
+            "gols_marcados": 58,
+            "gols_sofridos": 53,
+            "pontos": 62
+        },
+        "Flamengo": {
+            "jogos": 38,
+            "vitorias": 19,
+            "empates": 10,
+            "derrotas": 9,
+            "gols_marcados": 58,
+            "gols_sofridos": 44,
+            "pontos": 67
+        },
+        "Gremio": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 10,
+            "derrotas": 13,
+            "gols_marcados": 67,
+            "gols_sofridos": 46,
+            "pontos": 55
+        },
+        "Santos": {
+            "jogos": 38,
+            "vitorias": 12,
+            "empates": 13,
+            "derrotas": 13,
+            "gols_marcados": 58,
+            "gols_sofridos": 58,
+            "pontos": 49
+        },
+        "Santo Andre": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 8,
+            "derrotas": 19,
+            "gols_marcados": 46,
+            "gols_sofridos": 61,
+            "pontos": 41
+        },
+        "Botafogo-RJ": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 14,
+            "derrotas": 13,
+            "gols_marcados": 52,
+            "gols_sofridos": 58,
+            "pontos": 47
+        },
+        "Goias": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 10,
+            "derrotas": 13,
+            "gols_marcados": 64,
+            "gols_sofridos": 65,
+            "pontos": 55
+        },
+        "Nautico": {
+            "jogos": 38,
+            "vitorias": 10,
+            "empates": 8,
+            "derrotas": 20,
+            "gols_marcados": 48,
+            "gols_sofridos": 71,
+            "pontos": 38
+        }
+    },
+    "2010": {
+        "Botafogo-RJ": {
+            "jogos": 38,
+            "vitorias": 14,
+            "empates": 17,
+            "derrotas": 7,
+            "gols_marcados": 54,
+            "gols_sofridos": 42,
+            "pontos": 59
+        },
+        "Santos": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 11,
+            "derrotas": 12,
+            "gols_marcados": 63,
+            "gols_sofridos": 50,
+            "pontos": 56
+        },
+        "Atletico-GO": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 9,
+            "derrotas": 18,
+            "gols_marcados": 51,
+            "gols_sofridos": 57,
+            "pontos": 42
+        },
+        "Gremio": {
+            "jogos": 38,
+            "vitorias": 17,
+            "empates": 12,
+            "derrotas": 9,
+            "gols_marcados": 68,
+            "gols_sofridos": 43,
+            "pontos": 63
+        },
+        "Palmeiras": {
+            "jogos": 38,
+            "vitorias": 12,
+            "empates": 14,
+            "derrotas": 12,
+            "gols_marcados": 42,
+            "gols_sofridos": 43,
+            "pontos": 50
+        },
+        "Vitoria": {
+            "jogos": 38,
+            "vitorias": 9,
+            "empates": 15,
+            "derrotas": 14,
+            "gols_marcados": 42,
+            "gols_sofridos": 48,
+            "pontos": 42
+        },
+        "Flamengo": {
+            "jogos": 38,
+            "vitorias": 9,
+            "empates": 17,
+            "derrotas": 12,
+            "gols_marcados": 41,
+            "gols_sofridos": 44,
+            "pontos": 44
+        },
+        "Sao Paulo": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 10,
+            "derrotas": 13,
+            "gols_marcados": 54,
+            "gols_sofridos": 54,
+            "pontos": 55
+        },
+        "Atletico-MG": {
+            "jogos": 38,
+            "vitorias": 13,
+            "empates": 6,
+            "derrotas": 19,
+            "gols_marcados": 52,
+            "gols_sofridos": 64,
+            "pontos": 45
+        },
+        "Vasco": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 16,
+            "derrotas": 11,
+            "gols_marcados": 43,
+            "gols_sofridos": 45,
+            "pontos": 49
+        },
+        "Internacional": {
+            "jogos": 38,
+            "vitorias": 16,
+            "empates": 10,
+            "derrotas": 12,
+            "gols_marcados": 48,
+            "gols_sofridos": 41,
+            "pontos": 58
+        },
+        "Cruzeiro": {
+            "jogos": 38,
+            "vitorias": 20,
+            "empates": 9,
+            "derrotas": 9,
+            "gols_marcados": 53,
+            "gols_sofridos": 38,
+            "pontos": 69
+        },
+        "Corinthians": {
+            "jogos": 38,
+            "vitorias": 19,
+            "empates": 11,
+            "derrotas": 8,
+            "gols_marcados": 65,
+            "gols_sofridos": 41,
+            "pontos": 68
+        },
+        "Athletico-PR": {
+            "jogos": 38,
+            "vitorias": 17,
+            "empates": 9,
+            "derrotas": 12,
+            "gols_marcados": 43,
+            "gols_sofridos": 45,
+            "pontos": 60
+        },
+        "Ceara": {
+            "jogos": 38,
+            "vitorias": 10,
+            "empates": 17,
+            "derrotas": 11,
+            "gols_marcados": 35,
+            "gols_sofridos": 44,
+            "pontos": 47
+        },
+        "Fluminense": {
+            "jogos": 38,
+            "vitorias": 20,
+            "empates": 11,
+            "derrotas": 7,
+            "gols_marcados": 62,
+            "gols_sofridos": 36,
+            "pontos": 71
+        },
+        "Guarani": {
+            "jogos": 38,
+            "vitorias": 8,
+            "empates": 13,
+            "derrotas": 17,
+            "gols_marcados": 33,
+            "gols_sofridos": 53,
+            "pontos": 37
+        },
+        "Goias": {
+            "jogos": 38,
+            "vitorias": 8,
+            "empates": 9,
+            "derrotas": 21,
+            "gols_marcados": 41,
+            "gols_sofridos": 68,
+            "pontos": 33
+        },
+        "Avai": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 10,
+            "derrotas": 17,
+            "gols_marcados": 49,
+            "gols_sofridos": 58,
+            "pontos": 43
+        },
+        "Gremio Prudente": {
+            "jogos": 38,
+            "vitorias": 7,
+            "empates": 10,
+            "derrotas": 21,
+            "gols_marcados": 39,
+            "gols_sofridos": 64,
+            "pontos": 31
+        }
+    },
+    "2011": {
+        "Atletico-MG": {
+            "jogos": 38,
+            "vitorias": 13,
+            "empates": 6,
+            "derrotas": 19,
+            "gols_marcados": 50,
+            "gols_sofridos": 60,
+            "pontos": 45
+        },
+        "Athletico-PR": {
+            "jogos": 38,
+            "vitorias": 10,
+            "empates": 11,
+            "derrotas": 17,
+            "gols_marcados": 38,
+            "gols_sofridos": 55,
+            "pontos": 41
+        },
+        "Flamengo": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 16,
+            "derrotas": 7,
+            "gols_marcados": 59,
+            "gols_sofridos": 47,
+            "pontos": 61
+        },
+        "Avai": {
+            "jogos": 38,
+            "vitorias": 7,
+            "empates": 10,
+            "derrotas": 21,
+            "gols_marcados": 45,
+            "gols_sofridos": 75,
+            "pontos": 31
+        },
+        "Ceara": {
+            "jogos": 38,
+            "vitorias": 10,
+            "empates": 9,
+            "derrotas": 19,
+            "gols_marcados": 47,
+            "gols_sofridos": 64,
+            "pontos": 39
+        },
+        "Vasco": {
+            "jogos": 38,
+            "vitorias": 19,
+            "empates": 12,
+            "derrotas": 7,
+            "gols_marcados": 57,
+            "gols_sofridos": 40,
+            "pontos": 69
+        },
+        "Santos": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 8,
+            "derrotas": 15,
+            "gols_marcados": 55,
+            "gols_sofridos": 55,
+            "pontos": 53
+        },
+        "Internacional": {
+            "jogos": 38,
+            "vitorias": 16,
+            "empates": 12,
+            "derrotas": 10,
+            "gols_marcados": 57,
+            "gols_sofridos": 43,
+            "pontos": 60
+        },
+        "Palmeiras": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 17,
+            "derrotas": 10,
+            "gols_marcados": 43,
+            "gols_sofridos": 39,
+            "pontos": 50
+        },
+        "Botafogo-RJ": {
+            "jogos": 38,
+            "vitorias": 16,
+            "empates": 8,
+            "derrotas": 14,
+            "gols_marcados": 52,
+            "gols_sofridos": 49,
+            "pontos": 56
+        },
+        "Gremio": {
+            "jogos": 38,
+            "vitorias": 13,
+            "empates": 9,
+            "derrotas": 16,
+            "gols_marcados": 49,
+            "gols_sofridos": 57,
+            "pontos": 48
+        },
+        "Corinthians": {
+            "jogos": 38,
+            "vitorias": 21,
+            "empates": 8,
+            "derrotas": 9,
+            "gols_marcados": 53,
+            "gols_sofridos": 36,
+            "pontos": 71
+        },
+        "Coritiba": {
+            "jogos": 38,
+            "vitorias": 16,
+            "empates": 9,
+            "derrotas": 13,
+            "gols_marcados": 57,
+            "gols_sofridos": 41,
+            "pontos": 57
+        },
+        "Atletico-GO": {
+            "jogos": 38,
+            "vitorias": 12,
+            "empates": 12,
+            "derrotas": 14,
+            "gols_marcados": 50,
+            "gols_sofridos": 45,
+            "pontos": 48
+        },
+        "Figueirense": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 13,
+            "derrotas": 10,
+            "gols_marcados": 46,
+            "gols_sofridos": 45,
+            "pontos": 58
+        },
+        "Cruzeiro": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 10,
+            "derrotas": 17,
+            "gols_marcados": 48,
+            "gols_sofridos": 51,
+            "pontos": 43
+        },
+        "Fluminense": {
+            "jogos": 38,
+            "vitorias": 20,
+            "empates": 3,
+            "derrotas": 15,
+            "gols_marcados": 60,
+            "gols_sofridos": 51,
+            "pontos": 63
+        },
+        "Sao Paulo": {
+            "jogos": 38,
+            "vitorias": 16,
+            "empates": 11,
+            "derrotas": 11,
+            "gols_marcados": 57,
+            "gols_sofridos": 46,
+            "pontos": 59
+        },
+        "America-MG": {
+            "jogos": 38,
+            "vitorias": 8,
+            "empates": 13,
+            "derrotas": 17,
+            "gols_marcados": 51,
+            "gols_sofridos": 69,
+            "pontos": 37
+        },
+        "Bahia": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 13,
+            "derrotas": 14,
+            "gols_marcados": 43,
+            "gols_sofridos": 49,
+            "pontos": 46
+        }
+    },
+    "2012": {
+        "Palmeiras": {
+            "jogos": 38,
+            "vitorias": 9,
+            "empates": 7,
+            "derrotas": 22,
+            "gols_marcados": 39,
+            "gols_sofridos": 54,
+            "pontos": 34
+        },
+        "Portuguesa": {
+            "jogos": 38,
+            "vitorias": 10,
+            "empates": 15,
+            "derrotas": 13,
+            "gols_marcados": 39,
+            "gols_sofridos": 41,
+            "pontos": 45
+        },
+        "Sport": {
+            "jogos": 38,
+            "vitorias": 10,
+            "empates": 11,
+            "derrotas": 17,
+            "gols_marcados": 39,
+            "gols_sofridos": 56,
+            "pontos": 41
+        },
+        "Flamengo": {
+            "jogos": 38,
+            "vitorias": 12,
+            "empates": 14,
+            "derrotas": 12,
+            "gols_marcados": 39,
+            "gols_sofridos": 46,
+            "pontos": 50
+        },
+        "Figueirense": {
+            "jogos": 38,
+            "vitorias": 7,
+            "empates": 9,
+            "derrotas": 22,
+            "gols_marcados": 39,
+            "gols_sofridos": 72,
+            "pontos": 30
+        },
+        "Nautico": {
+            "jogos": 38,
+            "vitorias": 14,
+            "empates": 7,
+            "derrotas": 17,
+            "gols_marcados": 44,
+            "gols_sofridos": 51,
+            "pontos": 49
+        },
+        "Corinthians": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 12,
+            "derrotas": 11,
+            "gols_marcados": 51,
+            "gols_sofridos": 39,
+            "pontos": 57
+        },
+        "Fluminense": {
+            "jogos": 38,
+            "vitorias": 22,
+            "empates": 11,
+            "derrotas": 5,
+            "gols_marcados": 61,
+            "gols_sofridos": 33,
+            "pontos": 77
+        },
+        "Internacional": {
+            "jogos": 38,
+            "vitorias": 13,
+            "empates": 13,
+            "derrotas": 12,
+            "gols_marcados": 44,
+            "gols_sofridos": 40,
+            "pontos": 52
+        },
+        "Coritiba": {
+            "jogos": 38,
+            "vitorias": 14,
+            "empates": 6,
+            "derrotas": 18,
+            "gols_marcados": 53,
+            "gols_sofridos": 60,
+            "pontos": 48
+        },
+        "Botafogo-RJ": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 10,
+            "derrotas": 13,
+            "gols_marcados": 60,
+            "gols_sofridos": 50,
+            "pontos": 55
+        },
+        "Sao Paulo": {
+            "jogos": 38,
+            "vitorias": 20,
+            "empates": 6,
+            "derrotas": 12,
+            "gols_marcados": 59,
+            "gols_sofridos": 37,
+            "pontos": 66
+        },
+        "Ponte Preta": {
+            "jogos": 38,
+            "vitorias": 12,
+            "empates": 12,
+            "derrotas": 14,
+            "gols_marcados": 37,
+            "gols_sofridos": 44,
+            "pontos": 48
+        },
+        "Atletico-MG": {
+            "jogos": 38,
+            "vitorias": 20,
+            "empates": 12,
+            "derrotas": 6,
+            "gols_marcados": 64,
+            "gols_sofridos": 37,
+            "pontos": 72
+        },
+        "Cruzeiro": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 7,
+            "derrotas": 16,
+            "gols_marcados": 47,
+            "gols_sofridos": 51,
+            "pontos": 52
+        },
+        "Atletico-GO": {
+            "jogos": 38,
+            "vitorias": 7,
+            "empates": 9,
+            "derrotas": 22,
+            "gols_marcados": 37,
+            "gols_sofridos": 67,
+            "pontos": 30
+        },
+        "Bahia": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 14,
+            "derrotas": 13,
+            "gols_marcados": 37,
+            "gols_sofridos": 41,
+            "pontos": 47
+        },
+        "Santos": {
+            "jogos": 38,
+            "vitorias": 13,
+            "empates": 14,
+            "derrotas": 11,
+            "gols_marcados": 50,
+            "gols_sofridos": 44,
+            "pontos": 53
+        },
+        "Vasco": {
+            "jogos": 38,
+            "vitorias": 16,
+            "empates": 10,
+            "derrotas": 12,
+            "gols_marcados": 45,
+            "gols_sofridos": 44,
+            "pontos": 58
+        },
+        "Gremio": {
+            "jogos": 38,
+            "vitorias": 20,
+            "empates": 11,
+            "derrotas": 7,
+            "gols_marcados": 56,
+            "gols_sofridos": 33,
+            "pontos": 71
+        }
+    },
+    "2013": {
+        "Vitoria": {
+            "jogos": 38,
+            "vitorias": 16,
+            "empates": 11,
+            "derrotas": 11,
+            "gols_marcados": 59,
+            "gols_sofridos": 53,
+            "pontos": 59
+        },
+        "Internacional": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 15,
+            "derrotas": 12,
+            "gols_marcados": 51,
+            "gols_sofridos": 52,
+            "pontos": 48
+        },
+        "Vasco": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 11,
+            "derrotas": 16,
+            "gols_marcados": 50,
+            "gols_sofridos": 61,
+            "pontos": 44
+        },
+        "Portuguesa": {
+            "jogos": 38,
+            "vitorias": 12,
+            "empates": 12,
+            "derrotas": 14,
+            "gols_marcados": 50,
+            "gols_sofridos": 46,
+            "pontos": 48
+        },
+        "Corinthians": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 17,
+            "derrotas": 10,
+            "gols_marcados": 27,
+            "gols_sofridos": 22,
+            "pontos": 50
+        },
+        "Botafogo-RJ": {
+            "jogos": 38,
+            "vitorias": 17,
+            "empates": 10,
+            "derrotas": 11,
+            "gols_marcados": 55,
+            "gols_sofridos": 41,
+            "pontos": 61
+        },
+        "Gremio": {
+            "jogos": 38,
+            "vitorias": 18,
+            "empates": 11,
+            "derrotas": 9,
+            "gols_marcados": 42,
+            "gols_sofridos": 35,
+            "pontos": 65
+        },
+        "Nautico": {
+            "jogos": 38,
+            "vitorias": 5,
+            "empates": 5,
+            "derrotas": 28,
+            "gols_marcados": 22,
+            "gols_sofridos": 79,
+            "pontos": 20
+        },
+        "Criciuma": {
+            "jogos": 38,
+            "vitorias": 13,
+            "empates": 7,
+            "derrotas": 18,
+            "gols_marcados": 49,
+            "gols_sofridos": 63,
+            "pontos": 46
+        },
+        "Bahia": {
+            "jogos": 38,
+            "vitorias": 12,
+            "empates": 12,
+            "derrotas": 14,
+            "gols_marcados": 37,
+            "gols_sofridos": 45,
+            "pontos": 48
+        },
+        "Ponte Preta": {
+            "jogos": 38,
+            "vitorias": 9,
+            "empates": 10,
+            "derrotas": 19,
+            "gols_marcados": 37,
+            "gols_sofridos": 55,
+            "pontos": 37
+        },
+        "Sao Paulo": {
+            "jogos": 38,
+            "vitorias": 14,
+            "empates": 8,
+            "derrotas": 16,
+            "gols_marcados": 39,
+            "gols_sofridos": 40,
+            "pontos": 50
+        },
+        "Santos": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 12,
+            "derrotas": 11,
+            "gols_marcados": 51,
+            "gols_sofridos": 38,
+            "pontos": 57
+        },
+        "Flamengo": {
+            "jogos": 38,
+            "vitorias": 12,
+            "empates": 13,
+            "derrotas": 13,
+            "gols_marcados": 43,
+            "gols_sofridos": 46,
+            "pontos": 49
+        },
+        "Coritiba": {
+            "jogos": 38,
+            "vitorias": 12,
+            "empates": 12,
+            "derrotas": 14,
+            "gols_marcados": 42,
+            "gols_sofridos": 45,
+            "pontos": 48
+        },
+        "Atletico-MG": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 12,
+            "derrotas": 11,
+            "gols_marcados": 49,
+            "gols_sofridos": 38,
+            "pontos": 57
+        },
+        "Cruzeiro": {
+            "jogos": 38,
+            "vitorias": 23,
+            "empates": 7,
+            "derrotas": 8,
+            "gols_marcados": 77,
+            "gols_sofridos": 37,
+            "pontos": 76
+        },
+        "Goias": {
+            "jogos": 38,
+            "vitorias": 16,
+            "empates": 11,
+            "derrotas": 11,
+            "gols_marcados": 48,
+            "gols_sofridos": 44,
+            "pontos": 59
+        },
+        "Fluminense": {
+            "jogos": 38,
+            "vitorias": 12,
+            "empates": 10,
+            "derrotas": 16,
+            "gols_marcados": 43,
+            "gols_sofridos": 47,
+            "pontos": 46
+        },
+        "Athletico-PR": {
+            "jogos": 38,
+            "vitorias": 18,
+            "empates": 10,
+            "derrotas": 10,
+            "gols_marcados": 65,
+            "gols_sofridos": 49,
+            "pontos": 64
+        }
+    },
+    "2014": {
+        "Fluminense": {
+            "jogos": 38,
+            "vitorias": 17,
+            "empates": 10,
+            "derrotas": 11,
+            "gols_marcados": 61,
+            "gols_sofridos": 42,
+            "pontos": 61
+        },
+        "Figueirense": {
+            "jogos": 38,
+            "vitorias": 13,
+            "empates": 8,
+            "derrotas": 17,
+            "gols_marcados": 37,
+            "gols_sofridos": 47,
+            "pontos": 47
+        },
+        "Internacional": {
+            "jogos": 38,
+            "vitorias": 21,
+            "empates": 6,
+            "derrotas": 11,
+            "gols_marcados": 53,
+            "gols_sofridos": 41,
+            "pontos": 69
+        },
+        "Vitoria": {
+            "jogos": 38,
+            "vitorias": 10,
+            "empates": 8,
+            "derrotas": 20,
+            "gols_marcados": 37,
+            "gols_sofridos": 54,
+            "pontos": 38
+        },
+        "Chapecoense": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 10,
+            "derrotas": 17,
+            "gols_marcados": 39,
+            "gols_sofridos": 44,
+            "pontos": 43
+        },
+        "Coritiba": {
+            "jogos": 38,
+            "vitorias": 12,
+            "empates": 11,
+            "derrotas": 15,
+            "gols_marcados": 42,
+            "gols_sofridos": 45,
+            "pontos": 47
+        },
+        "Athletico-PR": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 9,
+            "derrotas": 14,
+            "gols_marcados": 43,
+            "gols_sofridos": 42,
+            "pontos": 54
+        },
+        "Gremio": {
+            "jogos": 38,
+            "vitorias": 17,
+            "empates": 10,
+            "derrotas": 11,
+            "gols_marcados": 36,
+            "gols_sofridos": 24,
+            "pontos": 61
+        },
+        "Sao Paulo": {
+            "jogos": 38,
+            "vitorias": 20,
+            "empates": 10,
+            "derrotas": 8,
+            "gols_marcados": 59,
+            "gols_sofridos": 40,
+            "pontos": 70
+        },
+        "Botafogo-RJ": {
+            "jogos": 38,
+            "vitorias": 9,
+            "empates": 7,
+            "derrotas": 22,
+            "gols_marcados": 31,
+            "gols_sofridos": 48,
+            "pontos": 34
+        },
+        "Bahia": {
+            "jogos": 38,
+            "vitorias": 9,
+            "empates": 10,
+            "derrotas": 19,
+            "gols_marcados": 31,
+            "gols_sofridos": 43,
+            "pontos": 37
+        },
+        "Cruzeiro": {
+            "jogos": 38,
+            "vitorias": 24,
+            "empates": 8,
+            "derrotas": 6,
+            "gols_marcados": 67,
+            "gols_sofridos": 38,
+            "pontos": 80
+        },
+        "Atletico-MG": {
+            "jogos": 38,
+            "vitorias": 17,
+            "empates": 11,
+            "derrotas": 10,
+            "gols_marcados": 51,
+            "gols_sofridos": 38,
+            "pontos": 62
+        },
+        "Corinthians": {
+            "jogos": 38,
+            "vitorias": 19,
+            "empates": 12,
+            "derrotas": 7,
+            "gols_marcados": 49,
+            "gols_sofridos": 31,
+            "pontos": 69
+        },
+        "Flamengo": {
+            "jogos": 38,
+            "vitorias": 14,
+            "empates": 10,
+            "derrotas": 14,
+            "gols_marcados": 46,
+            "gols_sofridos": 47,
+            "pontos": 52
+        },
+        "Goias": {
+            "jogos": 38,
+            "vitorias": 13,
+            "empates": 8,
+            "derrotas": 17,
+            "gols_marcados": 38,
+            "gols_sofridos": 40,
+            "pontos": 47
+        },
+        "Santos": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 8,
+            "derrotas": 15,
+            "gols_marcados": 42,
+            "gols_sofridos": 35,
+            "pontos": 53
+        },
+        "Sport": {
+            "jogos": 38,
+            "vitorias": 14,
+            "empates": 10,
+            "derrotas": 14,
+            "gols_marcados": 36,
+            "gols_sofridos": 46,
+            "pontos": 52
+        },
+        "Criciuma": {
+            "jogos": 38,
+            "vitorias": 7,
+            "empates": 11,
+            "derrotas": 20,
+            "gols_marcados": 28,
+            "gols_sofridos": 56,
+            "pontos": 32
+        },
+        "Palmeiras": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 7,
+            "derrotas": 20,
+            "gols_marcados": 34,
+            "gols_sofridos": 59,
+            "pontos": 40
+        }
+    },
+    "2015": {
+        "Chapecoense": {
+            "jogos": 38,
+            "vitorias": 12,
+            "empates": 11,
+            "derrotas": 15,
+            "gols_marcados": 34,
+            "gols_sofridos": 44,
+            "pontos": 47
+        },
+        "Coritiba": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 11,
+            "derrotas": 16,
+            "gols_marcados": 31,
+            "gols_sofridos": 42,
+            "pontos": 44
+        },
+        "Palmeiras": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 8,
+            "derrotas": 15,
+            "gols_marcados": 60,
+            "gols_sofridos": 51,
+            "pontos": 53
+        },
+        "Atletico-MG": {
+            "jogos": 38,
+            "vitorias": 21,
+            "empates": 6,
+            "derrotas": 11,
+            "gols_marcados": 65,
+            "gols_sofridos": 47,
+            "pontos": 69
+        },
+        "Fluminense": {
+            "jogos": 38,
+            "vitorias": 14,
+            "empates": 5,
+            "derrotas": 19,
+            "gols_marcados": 40,
+            "gols_sofridos": 49,
+            "pontos": 47
+        },
+        "Joinville": {
+            "jogos": 38,
+            "vitorias": 7,
+            "empates": 10,
+            "derrotas": 21,
+            "gols_marcados": 26,
+            "gols_sofridos": 48,
+            "pontos": 31
+        },
+        "Gremio": {
+            "jogos": 38,
+            "vitorias": 20,
+            "empates": 8,
+            "derrotas": 10,
+            "gols_marcados": 52,
+            "gols_sofridos": 32,
+            "pontos": 68
+        },
+        "Ponte Preta": {
+            "jogos": 38,
+            "vitorias": 13,
+            "empates": 12,
+            "derrotas": 13,
+            "gols_marcados": 41,
+            "gols_sofridos": 40,
+            "pontos": 51
+        },
+        "Athletico-PR": {
+            "jogos": 38,
+            "vitorias": 14,
+            "empates": 9,
+            "derrotas": 15,
+            "gols_marcados": 43,
+            "gols_sofridos": 48,
+            "pontos": 51
+        },
+        "Internacional": {
+            "jogos": 38,
+            "vitorias": 17,
+            "empates": 9,
+            "derrotas": 12,
+            "gols_marcados": 39,
+            "gols_sofridos": 38,
+            "pontos": 60
+        },
+        "Sao Paulo": {
+            "jogos": 38,
+            "vitorias": 18,
+            "empates": 8,
+            "derrotas": 12,
+            "gols_marcados": 53,
+            "gols_sofridos": 47,
+            "pontos": 62
+        },
+        "Flamengo": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 4,
+            "derrotas": 19,
+            "gols_marcados": 45,
+            "gols_sofridos": 53,
+            "pontos": 49
+        },
+        "Cruzeiro": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 10,
+            "derrotas": 13,
+            "gols_marcados": 44,
+            "gols_sofridos": 35,
+            "pontos": 55
+        },
+        "Corinthians": {
+            "jogos": 38,
+            "vitorias": 24,
+            "empates": 9,
+            "derrotas": 5,
+            "gols_marcados": 71,
+            "gols_sofridos": 31,
+            "pontos": 81
+        },
+        "Sport": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 14,
+            "derrotas": 9,
+            "gols_marcados": 53,
+            "gols_sofridos": 38,
+            "pontos": 59
+        },
+        "Figueirense": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 10,
+            "derrotas": 17,
+            "gols_marcados": 36,
+            "gols_sofridos": 50,
+            "pontos": 43
+        },
+        "Avai": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 9,
+            "derrotas": 18,
+            "gols_marcados": 38,
+            "gols_sofridos": 60,
+            "pontos": 42
+        },
+        "Santos": {
+            "jogos": 38,
+            "vitorias": 16,
+            "empates": 10,
+            "derrotas": 12,
+            "gols_marcados": 59,
+            "gols_sofridos": 41,
+            "pontos": 58
+        },
+        "Vasco": {
+            "jogos": 38,
+            "vitorias": 10,
+            "empates": 11,
+            "derrotas": 17,
+            "gols_marcados": 28,
+            "gols_sofridos": 54,
+            "pontos": 41
+        },
+        "Goias": {
+            "jogos": 38,
+            "vitorias": 10,
+            "empates": 8,
+            "derrotas": 20,
+            "gols_marcados": 39,
+            "gols_sofridos": 49,
+            "pontos": 38
+        }
+    },
+    "2016": {
+        "Palmeiras": {
+            "jogos": 38,
+            "vitorias": 24,
+            "empates": 8,
+            "derrotas": 6,
+            "gols_marcados": 62,
+            "gols_sofridos": 32,
+            "pontos": 80
+        },
+        "Athletico-PR": {
+            "jogos": 38,
+            "vitorias": 17,
+            "empates": 6,
+            "derrotas": 15,
+            "gols_marcados": 38,
+            "gols_sofridos": 32,
+            "pontos": 57
+        },
+        "Flamengo": {
+            "jogos": 38,
+            "vitorias": 20,
+            "empates": 11,
+            "derrotas": 7,
+            "gols_marcados": 52,
+            "gols_sofridos": 35,
+            "pontos": 71
+        },
+        "Sport": {
+            "jogos": 38,
+            "vitorias": 13,
+            "empates": 8,
+            "derrotas": 17,
+            "gols_marcados": 49,
+            "gols_sofridos": 55,
+            "pontos": 47
+        },
+        "Atletico-MG": {
+            "jogos": 37,
+            "vitorias": 17,
+            "empates": 11,
+            "derrotas": 9,
+            "gols_marcados": 61,
+            "gols_sofridos": 50,
+            "pontos": 62
+        },
+        "Santos": {
+            "jogos": 38,
+            "vitorias": 22,
+            "empates": 5,
+            "derrotas": 11,
+            "gols_marcados": 59,
+            "gols_sofridos": 35,
+            "pontos": 71
+        },
+        "Coritiba": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 13,
+            "derrotas": 14,
+            "gols_marcados": 41,
+            "gols_sofridos": 42,
+            "pontos": 46
+        },
+        "Cruzeiro": {
+            "jogos": 38,
+            "vitorias": 14,
+            "empates": 9,
+            "derrotas": 15,
+            "gols_marcados": 48,
+            "gols_sofridos": 49,
+            "pontos": 51
+        },
+        "Santa Cruz": {
+            "jogos": 38,
+            "vitorias": 8,
+            "empates": 7,
+            "derrotas": 23,
+            "gols_marcados": 45,
+            "gols_sofridos": 69,
+            "pontos": 31
+        },
+        "Vitoria": {
+            "jogos": 38,
+            "vitorias": 12,
+            "empates": 9,
+            "derrotas": 17,
+            "gols_marcados": 51,
+            "gols_sofridos": 53,
+            "pontos": 45
+        },
+        "Botafogo-RJ": {
+            "jogos": 38,
+            "vitorias": 17,
+            "empates": 8,
+            "derrotas": 13,
+            "gols_marcados": 43,
+            "gols_sofridos": 39,
+            "pontos": 59
+        },
+        "Sao Paulo": {
+            "jogos": 38,
+            "vitorias": 14,
+            "empates": 10,
+            "derrotas": 14,
+            "gols_marcados": 44,
+            "gols_sofridos": 36,
+            "pontos": 52
+        },
+        "Figueirense": {
+            "jogos": 38,
+            "vitorias": 8,
+            "empates": 13,
+            "derrotas": 17,
+            "gols_marcados": 30,
+            "gols_sofridos": 50,
+            "pontos": 37
+        },
+        "Ponte Preta": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 8,
+            "derrotas": 15,
+            "gols_marcados": 48,
+            "gols_sofridos": 52,
+            "pontos": 53
+        },
+        "Corinthians": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 10,
+            "derrotas": 13,
+            "gols_marcados": 48,
+            "gols_sofridos": 42,
+            "pontos": 55
+        },
+        "Gremio": {
+            "jogos": 38,
+            "vitorias": 14,
+            "empates": 11,
+            "derrotas": 13,
+            "gols_marcados": 41,
+            "gols_sofridos": 44,
+            "pontos": 53
+        },
+        "America-MG": {
+            "jogos": 38,
+            "vitorias": 7,
+            "empates": 7,
+            "derrotas": 24,
+            "gols_marcados": 23,
+            "gols_sofridos": 58,
+            "pontos": 28
+        },
+        "Fluminense": {
+            "jogos": 38,
+            "vitorias": 13,
+            "empates": 11,
+            "derrotas": 14,
+            "gols_marcados": 45,
+            "gols_sofridos": 45,
+            "pontos": 50
+        },
+        "Internacional": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 10,
+            "derrotas": 17,
+            "gols_marcados": 35,
+            "gols_sofridos": 41,
+            "pontos": 43
+        },
+        "Chapecoense": {
+            "jogos": 37,
+            "vitorias": 13,
+            "empates": 13,
+            "derrotas": 11,
+            "gols_marcados": 49,
+            "gols_sofridos": 53,
+            "pontos": 52
+        }
+    },
+    "2017": {
+        "Flamengo": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 11,
+            "derrotas": 12,
+            "gols_marcados": 49,
+            "gols_sofridos": 38,
+            "pontos": 56
+        },
+        "Atletico-MG": {
+            "jogos": 38,
+            "vitorias": 14,
+            "empates": 12,
+            "derrotas": 12,
+            "gols_marcados": 52,
+            "gols_sofridos": 49,
+            "pontos": 54
+        },
+        "Corinthians": {
+            "jogos": 38,
+            "vitorias": 21,
+            "empates": 9,
+            "derrotas": 8,
+            "gols_marcados": 50,
+            "gols_sofridos": 30,
+            "pontos": 72
+        },
+        "Chapecoense": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 9,
+            "derrotas": 14,
+            "gols_marcados": 47,
+            "gols_sofridos": 49,
+            "pontos": 54
+        },
+        "Fluminense": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 14,
+            "derrotas": 13,
+            "gols_marcados": 50,
+            "gols_sofridos": 53,
+            "pontos": 47
+        },
+        "Santos": {
+            "jogos": 38,
+            "vitorias": 17,
+            "empates": 12,
+            "derrotas": 9,
+            "gols_marcados": 42,
+            "gols_sofridos": 32,
+            "pontos": 63
+        },
+        "Cruzeiro": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 12,
+            "derrotas": 11,
+            "gols_marcados": 47,
+            "gols_sofridos": 39,
+            "pontos": 57
+        },
+        "Sao Paulo": {
+            "jogos": 38,
+            "vitorias": 13,
+            "empates": 11,
+            "derrotas": 14,
+            "gols_marcados": 48,
+            "gols_sofridos": 49,
+            "pontos": 50
+        },
+        "Bahia": {
+            "jogos": 38,
+            "vitorias": 13,
+            "empates": 11,
+            "derrotas": 14,
+            "gols_marcados": 50,
+            "gols_sofridos": 48,
+            "pontos": 50
+        },
+        "Athletico-PR": {
+            "jogos": 38,
+            "vitorias": 14,
+            "empates": 9,
+            "derrotas": 15,
+            "gols_marcados": 45,
+            "gols_sofridos": 43,
+            "pontos": 51
+        },
+        "Ponte Preta": {
+            "jogos": 38,
+            "vitorias": 10,
+            "empates": 9,
+            "derrotas": 19,
+            "gols_marcados": 37,
+            "gols_sofridos": 52,
+            "pontos": 39
+        },
+        "Sport": {
+            "jogos": 38,
+            "vitorias": 12,
+            "empates": 9,
+            "derrotas": 17,
+            "gols_marcados": 46,
+            "gols_sofridos": 58,
+            "pontos": 45
+        },
+        "Avai": {
+            "jogos": 38,
+            "vitorias": 10,
+            "empates": 13,
+            "derrotas": 15,
+            "gols_marcados": 29,
+            "gols_sofridos": 48,
+            "pontos": 43
+        },
+        "Vitoria": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 10,
+            "derrotas": 17,
+            "gols_marcados": 50,
+            "gols_sofridos": 58,
+            "pontos": 43
+        },
+        "Palmeiras": {
+            "jogos": 38,
+            "vitorias": 19,
+            "empates": 6,
+            "derrotas": 13,
+            "gols_marcados": 61,
+            "gols_sofridos": 45,
+            "pontos": 63
+        },
+        "Vasco": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 11,
+            "derrotas": 12,
+            "gols_marcados": 40,
+            "gols_sofridos": 47,
+            "pontos": 56
+        },
+        "Gremio": {
+            "jogos": 38,
+            "vitorias": 18,
+            "empates": 8,
+            "derrotas": 12,
+            "gols_marcados": 55,
+            "gols_sofridos": 36,
+            "pontos": 62
+        },
+        "Botafogo-RJ": {
+            "jogos": 38,
+            "vitorias": 14,
+            "empates": 11,
+            "derrotas": 13,
+            "gols_marcados": 45,
+            "gols_sofridos": 42,
+            "pontos": 53
+        },
+        "Coritiba": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 10,
+            "derrotas": 17,
+            "gols_marcados": 42,
+            "gols_sofridos": 51,
+            "pontos": 43
+        },
+        "Atletico-GO": {
+            "jogos": 38,
+            "vitorias": 9,
+            "empates": 9,
+            "derrotas": 20,
+            "gols_marcados": 38,
+            "gols_sofridos": 56,
+            "pontos": 36
+        }
+    },
+    "2018": {
+        "Cruzeiro": {
+            "jogos": 38,
+            "vitorias": 14,
+            "empates": 11,
+            "derrotas": 13,
+            "gols_marcados": 34,
+            "gols_sofridos": 34,
+            "pontos": 53
+        },
+        "Gremio": {
+            "jogos": 38,
+            "vitorias": 18,
+            "empates": 12,
+            "derrotas": 8,
+            "gols_marcados": 48,
+            "gols_sofridos": 27,
+            "pontos": 66
+        },
+        "Vitoria": {
+            "jogos": 38,
+            "vitorias": 9,
+            "empates": 10,
+            "derrotas": 19,
+            "gols_marcados": 36,
+            "gols_sofridos": 63,
+            "pontos": 37
+        },
+        "Flamengo": {
+            "jogos": 38,
+            "vitorias": 21,
+            "empates": 9,
+            "derrotas": 8,
+            "gols_marcados": 59,
+            "gols_sofridos": 29,
+            "pontos": 72
+        },
+        "Santos": {
+            "jogos": 38,
+            "vitorias": 13,
+            "empates": 11,
+            "derrotas": 14,
+            "gols_marcados": 46,
+            "gols_sofridos": 40,
+            "pontos": 50
+        },
+        "Ceara": {
+            "jogos": 38,
+            "vitorias": 10,
+            "empates": 14,
+            "derrotas": 14,
+            "gols_marcados": 32,
+            "gols_sofridos": 38,
+            "pontos": 44
+        },
+        "America-MG": {
+            "jogos": 38,
+            "vitorias": 10,
+            "empates": 10,
+            "derrotas": 18,
+            "gols_marcados": 30,
+            "gols_sofridos": 47,
+            "pontos": 40
+        },
+        "Sport": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 9,
+            "derrotas": 18,
+            "gols_marcados": 35,
+            "gols_sofridos": 57,
+            "pontos": 42
+        },
+        "Vasco": {
+            "jogos": 38,
+            "vitorias": 10,
+            "empates": 13,
+            "derrotas": 15,
+            "gols_marcados": 41,
+            "gols_sofridos": 48,
+            "pontos": 43
+        },
+        "Atletico-MG": {
+            "jogos": 38,
+            "vitorias": 17,
+            "empates": 8,
+            "derrotas": 13,
+            "gols_marcados": 56,
+            "gols_sofridos": 43,
+            "pontos": 59
+        },
+        "Internacional": {
+            "jogos": 38,
+            "vitorias": 19,
+            "empates": 12,
+            "derrotas": 7,
+            "gols_marcados": 51,
+            "gols_sofridos": 29,
+            "pontos": 69
+        },
+        "Bahia": {
+            "jogos": 38,
+            "vitorias": 12,
+            "empates": 12,
+            "derrotas": 14,
+            "gols_marcados": 39,
+            "gols_sofridos": 41,
+            "pontos": 48
+        },
+        "Corinthians": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 11,
+            "derrotas": 16,
+            "gols_marcados": 34,
+            "gols_sofridos": 35,
+            "pontos": 44
+        },
+        "Fluminense": {
+            "jogos": 38,
+            "vitorias": 12,
+            "empates": 9,
+            "derrotas": 17,
+            "gols_marcados": 32,
+            "gols_sofridos": 46,
+            "pontos": 45
+        },
+        "Athletico-PR": {
+            "jogos": 38,
+            "vitorias": 16,
+            "empates": 9,
+            "derrotas": 13,
+            "gols_marcados": 54,
+            "gols_sofridos": 37,
+            "pontos": 57
+        },
+        "Chapecoense": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 11,
+            "derrotas": 16,
+            "gols_marcados": 34,
+            "gols_sofridos": 50,
+            "pontos": 44
+        },
+        "Sao Paulo": {
+            "jogos": 38,
+            "vitorias": 16,
+            "empates": 15,
+            "derrotas": 7,
+            "gols_marcados": 46,
+            "gols_sofridos": 34,
+            "pontos": 63
+        },
+        "Parana": {
+            "jogos": 38,
+            "vitorias": 4,
+            "empates": 11,
+            "derrotas": 23,
+            "gols_marcados": 18,
+            "gols_sofridos": 57,
+            "pontos": 23
+        },
+        "Botafogo-RJ": {
+            "jogos": 38,
+            "vitorias": 13,
+            "empates": 12,
+            "derrotas": 13,
+            "gols_marcados": 38,
+            "gols_sofridos": 46,
+            "pontos": 51
+        },
+        "Palmeiras": {
+            "jogos": 38,
+            "vitorias": 23,
+            "empates": 11,
+            "derrotas": 4,
+            "gols_marcados": 64,
+            "gols_sofridos": 26,
+            "pontos": 80
+        }
+    },
+    "2019": {
+        "Sao Paulo": {
+            "jogos": 38,
+            "vitorias": 17,
+            "empates": 12,
+            "derrotas": 9,
+            "gols_marcados": 39,
+            "gols_sofridos": 30,
+            "pontos": 63
+        },
+        "Botafogo-RJ": {
+            "jogos": 38,
+            "vitorias": 13,
+            "empates": 4,
+            "derrotas": 21,
+            "gols_marcados": 31,
+            "gols_sofridos": 45,
+            "pontos": 43
+        },
+        "Atletico-MG": {
+            "jogos": 38,
+            "vitorias": 13,
+            "empates": 9,
+            "derrotas": 16,
+            "gols_marcados": 45,
+            "gols_sofridos": 49,
+            "pontos": 48
+        },
+        "Avai": {
+            "jogos": 38,
+            "vitorias": 3,
+            "empates": 11,
+            "derrotas": 24,
+            "gols_marcados": 18,
+            "gols_sofridos": 62,
+            "pontos": 20
+        },
+        "Chapecoense": {
+            "jogos": 38,
+            "vitorias": 7,
+            "empates": 11,
+            "derrotas": 20,
+            "gols_marcados": 31,
+            "gols_sofridos": 52,
+            "pontos": 32
+        },
+        "Internacional": {
+            "jogos": 38,
+            "vitorias": 16,
+            "empates": 9,
+            "derrotas": 13,
+            "gols_marcados": 44,
+            "gols_sofridos": 39,
+            "pontos": 57
+        },
+        "Flamengo": {
+            "jogos": 38,
+            "vitorias": 28,
+            "empates": 6,
+            "derrotas": 4,
+            "gols_marcados": 86,
+            "gols_sofridos": 37,
+            "pontos": 90
+        },
+        "Cruzeiro": {
+            "jogos": 38,
+            "vitorias": 7,
+            "empates": 15,
+            "derrotas": 16,
+            "gols_marcados": 27,
+            "gols_sofridos": 46,
+            "pontos": 36
+        },
+        "Gremio": {
+            "jogos": 38,
+            "vitorias": 19,
+            "empates": 8,
+            "derrotas": 11,
+            "gols_marcados": 64,
+            "gols_sofridos": 39,
+            "pontos": 65
+        },
+        "Santos": {
+            "jogos": 38,
+            "vitorias": 22,
+            "empates": 8,
+            "derrotas": 8,
+            "gols_marcados": 60,
+            "gols_sofridos": 33,
+            "pontos": 74
+        },
+        "Bahia": {
+            "jogos": 38,
+            "vitorias": 12,
+            "empates": 13,
+            "derrotas": 13,
+            "gols_marcados": 44,
+            "gols_sofridos": 43,
+            "pontos": 49
+        },
+        "Corinthians": {
+            "jogos": 38,
+            "vitorias": 14,
+            "empates": 14,
+            "derrotas": 10,
+            "gols_marcados": 42,
+            "gols_sofridos": 34,
+            "pontos": 56
+        },
+        "Athletico-PR": {
+            "jogos": 38,
+            "vitorias": 18,
+            "empates": 10,
+            "derrotas": 10,
+            "gols_marcados": 51,
+            "gols_sofridos": 32,
+            "pontos": 64
+        },
+        "Vasco": {
+            "jogos": 38,
+            "vitorias": 12,
+            "empates": 13,
+            "derrotas": 13,
+            "gols_marcados": 39,
+            "gols_sofridos": 45,
+            "pontos": 49
+        },
+        "Ceara": {
+            "jogos": 38,
+            "vitorias": 10,
+            "empates": 9,
+            "derrotas": 19,
+            "gols_marcados": 36,
+            "gols_sofridos": 41,
+            "pontos": 39
+        },
+        "CSA": {
+            "jogos": 38,
+            "vitorias": 8,
+            "empates": 8,
+            "derrotas": 22,
+            "gols_marcados": 24,
+            "gols_sofridos": 58,
+            "pontos": 32
+        },
+        "Palmeiras": {
+            "jogos": 38,
+            "vitorias": 21,
+            "empates": 11,
+            "derrotas": 6,
+            "gols_marcados": 61,
+            "gols_sofridos": 32,
+            "pontos": 74
+        },
+        "Fortaleza": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 8,
+            "derrotas": 15,
+            "gols_marcados": 50,
+            "gols_sofridos": 49,
+            "pontos": 53
+        },
+        "Fluminense": {
+            "jogos": 38,
+            "vitorias": 12,
+            "empates": 10,
+            "derrotas": 16,
+            "gols_marcados": 38,
+            "gols_sofridos": 46,
+            "pontos": 46
+        },
+        "Goias": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 7,
+            "derrotas": 16,
+            "gols_marcados": 46,
+            "gols_sofridos": 64,
+            "pontos": 52
+        }
+    },
+    "2020": {
+        "Fortaleza": {
+            "jogos": 27,
+            "vitorias": 7,
+            "empates": 10,
+            "derrotas": 10,
+            "gols_marcados": 24,
+            "gols_sofridos": 25,
+            "pontos": 31
+        },
+        "Athletico-PR": {
+            "jogos": 27,
+            "vitorias": 10,
+            "empates": 4,
+            "derrotas": 13,
+            "gols_marcados": 24,
+            "gols_sofridos": 28,
+            "pontos": 34
+        },
+        "Coritiba": {
+            "jogos": 27,
+            "vitorias": 5,
+            "empates": 6,
+            "derrotas": 16,
+            "gols_marcados": 21,
+            "gols_sofridos": 37,
+            "pontos": 21
+        },
+        "Internacional": {
+            "jogos": 27,
+            "vitorias": 13,
+            "empates": 8,
+            "derrotas": 6,
+            "gols_marcados": 41,
+            "gols_sofridos": 26,
+            "pontos": 47
+        },
+        "Sport": {
+            "jogos": 27,
+            "vitorias": 8,
+            "empates": 5,
+            "derrotas": 14,
+            "gols_marcados": 23,
+            "gols_sofridos": 36,
+            "pontos": 29
+        },
+        "Ceara": {
+            "jogos": 27,
+            "vitorias": 9,
+            "empates": 9,
+            "derrotas": 9,
+            "gols_marcados": 38,
+            "gols_sofridos": 37,
+            "pontos": 36
+        },
+        "Santos": {
+            "jogos": 27,
+            "vitorias": 10,
+            "empates": 9,
+            "derrotas": 8,
+            "gols_marcados": 38,
+            "gols_sofridos": 35,
+            "pontos": 39
+        },
+        "Bragantino": {
+            "jogos": 27,
+            "vitorias": 7,
+            "empates": 10,
+            "derrotas": 10,
+            "gols_marcados": 31,
+            "gols_sofridos": 31,
+            "pontos": 31
+        },
+        "Flamengo": {
+            "jogos": 26,
+            "vitorias": 14,
+            "empates": 7,
+            "derrotas": 5,
+            "gols_marcados": 46,
+            "gols_sofridos": 35,
+            "pontos": 49
+        },
+        "Atletico-MG": {
+            "jogos": 27,
+            "vitorias": 15,
+            "empates": 4,
+            "derrotas": 8,
+            "gols_marcados": 46,
+            "gols_sofridos": 34,
+            "pontos": 49
+        },
+        "Gremio": {
+            "jogos": 26,
+            "vitorias": 11,
+            "empates": 12,
+            "derrotas": 3,
+            "gols_marcados": 35,
+            "gols_sofridos": 22,
+            "pontos": 45
+        },
+        "Fluminense": {
+            "jogos": 27,
+            "vitorias": 11,
+            "empates": 7,
+            "derrotas": 9,
+            "gols_marcados": 37,
+            "gols_sofridos": 31,
+            "pontos": 40
+        },
+        "Goias": {
+            "jogos": 27,
+            "vitorias": 5,
+            "empates": 8,
+            "derrotas": 14,
+            "gols_marcados": 27,
+            "gols_sofridos": 42,
+            "pontos": 23
+        },
+        "Corinthians": {
+            "jogos": 27,
+            "vitorias": 10,
+            "empates": 9,
+            "derrotas": 8,
+            "gols_marcados": 30,
+            "gols_sofridos": 30,
+            "pontos": 39
+        },
+        "Botafogo-RJ": {
+            "jogos": 27,
+            "vitorias": 4,
+            "empates": 11,
+            "derrotas": 12,
+            "gols_marcados": 25,
+            "gols_sofridos": 39,
+            "pontos": 23
+        },
+        "Bahia": {
+            "jogos": 27,
+            "vitorias": 8,
+            "empates": 4,
+            "derrotas": 15,
+            "gols_marcados": 33,
+            "gols_sofridos": 48,
+            "pontos": 28
+        },
+        "Atletico-GO": {
+            "jogos": 27,
+            "vitorias": 8,
+            "empates": 10,
+            "derrotas": 9,
+            "gols_marcados": 25,
+            "gols_sofridos": 32,
+            "pontos": 34
+        },
+        "Palmeiras": {
+            "jogos": 26,
+            "vitorias": 12,
+            "empates": 8,
+            "derrotas": 6,
+            "gols_marcados": 37,
+            "gols_sofridos": 25,
+            "pontos": 44
+        },
+        "Sao Paulo": {
+            "jogos": 27,
+            "vitorias": 16,
+            "empates": 8,
+            "derrotas": 3,
+            "gols_marcados": 47,
+            "gols_sofridos": 22,
+            "pontos": 56
+        },
+        "Vasco": {
+            "jogos": 26,
+            "vitorias": 7,
+            "empates": 7,
+            "derrotas": 12,
+            "gols_marcados": 26,
+            "gols_sofridos": 39,
+            "pontos": 28
+        }
+    },
+    "2021": {
+        "Gremio": {
+            "jogos": 50,
+            "vitorias": 15,
+            "empates": 12,
+            "derrotas": 23,
+            "gols_marcados": 62,
+            "gols_sofridos": 69,
+            "pontos": 57
+        },
+        "Bahia": {
+            "jogos": 49,
+            "vitorias": 15,
+            "empates": 14,
+            "derrotas": 20,
+            "gols_marcados": 57,
+            "gols_sofridos": 62,
+            "pontos": 59
+        },
+        "Botafogo-RJ": {
+            "jogos": 11,
+            "vitorias": 1,
+            "empates": 1,
+            "derrotas": 9,
+            "gols_marcados": 7,
+            "gols_sofridos": 23,
+            "pontos": 4
+        },
+        "Athletico-PR": {
+            "jogos": 49,
+            "vitorias": 18,
+            "empates": 12,
+            "derrotas": 19,
+            "gols_marcados": 55,
+            "gols_sofridos": 53,
+            "pontos": 66
+        },
+        "Coritiba": {
+            "jogos": 11,
+            "vitorias": 2,
+            "empates": 4,
+            "derrotas": 5,
+            "gols_marcados": 10,
+            "gols_sofridos": 17,
+            "pontos": 10
+        },
+        "Goias": {
+            "jogos": 11,
+            "vitorias": 4,
+            "empates": 2,
+            "derrotas": 5,
+            "gols_marcados": 14,
+            "gols_sofridos": 21,
+            "pontos": 14
+        },
+        "Sport": {
+            "jogos": 49,
+            "vitorias": 13,
+            "empates": 12,
+            "derrotas": 24,
+            "gols_marcados": 32,
+            "gols_sofridos": 51,
+            "pontos": 51
+        },
+        "Fortaleza": {
+            "jogos": 49,
+            "vitorias": 20,
+            "empates": 8,
+            "derrotas": 21,
+            "gols_marcados": 54,
+            "gols_sofridos": 64,
+            "pontos": 68
+        },
+        "Flamengo": {
+            "jogos": 50,
+            "vitorias": 28,
+            "empates": 9,
+            "derrotas": 13,
+            "gols_marcados": 91,
+            "gols_sofridos": 49,
+            "pontos": 93
+        },
+        "Fluminense": {
+            "jogos": 49,
+            "vitorias": 22,
+            "empates": 12,
+            "derrotas": 15,
+            "gols_marcados": 56,
+            "gols_sofridos": 49,
+            "pontos": 78
+        },
+        "Bragantino": {
+            "jogos": 49,
+            "vitorias": 20,
+            "empates": 18,
+            "derrotas": 11,
+            "gols_marcados": 74,
+            "gols_sofridos": 55,
+            "pontos": 78
+        },
+        "Sao Paulo": {
+            "jogos": 49,
+            "vitorias": 13,
+            "empates": 19,
+            "derrotas": 17,
+            "gols_marcados": 43,
+            "gols_sofridos": 58,
+            "pontos": 58
+        },
+        "Ceara": {
+            "jogos": 49,
+            "vitorias": 16,
+            "empates": 18,
+            "derrotas": 15,
+            "gols_marcados": 55,
+            "gols_sofridos": 52,
+            "pontos": 66
+        },
+        "Internacional": {
+            "jogos": 49,
+            "vitorias": 19,
+            "empates": 14,
+            "derrotas": 16,
+            "gols_marcados": 64,
+            "gols_sofridos": 51,
+            "pontos": 71
+        },
+        "Atletico-GO": {
+            "jogos": 49,
+            "vitorias": 17,
+            "empates": 18,
+            "derrotas": 14,
+            "gols_marcados": 48,
+            "gols_sofridos": 49,
+            "pontos": 69
+        },
+        "Vasco": {
+            "jogos": 12,
+            "vitorias": 3,
+            "empates": 4,
+            "derrotas": 5,
+            "gols_marcados": 11,
+            "gols_sofridos": 17,
+            "pontos": 13
+        },
+        "Palmeiras": {
+            "jogos": 50,
+            "vitorias": 23,
+            "empates": 11,
+            "derrotas": 16,
+            "gols_marcados": 72,
+            "gols_sofridos": 55,
+            "pontos": 80
+        },
+        "Santos": {
+            "jogos": 49,
+            "vitorias": 16,
+            "empates": 17,
+            "derrotas": 16,
+            "gols_marcados": 49,
+            "gols_sofridos": 56,
+            "pontos": 65
+        },
+        "Atletico-MG": {
+            "jogos": 49,
+            "vitorias": 31,
+            "empates": 10,
+            "derrotas": 8,
+            "gols_marcados": 85,
+            "gols_sofridos": 45,
+            "pontos": 103
+        },
+        "Corinthians": {
+            "jogos": 49,
+            "vitorias": 18,
+            "empates": 15,
+            "derrotas": 16,
+            "gols_marcados": 55,
+            "gols_sofridos": 51,
+            "pontos": 69
+        },
+        "Cuiaba": {
+            "jogos": 38,
+            "vitorias": 10,
+            "empates": 17,
+            "derrotas": 11,
+            "gols_marcados": 34,
+            "gols_sofridos": 37,
+            "pontos": 47
+        },
+        "Juventude": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 13,
+            "derrotas": 14,
+            "gols_marcados": 36,
+            "gols_sofridos": 44,
+            "pontos": 46
+        },
+        "Chapecoense": {
+            "jogos": 38,
+            "vitorias": 1,
+            "empates": 12,
+            "derrotas": 25,
+            "gols_marcados": 27,
+            "gols_sofridos": 67,
+            "pontos": 15
+        },
+        "America-MG": {
+            "jogos": 38,
+            "vitorias": 13,
+            "empates": 14,
+            "derrotas": 11,
+            "gols_marcados": 41,
+            "gols_sofridos": 37,
+            "pontos": 53
+        }
+    },
+    "2022": {
+        "Fluminense": {
+            "jogos": 38,
+            "vitorias": 21,
+            "empates": 7,
+            "derrotas": 10,
+            "gols_marcados": 63,
+            "gols_sofridos": 41,
+            "pontos": 70
+        },
+        "Santos": {
+            "jogos": 38,
+            "vitorias": 12,
+            "empates": 11,
+            "derrotas": 15,
+            "gols_marcados": 44,
+            "gols_sofridos": 41,
+            "pontos": 47
+        },
+        "Atletico-GO": {
+            "jogos": 38,
+            "vitorias": 8,
+            "empates": 12,
+            "derrotas": 18,
+            "gols_marcados": 39,
+            "gols_sofridos": 57,
+            "pontos": 36
+        },
+        "Flamengo": {
+            "jogos": 38,
+            "vitorias": 18,
+            "empates": 8,
+            "derrotas": 12,
+            "gols_marcados": 60,
+            "gols_sofridos": 39,
+            "pontos": 62
+        },
+        "Palmeiras": {
+            "jogos": 38,
+            "vitorias": 23,
+            "empates": 12,
+            "derrotas": 3,
+            "gols_marcados": 66,
+            "gols_sofridos": 27,
+            "pontos": 81
+        },
+        "Ceara": {
+            "jogos": 38,
+            "vitorias": 7,
+            "empates": 16,
+            "derrotas": 15,
+            "gols_marcados": 34,
+            "gols_sofridos": 41,
+            "pontos": 37
+        },
+        "Coritiba": {
+            "jogos": 38,
+            "vitorias": 12,
+            "empates": 6,
+            "derrotas": 20,
+            "gols_marcados": 39,
+            "gols_sofridos": 60,
+            "pontos": 42
+        },
+        "Goias": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 13,
+            "derrotas": 14,
+            "gols_marcados": 40,
+            "gols_sofridos": 53,
+            "pontos": 46
+        },
+        "Botafogo-RJ": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 8,
+            "derrotas": 15,
+            "gols_marcados": 41,
+            "gols_sofridos": 43,
+            "pontos": 53
+        },
+        "Corinthians": {
+            "jogos": 38,
+            "vitorias": 18,
+            "empates": 11,
+            "derrotas": 9,
+            "gols_marcados": 44,
+            "gols_sofridos": 36,
+            "pontos": 65
+        },
+        "Atletico-MG": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 13,
+            "derrotas": 10,
+            "gols_marcados": 45,
+            "gols_sofridos": 37,
+            "pontos": 58
+        },
+        "Internacional": {
+            "jogos": 38,
+            "vitorias": 20,
+            "empates": 13,
+            "derrotas": 5,
+            "gols_marcados": 58,
+            "gols_sofridos": 31,
+            "pontos": 73
+        },
+        "Fortaleza": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 10,
+            "derrotas": 13,
+            "gols_marcados": 46,
+            "gols_sofridos": 39,
+            "pontos": 55
+        },
+        "Cuiaba": {
+            "jogos": 38,
+            "vitorias": 10,
+            "empates": 11,
+            "derrotas": 17,
+            "gols_marcados": 31,
+            "gols_sofridos": 42,
+            "pontos": 41
+        },
+        "Avai": {
+            "jogos": 38,
+            "vitorias": 9,
+            "empates": 8,
+            "derrotas": 21,
+            "gols_marcados": 34,
+            "gols_sofridos": 60,
+            "pontos": 35
+        },
+        "America-MG": {
+            "jogos": 38,
+            "vitorias": 15,
+            "empates": 8,
+            "derrotas": 15,
+            "gols_marcados": 40,
+            "gols_sofridos": 40,
+            "pontos": 53
+        },
+        "Sao Paulo": {
+            "jogos": 38,
+            "vitorias": 13,
+            "empates": 15,
+            "derrotas": 10,
+            "gols_marcados": 55,
+            "gols_sofridos": 42,
+            "pontos": 54
+        },
+        "Athletico-PR": {
+            "jogos": 38,
+            "vitorias": 16,
+            "empates": 10,
+            "derrotas": 12,
+            "gols_marcados": 48,
+            "gols_sofridos": 48,
+            "pontos": 58
+        },
+        "Juventude": {
+            "jogos": 38,
+            "vitorias": 3,
+            "empates": 13,
+            "derrotas": 22,
+            "gols_marcados": 29,
+            "gols_sofridos": 69,
+            "pontos": 22
+        },
+        "Bragantino": {
+            "jogos": 38,
+            "vitorias": 11,
+            "empates": 11,
+            "derrotas": 16,
+            "gols_marcados": 49,
+            "gols_sofridos": 59,
+            "pontos": 44
+        }
+    }
+}

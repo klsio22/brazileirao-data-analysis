@@ -2,6 +2,7 @@ from pymongo import MongoClient
 import pandas as pd
 import matplotlib.pyplot as plt
 import requests
+import json
 
 
 class BrasileiraoAPI:
@@ -10,34 +11,42 @@ class BrasileiraoAPI:
         self.client = MongoClient(mongo_uri)
         self.db = self.client[db_name]
         self.collection = self.db[collection_name]
-    
-    def limpar_colecao(self):
-        resultado = self.collection.delete_many({})
-        print(f"Removidos {resultado.deleted_count} documentos.")
-        return resultado.deleted_count
-    
-    
-    def importar_csv_para_mongodb(self, csv_path):
-        """
-        Lê os dados do CSV e insere no MongoDB.
-        Ajuste os nomes das colunas de acordo com o seu CSV.
-        """
-        df = pd.read_csv(csv_path)
+             
+    def importar_json_para_mongodb(self, json_path):
+        import pandas as pd
+        # Lê o arquivo JSON
+        df = pd.read_json(json_path)
         
-        # Ajuste os nomes das colunas conforme o seu CSV
+        # Converte o DataFrame para uma lista de dicionários
+        registros = df.to_dict(orient='records')
+        
         documentos = []
-        for _, row in df.iterrows():
+        for record in registros:
             documento = {
-                "homeTeam": {"name": row['mandante']},
-                "awayTeam": {"name": row['visitante']},
+                "ID": record.get("ID"),
+                "rodada": record.get("rodada"),
+                "data": record.get("data"),
+                "hora": record.get("hora"),
+                "homeTeam": {
+                    "name": record.get("mandante"),
+                    "formacao": record.get("formacao_mandante"),
+                    "tecnico": record.get("tecnico_mandante"),
+                    "estado": record.get("mandante_Estado")
+                },
+                "awayTeam": {
+                    "name": record.get("visitante"),
+                    "formacao": record.get("formacao_visitante"),
+                    "tecnico": record.get("tecnico_visitante"),
+                    "estado": record.get("visitante_Estado")
+                },
                 "score": {
                     "fullTime": {
-                        "home": int(row['mandante_Placar']) if 'mandante_Placar' in row else 0,
-                        "away": int(row['visitante_Placar']) if 'visitante_Placar' in row else 0
+                        "home": int(record.get("mandante_Placar")),
+                        "away": int(record.get("visitante_Placar"))
                     }
                 },
-                "utcDate": row['data'] if 'data' in row else ""
-                # Adicione outros campos conforme necessário
+                "vencedor": record.get("vencedor"),
+                "arena": record.get("arena")
             }
             documentos.append(documento)
         
@@ -47,6 +56,11 @@ class BrasileiraoAPI:
         else:
             print("Nenhum documento para inserir.")
 
+    def limpar_colecao(self):
+        resultado = self.collection.delete_many({})
+        print(f"Removidos {resultado.deleted_count} documentos.")
+        return resultado.deleted_count
+    
             
     def consultar_dados_mongodb(self, filtro=None):
         if filtro:
@@ -63,27 +77,6 @@ class BrasileiraoAPI:
             ]
         }
         return self.consultar_dados_mongodb(query)
-
-    def obter_todos_times(self):
-        """
-        Consulta a coleção e extrai os nomes únicos dos times cadastrados
-        (tanto em 'homeTeam' quanto em 'awayTeam').
-        """
-        dados = list(self.collection.find())
-        df = pd.DataFrame(dados)
-        times_home = []
-        times_away = []
-        if 'homeTeam' in df.columns:
-            times_home = df['homeTeam'].apply(
-                lambda t: t.get('name') if isinstance(t, dict) and 'name' in t else None
-            ).dropna().tolist()
-        if 'awayTeam' in df.columns:
-            times_away = df['awayTeam'].apply(
-                lambda t: t.get('name') if isinstance(t, dict) and 'name' in t else None
-            ).dropna().tolist()
-        todos_times = pd.unique(times_home + times_away)
-        return sorted(todos_times)
-
     def consultar_dados_mongodb(self, filtro=None):
         """
         Consulta a coleção do MongoDB e retorna um DataFrame com os dados.
@@ -108,22 +101,6 @@ class BrasileiraoAPI:
         }
         return self.consultar_dados_mongodb(filtro=query)
     
-    def obter_todos_times(self):
-        """
-        Consulta a coleção e extrai os nomes únicos dos times cadastrados
-        (tanto em 'homeTeam' quanto em 'awayTeam').
-        """
-        dados = list(self.collection.find())
-        df = pd.DataFrame(dados)
-        times_home = []
-        times_away = []
-        if 'homeTeam' in df.columns:
-            times_home = df['homeTeam'].apply(lambda t: t.get('name') if isinstance(t, dict) else t)
-        if 'awayTeam' in df.columns:
-            times_away = df['awayTeam'].apply(lambda t: t.get('name') if isinstance(t, dict) else t)
-        todos_times = pd.unique(list(times_home) + list(times_away))
-        return todos_times
-
     
     def calcular_resultado(self, row, time):
         if row['homeTeam']['name'] == time:
@@ -149,39 +126,6 @@ class BrasileiraoAPI:
         plt.ylabel('Número de Partidas')
         plt.xticks(rotation=0)
         plt.show()
-    
-    def plot_pie(self, resultados, time):
-        plt.figure(figsize=(8,6))
-        plt.pie(resultados, labels=resultados.index, autopct='%1.1f%%', colors=['green', 'red', 'grey'])
-        plt.title(f'Distribuição dos Resultados do {time}')
-        plt.show()
-    
-    def plot_gols(self, df, time):
-        plt.figure(figsize=(10,6))
-        plt.plot(df['gols_marcados'], label='Gols Marcados', color='blue')
-        plt.plot(df['gols_sofridos'], label='Gols Sofridos', color='orange')
-        plt.title(f'Gols Marcados e Sofridos pelo {time}')
-        plt.xlabel('Partida')
-        plt.ylabel('Número de Gols')
-        plt.legend()
-        plt.show()
-    
-    def obter_times_competicao(self, competicao_id):
-        """
-        Obtém os times de uma competição através da API.
-        Use este método apenas quando precisar cadastrar dados.
-        """
-        if not self.API_KEY:
-            print("API_KEY não configurada. Informe sua chave para acessar a API.")
-            return None
-        url = f"{self.BASE_URL}competitions/{competicao_id}/teams"
-        response = requests.get(url, headers=self.headers)
-        if response.status_code == 200:
-            return response.json()
-        else:
-            print(f"Erro ao obter times da competição {competicao_id}: {response.status_code}")
-            print(f"Mensagem de erro: {response.text}")
-            return None
     
     def verificar_time_na_competicao(self, competicao_id, nome_time):
         """
@@ -309,3 +253,108 @@ class BrasileiraoAPI:
         # Ajustar layout
         plt.tight_layout()
         plt.show()
+        
+
+    def consultar_dados_mongodb(self, filtro=None):
+        if filtro:
+            dados = list(self.collection.find(filtro))
+        else:
+            dados = list(self.collection.find())
+        df = pd.DataFrame(dados)
+        return df
+
+    def montar_tabelas(self, start_year=2003, end_year=2022):
+        """
+        Agrega os resultados (jogos, vitórias, empates, derrotas, gols marcados, gols sofridos e pontos)
+        para cada time, por temporada (de start_year até end_year), e retorna um JSON com as tabelas.
+        """
+        df = self.consultar_dados_mongodb()
+        df["data_dt"] = pd.to_datetime(df["data"], format="%d/%m/%Y", errors="coerce")
+        df = df.dropna(subset=["data_dt"])
+        df = df[(df["data_dt"].dt.year >= start_year) & (df["data_dt"].dt.year <= end_year)]
+        
+        tabelas = {}
+        for season in range(start_year, end_year + 1):
+            tabelas[str(season)] = {}
+
+        def atualizar_time(tabela, time, gols_feitos, gols_sofridos, resultado):
+            if time not in tabela:
+                tabela[time] = {
+                    "jogos": 0,
+                    "vitorias": 0,
+                    "empates": 0,
+                    "derrotas": 0,
+                    "gols_marcados": 0,
+                    "gols_sofridos": 0,
+                    "pontos": 0
+                }
+            tabela[time]["jogos"] += 1
+            tabela[time]["gols_marcados"] += gols_feitos
+            tabela[time]["gols_sofridos"] += gols_sofridos
+            if resultado == "Vitória":
+                tabela[time]["vitorias"] += 1
+                tabela[time]["pontos"] += 3
+            elif resultado == "Empate":
+                tabela[time]["empates"] += 1
+                tabela[time]["pontos"] += 1
+            elif resultado == "Derrota":
+                tabela[time]["derrotas"] += 1
+
+        for _, row in df.iterrows():
+            season = str(row["data_dt"].year)
+            home_team = row["homeTeam"]["name"] if isinstance(row["homeTeam"], dict) else row["homeTeam"]
+            away_team = row["awayTeam"]["name"] if isinstance(row["awayTeam"], dict) else row["awayTeam"]
+            score_home = row["score"]["fullTime"]["home"]
+            score_away = row["score"]["fullTime"]["away"]
+
+            if score_home > score_away:
+                resultado_home = "Vitória"
+                resultado_away = "Derrota"
+            elif score_home < score_away:
+                resultado_home = "Derrota"
+                resultado_away = "Vitória"
+            else:
+                resultado_home = "Empate"
+                resultado_away = "Empate"
+            
+            atualizar_time(tabelas[season], home_team, score_home, score_away, resultado_home)
+            atualizar_time(tabelas[season], away_team, score_away, score_home, resultado_away)
+        
+        return json.dumps(tabelas, indent=4, ensure_ascii=False)
+    
+    def exportar_tabelas_json(self, start_year=2003, end_year=2022, output_path="../../data/tabelas_aggregadas.json"):
+        """
+        Gera as tabelas agregadas via montar_tabelas, salva o JSON gerado em um arquivo e retorna o caminho do arquivo.
+        """
+        tabelas_json = self.montar_tabelas(start_year, end_year)
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write(tabelas_json)
+        print(f"Arquivo JSON com as tabelas criado em: {output_path}")
+        return output_path
+
+    def inserir_tabelas_no_mongodb(self, start_year=2003, end_year=2022, collection_name="tabelas_aggregadas"):
+        """
+        Insere as tabelas agregadas em uma nova coleção do MongoDB.
+        Cada documento conterá a temporada (season) e os dados agregados para os times.
+        """
+        import json
+        # Gera o JSON das tabelas
+        tabelas_json = self.montar_tabelas(start_year, end_year)
+        tabelas_dict = json.loads(tabelas_json)
+        
+        # Define a nova coleção
+        nova_colecao = self.db[collection_name]
+        
+        documentos = []
+        for season, tabela in tabelas_dict.items():
+            documento = {
+                "season": season,
+                "tabela": tabela
+            }
+            documentos.append(documento)
+        
+        if documentos:
+            nova_colecao.insert_many(documentos)
+            print(f"Inseridos {len(documentos)} documentos na coleção '{collection_name}'.")
+        else:
+            print("Nenhum documento para inserir.")
