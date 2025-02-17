@@ -120,10 +120,6 @@ class BrasileiraoAPI:
         plt.show()
     
     def verificar_time_na_competicao(self, competicao_id, nome_time):
-        """
-        Verifica se um time participa de uma competição com base nos dados da API.
-        Use este método apenas quando precisar cadastrar dados.
-        """
         dados_times = self.obter_times_competicao(competicao_id)
         if dados_times:
             times = [time['name'] for time in dados_times['teams']]
@@ -700,12 +696,6 @@ class BrasileiraoAPI:
 
     
     def fazer_backup(self, db_name="statistics_futebol", repo_name="brazileirao-data-analysis"):
-        """
-        Faz backup de todas as collections do banco statistics_futebol
-        Args:
-            db_name (str): Nome do banco de dados (default: statistics_futebol)
-            repo_name (str): Nome do repositório (default: brazileirao-data-analysis)
-        """
         import json
         import os
         from datetime import datetime
