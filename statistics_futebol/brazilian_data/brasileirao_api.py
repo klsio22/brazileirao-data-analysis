@@ -93,7 +93,6 @@ class BrasileiraoAPI:
         }
         return self.consultar_dados_mongodb(filtro=query)
     
-    
     def calcular_resultado(self, row, time):
         if row['homeTeam']['name'] == time:
             if row['score']['fullTime']['home'] > row['score']['fullTime']['away']:
@@ -737,3 +736,253 @@ class BrasileiraoAPI:
         print(f"\nBackup completo do banco {db_name} salvo em: {backup_timestamp_dir}")
         
         return backup_timestamp_dir
+    
+    def verificar_e_inserir_documentos(self, collection_name):
+
+        dados_brasileirao = [
+            {
+                "rodada": 1,
+                "data": "15/04/2024",
+                "hora": "20:00",
+                "homeTeam": {"name": "Santos", "estado": "SP"},
+                "awayTeam": {"name": "Palmeiras", "estado": "SP"},
+                "score": {"fullTime": {"home": 2, "away": 1}},
+                "vencedor": "Santos"
+            },
+            {
+                "rodada": 1,
+                "data": "15/04/2024",
+                "hora": "20:00", 
+                "homeTeam": {"name": "São Paulo", "estado": "SP"},
+                "awayTeam": {"name": "Flamengo", "estado": "RJ"},
+                "score": {"fullTime": {"home": 1, "away": 1}},
+                "vencedor": "-"
+            },
+            {
+                "rodada": 1,
+                "data": "15/04/2024",
+                "hora": "20:00",
+                "homeTeam": {"name": "Corinthians", "estado": "SP"},
+                "awayTeam": {"name": "Cruzeiro", "estado": "MG"},
+                "score": {"fullTime": {"home": 3, "away": 0}},
+                "vencedor": "Corinthians"
+            },
+            {
+                "rodada": 1,
+                "data": "15/04/2024",
+                "hora": "20:00",
+                "homeTeam": {"name": "Grêmio", "estado": "RS"},
+                "awayTeam": {"name": "Internacional", "estado": "RS"},
+                "score": {"fullTime": {"home": 2, "away": 2}},
+                "vencedor": "-"
+            },
+            {
+                "rodada": 1,
+                "data": "15/04/2024",
+                "hora": "20:00",
+                "homeTeam": {"name": "Athletico-PR", "estado": "PR"},
+                "awayTeam": {"name": "Coritiba", "estado": "PR"},
+                "score": {"fullTime": {"home": 1, "away": 0}},
+                "vencedor": "Athletico-PR"
+            }
+        ]
+
+        dados_odds = [
+            {
+                "time": "Santos",
+                "season": 2024,
+                "jogos": 1,
+                "vitorias": 1,
+                "empates": 0,
+                "derrotas": 0,
+                "odds": {"homeWin": 0.6, "draw": 0.2, "awayWin": 0.2}
+            },
+            {
+                "time": "São Paulo",
+                "season": 2024,
+                "jogos": 1,
+                "vitorias": 0,
+                "empates": 1,
+                "derrotas": 0,
+                "odds": {"homeWin": 0.4, "draw": 0.3, "awayWin": 0.3}
+            },
+            {
+                "time": "Corinthians",
+                "season": 2024,
+                "jogos": 1,
+                "vitorias": 1,
+                "empates": 0,
+                "derrotas": 0,
+                "odds": {"homeWin": 0.5, "draw": 0.3, "awayWin": 0.2}
+            },
+            {
+                "time": "Grêmio",
+                "season": 2024,
+                "jogos": 1,
+                "vitorias": 0,
+                "empates": 1,
+                "derrotas": 0,
+                "odds": {"homeWin": 0.4, "draw": 0.4, "awayWin": 0.2}
+            },
+            {
+                "time": "Athletico-PR",
+                "season": 2024,
+                "jogos": 1,
+                "vitorias": 1,
+                "empates": 0,
+                "derrotas": 0,
+                "odds": {"homeWin": 0.5, "draw": 0.3, "awayWin": 0.2}
+            }
+        ]
+
+        dados = dados_brasileirao if collection_name == "brasileirao" else dados_odds
+        documentos_novos = []
+        documentos_existentes = 0
+
+        for doc in dados:
+            # Monta o critério de busca específico para cada coleção
+            if collection_name == "brasileirao":
+                criterio = {
+                    "$and": [
+                        {"rodada": doc["rodada"]},
+                        {"data": doc["data"]},
+                        {"homeTeam.name": doc["homeTeam"]["name"]},
+                        {"awayTeam.name": doc["awayTeam"]["name"]}
+                    ]
+                }
+            else:  # odds_times_aggregados
+                criterio = {
+                    "$and": [
+                        {"time": doc["time"]},
+                        {"season": doc["season"]}
+                    ]
+                }
+            
+            # Verifica se existe usando count_documents ao invés de find_one
+            contagem = self.db[collection_name].count_documents(criterio)
+            
+            if contagem == 0:
+                documentos_novos.append(doc)
+            else:
+                documentos_existentes += 1
+                print(f"Documento já existe: {criterio}")
+
+        # Insere apenas se houver documentos novos
+        if documentos_novos:
+            try:
+                self.db[collection_name].insert_many(documentos_novos)
+                print(f"\nInseridos {len(documentos_novos)} novos documentos em {collection_name}")
+            except Exception as e:
+                print(f"Erro ao inserir documentos: {e}")
+        
+        resultado = {
+            "novos": len(documentos_novos),
+            "existentes": documentos_existentes,
+            "total": len(dados)
+        }
+        
+        print(f"\nResultados para {collection_name}:")
+        print(f"- Documentos novos: {resultado['novos']}")
+        print(f"- Documentos existentes: {resultado['existentes']}")
+        print(f"- Total verificado: {resultado['total']}")
+        
+        return resultado
+        
+    
+    def editar_documentos(self, collection_name):
+        if collection_name == "brasileirao":
+            # 1. Atualiza horário
+            self.db[collection_name].update_many(
+                {"hora": "20:00"},
+                {"$set": {"hora": "21:30"}}
+            )
+            
+            # 2. Atualiza placar
+            self.db[collection_name].update_one(
+                {"homeTeam.name": "Santos"},
+                {"$set": {"score.fullTime.home": 3}}
+            )
+            
+            # 3. Atualiza vencedor
+            self.db[collection_name].update_one(
+                {"homeTeam.name": "Santos"},
+                {"$set": {"vencedor": "Santos"}}
+            )
+            
+            # 4. Atualiza rodada
+            self.db[collection_name].update_many(
+                {"rodada": 1},
+                {"$set": {"rodada": 2}}
+            )
+            
+            # 5. Atualiza data
+            self.db[collection_name].update_many(
+                {"data": "15/04/2024"},
+                {"$set": {"data": "22/04/2024"}}
+            )
+            
+        else:  # odds_times_aggregados
+            # 1. Atualiza odds de vitória
+            self.db[collection_name].update_many(
+                {"season": 2024},
+                {"$set": {"odds.homeWin": 0.55}}
+            )
+            
+            # 2. Atualiza número de jogos
+            self.db[collection_name].update_many(
+                {"season": 2024},
+                {"$inc": {"jogos": 1}}
+            )
+            
+            # 3. Atualiza vitórias
+            self.db[collection_name].update_many(
+                {"season": 2024},
+                {"$inc": {"vitorias": 1}}
+            )
+            
+            # 4. Atualiza empates
+            self.db[collection_name].update_many(
+                {"season": 2024},
+                {"$set": {"empates": 0}}
+            )
+            
+            # 5. Atualiza derrotas
+            self.db[collection_name].update_many(
+                {"season": 2024},
+                {"$set": {"derrotas": 0}}
+            )
+    
+
+    def verificar_alteracoes_brasileirao(self):
+        """
+        Verifica e exibe alterações nos jogos do Brasileirão
+        """
+        # Verifica jogos com horário alterado
+        jogos_alterados_hora = list(self.db["brasileirao"].find({"hora": "21:30"}))
+        print(f"\n1. Jogos com horário alterado para 21:30: {len(jogos_alterados_hora)}")
+        for jogo in jogos_alterados_hora:
+            print(f"- {jogo['homeTeam']['name']} vs {jogo['awayTeam']['name']}")
+        
+        # Verifica alterações do Santos
+        jogos_santos = list(self.db["brasileirao"].find({"homeTeam.name": "Santos"}))
+        print("\n2. Alterações nos jogos do Santos:")
+        for jogo in jogos_santos:
+            print(f"- Placar: {jogo['score']['fullTime']['home']} x {jogo['score']['fullTime']['away']}")
+            print(f"- Vencedor: {jogo['vencedor']}")
+        
+        # Verifica jogos na rodada 2 (alterados da rodada 1)
+        jogos_rodada2 = list(self.db["brasileirao"].find({"rodada": 2}))
+        print(f"\n3. Jogos movidos para rodada 2: {len(jogos_rodada2)}")
+        for jogo in jogos_rodada2:
+            print(f"- {jogo['homeTeam']['name']} vs {jogo['awayTeam']['name']}")
+        
+        # Verifica jogos com nova data
+        jogos_nova_data = list(self.db["brasileirao"].find({"data": "22/04/2024"}))
+        print(f"\n4. Jogos com nova data (22/04/2024): {len(jogos_nova_data)}")
+        for jogo in jogos_nova_data:
+            print(f"- {jogo['homeTeam']['name']} vs {jogo['awayTeam']['name']}")
+
+    def buscar_todos_documentos(self, collection_name):
+        return list(self.db[collection_name].find())
+    
+    
