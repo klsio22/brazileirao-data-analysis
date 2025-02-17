@@ -466,3 +466,177 @@ class BrasileiraoAPI:
         result = self.db[collection_name].delete_many({})
         print(f"Removidos {result.deleted_count} documentos da coleção '{collection_name}'.")
         return result.deleted_count
+    
+    
+    def plot_desempenho_time(self, nome_time):
+        """
+        Gera um scatter plot com reta de regressão para o time especificado.
+        - Eixo x: Temporadas (years)
+        - Eixo y: Média de desempenho (média de homeWin, draw e awayWin)
+        """
+        import matplotlib.pyplot as plt
+        import numpy as np
+
+        # Consulta os dados agregados do time em todas as temporadas
+        dados = list(self.db["odds_times_aggregados"].find({"time": nome_time}))
+        if not dados:
+            print(f"Nenhum dado encontrado para o time {nome_time}")
+            return
+
+        # Ordena os dados por temporada para visualização cronológica
+        dados = sorted(dados, key=lambda d: d["season"])
+        
+        temporadas = []
+        medias_desempenho = []
+
+        for doc in dados:
+            temporadas.append(doc["season"])
+            odds = doc["odds"]
+            media = np.mean([
+                odds["homeWin"] or 0,
+                odds["draw"] or 0,
+                odds["awayWin"] or 0
+            ])
+            medias_desempenho.append(media)
+
+        plt.figure(figsize=(12, 8))
+        plt.scatter(temporadas, medias_desempenho, s=100, alpha=0.7, c='blue', label=nome_time)
+
+        # Ajusta a reta de regressão (as temporadas são numéricas)
+        coef, intercept = np.polyfit(temporadas, medias_desempenho, 1)
+        x_line = np.linspace(min(temporadas), max(temporadas), 100)
+        y_line = coef * x_line + intercept
+        plt.plot(x_line, y_line, "r--", alpha=0.8, label=f"y = {coef:.2f}x + {intercept:.2f}")
+
+        plt.xlabel("Temporadas")
+        plt.ylabel("Média de Desempenho")
+        plt.title(f"Desempenho do {nome_time} ao longo das Temporadas")
+        plt.xticks(temporadas, rotation=45)
+        plt.legend()
+        plt.grid(True, alpha=0.3)
+        plt.tight_layout()
+        plt.show()
+        
+ 
+    def plot_media_porcentagem_time(self, nome_time):
+        """
+        Gera um gráfico de barras agrupadas mostrando a média percentual
+        de vitórias (homeWin), empates (draw) e derrotas (awayWin) do time em cada temporada.
+        Os valores são apresentados em porcentagem, com ticks do eixo y de 5 em 5 e 
+        os valores exibidos em cima de cada barra.
+        """
+        import matplotlib.pyplot as plt
+        import numpy as np
+
+        # Consulta os dados agregados do time em todas as temporadas
+        dados = list(self.db["odds_times_aggregados"].find({"time": nome_time}))
+        if not dados:
+            print(f"Nenhum dado encontrado para o time {nome_time}")
+            return
+
+        # Ordena os dados por temporada para visualização cronológica
+        dados = sorted(dados, key=lambda d: d["season"])
+        
+        temporadas = [doc["season"] for doc in dados]
+        # Converte os valores em porcentagem (multiplica por 100) e arredonda para 2 casas
+        vit_percent = [round((doc["odds"]["homeWin"] or 0) * 100, 2) for doc in dados]
+        emp_percent = [round((doc["odds"]["draw"] or 0) * 100, 2) for doc in dados]
+        der_percent = [round((doc["odds"]["awayWin"] or 0) * 100, 2) for doc in dados]
+        
+        # Configuração do gráfico de barras agrupadas
+        x = np.arange(len(temporadas))
+        largura = 0.25
+    
+        plt.figure(figsize=(12, 8))
+        bars1 = plt.bar(x - largura, vit_percent, width=largura, color='green', label='Vitórias (%)')
+        bars2 = plt.bar(x, emp_percent, width=largura, color='gray', label='Empates (%)')
+        bars3 = plt.bar(x + largura, der_percent, width=largura, color='red', label='Derrotas (%)')
+        
+        plt.xlabel("Temporadas")
+        plt.ylabel("Porcentagem (%)")
+        plt.title(f"Média Percentual de Desempenho do {nome_time} por Temporada")
+        plt.xticks(x, temporadas, rotation=45)
+        
+        # Configura os ticks do eixo y de 5 em 5
+        max_y = max(max(vit_percent), max(emp_percent), max(der_percent))
+        y_max = (int(max_y / 5) + 1) * 5
+        plt.yticks(np.arange(0, y_max+1, 5))
+        
+        # Grid com major e minor ticks
+        plt.minorticks_on()
+        plt.grid(axis='y', which='major', linestyle='-', linewidth=0.5, alpha=0.7)
+        plt.grid(axis='y', which='minor', linestyle='--', linewidth=0.5, alpha=0.5)
+        
+        # Adiciona os valores de porcentagem acima de cada barra
+        for bars in [bars1, bars2, bars3]:
+            for bar in bars:
+                height = bar.get_height()
+                plt.text(bar.get_x() + bar.get_width()/2.0, height, f'{height:.1f}%', 
+                        ha='center', va='bottom', fontsize=8)
+        
+        plt.legend()
+        plt.tight_layout()
+        plt.show()
+ 
+    def plot_desempenho_todos_times(self):
+        """
+        Gera um scatter plot mostrando a performance (pontos / (jogos*3))
+        de cada time em cada temporada. Cada ponto representa um time em uma temporada
+        e as cores diferenciam os times. Além disso, uma reta horizontal é adicionada
+        representando a média geral de performance.
+        """
+        import matplotlib.pyplot as plt
+        import numpy as np
+
+        # Consulta todos os documentos agregados de odds e desempenho
+        docs = list(self.db["odds_times_aggregados"].find())
+        if not docs:
+            print("Nenhum dado encontrado para exibir.")
+            return
+
+        # Obtém a lista única de times e mapeia cada time para uma cor
+        teams = sorted(set(doc["time"] for doc in docs))
+        cmap = plt.get_cmap("tab20", len(teams))
+        colors = {team: cmap(i) for i, team in enumerate(teams)}
+
+        plt.figure(figsize=(12, 8))
+        performance_values = []  # Armazena todas as performances para cálculo da média
+
+        # Para cada documento, calcula a performance como pontos / (jogos * 3)
+        for doc in docs:
+            season = int(doc["season"])
+            jogos = doc.get("jogos", 0)
+            pontos = doc.get("pontos", 0)
+            # Evita divisão por zero
+            performance = pontos / (jogos * 3) if jogos > 0 else 0
+            performance_values.append(performance)
+            team = doc["time"]
+            plt.scatter(season, performance, color=colors[team], alpha=0.7, s=100)
+
+        # Adiciona uma reta horizontal representando a média geral de performance
+        media_geral = np.mean(performance_values)
+        plt.axhline(y=media_geral, color='black', linestyle='--', linewidth=2, label=f"Média Geral ({media_geral:.2f})")
+
+        # Cria uma legenda sem duplicatas (um item por time)
+        legend_handles = []
+        for team in teams:
+            handle = plt.Line2D([], [], marker='o', linestyle='None',
+                                markersize=8, color=colors[team])
+            legend_handles.append(handle)
+
+        # Adiciona a linha da média geral à legenda
+        legend_handles.append(plt.Line2D([], [], color='black', linestyle='--', linewidth=2))
+        teams.append("Média Geral")
+        
+        plt.legend(legend_handles, teams, bbox_to_anchor=(1.05, 1),
+                loc='upper left', borderaxespad=0.)
+        plt.xlabel("Temporadas")
+        plt.ylabel("Performance (%)")
+        plt.title("Performance dos Times ao longo das Temporadas (Pontos / (Jogos × 3))")
+        
+        # Ajusta o eixo x com as temporadas
+        temporadas = sorted(set(int(doc["season"]) for doc in docs))
+        plt.xticks(temporadas, rotation=45)
+        plt.grid(True, alpha=0.3)
+        plt.tight_layout()
+        plt.show()
