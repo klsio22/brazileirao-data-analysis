@@ -2,7 +2,6 @@ from pymongo import MongoClient
 import pandas as pd
 import matplotlib.pyplot as plt
 import json
-from datetime import datetime
 
 
 class BrasileiraoAPI:
@@ -698,24 +697,31 @@ class BrasileiraoAPI:
                     stats[time2]["derrotas"] += 1
                     
         return stats
-    def fazer_backup(self, db_name="statistics_futebol", output_dir="../../backup/cms-project/backup"):
+
+    
+    def fazer_backup(self, db_name="statistics_futebol", repo_name="brazileirao-data-analysis"):
         """
         Faz backup de todas as collections do banco statistics_futebol
         Args:
             db_name (str): Nome do banco de dados (default: statistics_futebol)
-            output_dir (str): Caminho para o diretório de backup
+            repo_name (str): Nome do repositório (default: brazileirao-data-analysis)
         """
         import json
         import os
         from datetime import datetime
         
-        # Cria diretório se não existir
-        os.makedirs(output_dir, exist_ok=True)
+        # Define o caminho base do backup
+        base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../backup"))
+        repo_dir = os.path.join(base_dir, repo_name)
+        backup_dir = os.path.join(repo_dir, "backup")
+        
+        # Cria a estrutura de diretórios
+        os.makedirs(backup_dir, exist_ok=True)
         
         # Nome do diretório específico para este backup
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        backup_dir = os.path.join(output_dir, f"{db_name}_backup_{timestamp}")
-        os.makedirs(backup_dir, exist_ok=True)
+        backup_timestamp_dir = os.path.join(backup_dir, f"{db_name}_backup_{timestamp}")
+        os.makedirs(backup_timestamp_dir, exist_ok=True)
         
         # Para cada collection no banco
         for collection_name in self.db.list_collection_names():
@@ -723,7 +729,7 @@ class BrasileiraoAPI:
             
             # Nome do arquivo de backup
             filename = f"{collection_name}.json"
-            filepath = os.path.join(backup_dir, filename)
+            filepath = os.path.join(backup_timestamp_dir, filename)
             
             # Recupera todos os documentos
             documents = list(collection.find({}))
@@ -738,4 +744,6 @@ class BrasileiraoAPI:
             
             print(f"Backup da collection {collection_name} salvo em: {filepath}")
         
-        print(f"\nBackup completo do banco {db_name} salvo em: {backup_dir}")
+        print(f"\nBackup completo do banco {db_name} salvo em: {backup_timestamp_dir}")
+        
+        return backup_timestamp_dir
