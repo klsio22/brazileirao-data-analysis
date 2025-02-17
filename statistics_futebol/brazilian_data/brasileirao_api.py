@@ -1,8 +1,8 @@
 from pymongo import MongoClient
 import pandas as pd
 import matplotlib.pyplot as plt
-import requests
 import json
+from datetime import datetime
 
 
 class BrasileiraoAPI:
@@ -78,10 +78,6 @@ class BrasileiraoAPI:
         }
         return self.consultar_dados_mongodb(query)
     def consultar_dados_mongodb(self, filtro=None):
-        """
-        Consulta a coleção do MongoDB e retorna um DataFrame com os dados.
-        Caso informe um filtro, ele será aplicado à consulta.
-        """
         if filtro:
             dados = list(self.collection.find(filtro))
         else:
@@ -90,9 +86,6 @@ class BrasileiraoAPI:
         return df
     
     def obter_partidas_time(self, nome_time):
-        """
-        Retorna as partidas em que o time informado aparece como mandante ou visitante.
-        """
         query = {
             "$or": [
                 {"homeTeam.name": nome_time},
@@ -146,10 +139,6 @@ class BrasileiraoAPI:
             return False
         
     def obter_todos_times(self):
-        """
-        Consulta a coleção e extrai os nomes únicos dos times cadastrados
-        (tanto em 'homeTeam' quanto em 'awayTeam').
-        """
         dados = list(self.collection.find())
         df = pd.DataFrame(dados)
         
@@ -264,10 +253,6 @@ class BrasileiraoAPI:
         return df
 
     def montar_tabelas(self, start_year=2003, end_year=2022):
-        """
-        Agrega os resultados (jogos, vitórias, empates, derrotas, gols marcados, gols sofridos e pontos)
-        para cada time, por temporada (de start_year até end_year), e retorna um JSON com as tabelas.
-        """
         df = self.consultar_dados_mongodb()
         df["data_dt"] = pd.to_datetime(df["data"], format="%d/%m/%Y", errors="coerce")
         df = df.dropna(subset=["data_dt"])
@@ -323,9 +308,6 @@ class BrasileiraoAPI:
         return json.dumps(tabelas, indent=4, ensure_ascii=False)
     
     def exportar_tabelas_json(self, start_year=2003, end_year=2022, output_path="../../data/tabelas_aggregadas.json"):
-        """
-        Gera as tabelas agregadas via montar_tabelas, salva o JSON gerado em um arquivo e retorna o caminho do arquivo.
-        """
         tabelas_json = self.montar_tabelas(start_year, end_year)
         with open(output_path, "w", encoding="utf-8") as f:
             f.write(tabelas_json)
@@ -333,10 +315,6 @@ class BrasileiraoAPI:
         return output_path
 
     def inserir_tabelas_no_mongodb(self, start_year=2003, end_year=2022, collection_name="tabelas_aggregadas"):
-        """
-        Insere as tabelas agregadas em uma nova coleção do MongoDB.
-        Cada documento conterá a temporada (season) e os dados agregados para os times.
-        """
         import json
         # Gera o JSON das tabelas
         tabelas_json = self.montar_tabelas(start_year, end_year)
@@ -364,10 +342,6 @@ class BrasileiraoAPI:
     def gerar_odds_todos_times(self, start_year=2003, end_year=2022,
                           collection_name="odds_times_aggregados",
                           output_path="../../data/odds_times_aggregados.json"):
-        """
-        Agrega os dados de desempenho de cada time para as temporadas de start_year a end_year,
-        incluindo as médias de vitórias (homeWin), empates (draw) e derrotas (awayWin).
-        """
         import json
         import pandas as pd
         
@@ -460,20 +434,12 @@ class BrasileiraoAPI:
         return odds_list
         
     def limpar_colecao_por_nome(self, collection_name):
-        """
-        Limpa a coleção especificada, removendo todos os documentos.
-        """
         result = self.db[collection_name].delete_many({})
         print(f"Removidos {result.deleted_count} documentos da coleção '{collection_name}'.")
         return result.deleted_count
     
     
     def plot_desempenho_time(self, nome_time):
-        """
-        Gera um scatter plot com reta de regressão para o time especificado.
-        - Eixo x: Temporadas (years)
-        - Eixo y: Média de desempenho (média de homeWin, draw e awayWin)
-        """
         import matplotlib.pyplot as plt
         import numpy as np
 
@@ -519,12 +485,6 @@ class BrasileiraoAPI:
         
  
     def plot_media_porcentagem_time(self, nome_time):
-        """
-        Gera um gráfico de barras agrupadas mostrando a média percentual
-        de vitórias (homeWin), empates (draw) e derrotas (awayWin) do time em cada temporada.
-        Os valores são apresentados em porcentagem, com ticks do eixo y de 5 em 5 e 
-        os valores exibidos em cima de cada barra.
-        """
         import matplotlib.pyplot as plt
         import numpy as np
 
@@ -579,12 +539,7 @@ class BrasileiraoAPI:
         plt.show()
  
     def plot_desempenho_todos_times(self):
-        """
-        Gera um scatter plot mostrando a performance (pontos / (jogos*3))
-        de cada time em cada temporada. Cada ponto representa um time em uma temporada
-        e as cores diferenciam os times. Além disso, uma reta horizontal é adicionada
-        representando a média geral de performance.
-        """
+
         import matplotlib.pyplot as plt
         import numpy as np
 
@@ -640,3 +595,106 @@ class BrasileiraoAPI:
         plt.grid(True, alpha=0.3)
         plt.tight_layout()
         plt.show()
+    
+    
+    def buscar_partidas_por_confronto(self, time1, time2):
+        query = {
+            "$or": [
+                {"$and": [
+                    {"homeTeam.name": {"$regex": f"^{time1}$", "$options": "i"}},
+                    {"awayTeam.name": {"$regex": f"^{time2}$", "$options": "i"}}
+                ]},
+                {"$and": [
+                    {"homeTeam.name": {"$regex": f"^{time2}$", "$options": "i"}},
+                    {"awayTeam.name": {"$regex": f"^{time1}$", "$options": "i"}}
+                ]}
+            ]
+        }
+        return list(self.collection.find(query))
+
+    def buscar_partidas_por_time_or(self, time1, time2):
+        query = {"$or": [{"homeTeam.name": time1}, {"awayTeam.name": time2}]}
+        return list(self.collection.find(query))
+
+    def buscar_partidas_por_rodadas(self, rodadas):
+
+        query = {"rodada": {"$in": rodadas}}
+        return list(self.collection.find(query))
+
+
+    # Métodos de agregação utilizando funções diferentes
+
+    def agregacao_total_gols_por_time(self):
+        pipeline = [
+            {"$group": {
+                "_id": "$homeTeam.name",
+                "total_gols": {"$sum": "$score.fullTime.home"}
+            }}
+        ]
+        return list(self.collection.aggregate(pipeline))
+
+    def agregacao_media_gols_por_time(self):
+
+        pipeline = [
+            {"$group": {
+                "_id": "$homeTeam.name",
+                "media_gols": {"$avg": "$score.fullTime.home"}
+            }}
+        ]
+        return list(self.collection.aggregate(pipeline))
+
+    def agregacao_max_gols_por_time(self):
+        pipeline = [
+            {"$group": {
+                "_id": "$homeTeam.name",
+                "max_gols": {"$max": "$score.fullTime.home"}
+            }}
+        ]
+        return list(self.collection.aggregate(pipeline))
+
+    def agregacao_min_gols_por_time(self):
+        pipeline = [
+            {"$group": {
+                "_id": "$homeTeam.name",
+                "min_gols": {"$min": "$score.fullTime.home"}
+            }}
+        ]
+        return list(self.collection.aggregate(pipeline))
+
+    def estatisticas_vitorias_derrotas_mandantes(self, time1, time2):
+        query = {
+            "$or": [
+                {"$and": [
+                    {"homeTeam.name": {"$regex": f"^{time1}$", "$options": "i"}},
+                    {"awayTeam.name": {"$regex": f"^{time2}$", "$options": "i"}}
+                ]},
+                {"$and": [
+                    {"homeTeam.name": {"$regex": f"^{time2}$", "$options": "i"}},
+                    {"awayTeam.name": {"$regex": f"^{time1}$", "$options": "i"}}
+                ]}
+            ]
+        }
+        partidas = list(self.collection.find(query))
+        
+        stats = {
+            time1: {"vitorias": 0, "derrotas": 0},
+            time2: {"vitorias": 0, "derrotas": 0}
+        }
+        
+        for partida in partidas:
+            home = partida["homeTeam"]["name"]
+            vencedor = partida.get("vencedor", "")
+            
+            # Se o time foi mandante, verifica se venceu ou perdeu
+            if home.lower() == time1.lower():
+                if vencedor.lower() == home.lower():
+                    stats[time1]["vitorias"] += 1
+                else:
+                    stats[time1]["derrotas"] += 1
+            elif home.lower() == time2.lower():
+                if vencedor.lower() == home.lower():
+                    stats[time2]["vitorias"] += 1
+                else:
+                    stats[time2]["derrotas"] += 1
+                    
+        return stats
