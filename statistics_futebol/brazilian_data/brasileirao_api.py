@@ -698,3 +698,44 @@ class BrasileiraoAPI:
                     stats[time2]["derrotas"] += 1
                     
         return stats
+    def fazer_backup(self, db_name="statistics_futebol", output_dir="../../backup/cms-project/backup"):
+        """
+        Faz backup de todas as collections do banco statistics_futebol
+        Args:
+            db_name (str): Nome do banco de dados (default: statistics_futebol)
+            output_dir (str): Caminho para o diretório de backup
+        """
+        import json
+        import os
+        from datetime import datetime
+        
+        # Cria diretório se não existir
+        os.makedirs(output_dir, exist_ok=True)
+        
+        # Nome do diretório específico para este backup
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        backup_dir = os.path.join(output_dir, f"{db_name}_backup_{timestamp}")
+        os.makedirs(backup_dir, exist_ok=True)
+        
+        # Para cada collection no banco
+        for collection_name in self.db.list_collection_names():
+            collection = self.db[collection_name]
+            
+            # Nome do arquivo de backup
+            filename = f"{collection_name}.json"
+            filepath = os.path.join(backup_dir, filename)
+            
+            # Recupera todos os documentos
+            documents = list(collection.find({}))
+            
+            # Remove o campo _id
+            for doc in documents:
+                doc.pop('_id', None)
+            
+            # Salva em arquivo JSON
+            with open(filepath, 'w', encoding='utf-8') as f:
+                json.dump(documents, f, ensure_ascii=False, indent=2)
+            
+            print(f"Backup da collection {collection_name} salvo em: {filepath}")
+        
+        print(f"\nBackup completo do banco {db_name} salvo em: {backup_dir}")
