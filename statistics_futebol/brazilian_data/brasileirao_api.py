@@ -13,10 +13,8 @@ class BrasileiraoAPI:
              
     def importar_json_para_mongodb(self, json_path):
         import pandas as pd
-        # Lê o arquivo JSON
         df = pd.read_json(json_path)
         
-        # Converte o DataFrame para uma lista de dicionários
         registros = df.to_dict(orient='records')
         
         documentos = []
@@ -150,14 +148,11 @@ class BrasileiraoAPI:
     
    
     def plot_desempenho_temporada(self, nome_time):
-        # Obtém todas as partidas do time
         partidas = self.obter_partidas_time(nome_time)
         
-        # Converte a coluna utcDate para datetime
         partidas['utcDate'] = pd.to_datetime(partidas['utcDate'], errors='coerce')
         partidas = partidas.sort_values('utcDate')
         
-        # Calcula os gols marcados e sofridos com acesso seguro
         partidas['gols_marcados'] = partidas.apply(
             lambda row: row['score']['fullTime']['home']
                         if isinstance(row.get('homeTeam'), dict) and row['homeTeam'].get('name') == nome_time 
@@ -188,17 +183,12 @@ class BrasileiraoAPI:
         plt.xticks(rotation=45)
         plt.tight_layout()
         plt.show()
-        """
-        Cria um scatter plot do desempenho do time ao longo da temporada
-        """
-        # Obtém todas as partidas do time
+        
         partidas = self.obter_partidas_time(nome_time)
         
-        # Ordena as partidas por data
         partidas['utcDate'] = pd.to_datetime(partidas['utcDate'])
         partidas = partidas.sort_values('utcDate')
         
-        # Calcula os gols marcados e sofridos
         partidas['gols_marcados'] = partidas.apply(
             lambda row: row['score']['fullTime']['home'] 
             if row['homeTeam']['name'] == nome_time 
@@ -213,27 +203,23 @@ class BrasileiraoAPI:
             axis=1
         )
         
-        # Configuração do plot
+
         plt.figure(figsize=(12, 6))
         
-        # Scatter plot com tamanho variável baseado no total de gols
         total_gols = partidas['gols_marcados'] + partidas['gols_sofridos']
         plt.scatter(partidas['utcDate'], partidas['gols_marcados'], 
                     s=total_gols*100, alpha=0.6, label='Gols Marcados')
         plt.scatter(partidas['utcDate'], partidas['gols_sofridos'], 
                     s=total_gols*100, alpha=0.6, label='Gols Sofridos')
         
-        # Configurações do gráfico
         plt.title(f'Desempenho do {nome_time} na Temporada')
         plt.xlabel('Data')
         plt.ylabel('Número de Gols')
         plt.legend()
         plt.grid(True, alpha=0.3)
         
-        # Rotacionar datas para melhor visualização
         plt.xticks(rotation=45)
         
-        # Ajustar layout
         plt.tight_layout()
         plt.show()
         
@@ -310,11 +296,9 @@ class BrasileiraoAPI:
 
     def inserir_tabelas_no_mongodb(self, start_year=2003, end_year=2022, collection_name="tabelas_aggregadas"):
         import json
-        # Gera o JSON das tabelas
         tabelas_json = self.montar_tabelas(start_year, end_year)
         tabelas_dict = json.loads(tabelas_json)
         
-        # Define a nova coleção
         nova_colecao = self.db[collection_name]
         
         documentos = []
@@ -517,7 +501,7 @@ class BrasileiraoAPI:
         plt.grid(axis='y', which='major', linestyle='-', linewidth=0.5, alpha=0.7)
         plt.grid(axis='y', which='minor', linestyle='--', linewidth=0.5, alpha=0.5)
         
-        # Adiciona os valores de porcentagem acima de cada barra
+
         for bars in [bars1, bars2, bars3]:
             for bar in bars:
                 height = bar.get_height()
@@ -543,7 +527,7 @@ class BrasileiraoAPI:
         colors = {team: cmap(i) for i, team in enumerate(teams)}
 
         plt.figure(figsize=(12, 8))
-        performance_values = []  # Armazena todas as performances para cálculo da média
+        performance_values = [] 
 
         # Para cada documento, calcula a performance como pontos / (jogos * 3)
         for doc in docs:
@@ -860,7 +844,6 @@ class BrasileiraoAPI:
                 documentos_existentes += 1
                 print(f"Documento já existe: {criterio}")
 
-        # Insere apenas se houver documentos novos
         if documentos_novos:
             try:
                 self.db[collection_name].insert_many(documentos_novos)
@@ -884,62 +867,56 @@ class BrasileiraoAPI:
     
     def editar_documentos(self, collection_name):
         if collection_name == "brasileirao":
-            # 1. Atualiza horário
             self.db[collection_name].update_many(
                 {"hora": "20:00"},
                 {"$set": {"hora": "21:30"}}
             )
             
-            # 2. Atualiza placar
             self.db[collection_name].update_one(
                 {"homeTeam.name": "Santos"},
                 {"$set": {"score.fullTime.home": 3}}
             )
             
-            # 3. Atualiza vencedor
+
             self.db[collection_name].update_one(
                 {"homeTeam.name": "Santos"},
                 {"$set": {"vencedor": "Santos"}}
             )
             
-            # 4. Atualiza rodada
+
             self.db[collection_name].update_many(
                 {"rodada": 1},
                 {"$set": {"rodada": 2}}
             )
             
-            # 5. Atualiza data
+    
             self.db[collection_name].update_many(
                 {"data": "15/04/2024"},
                 {"$set": {"data": "22/04/2024"}}
             )
             
-        else:  # odds_times_aggregados
-            # 1. Atualiza odds de vitória
+        else:  
+            
             self.db[collection_name].update_many(
                 {"season": 2024},
                 {"$set": {"odds.homeWin": 0.55}}
             )
             
-            # 2. Atualiza número de jogos
             self.db[collection_name].update_many(
                 {"season": 2024},
                 {"$inc": {"jogos": 1}}
             )
             
-            # 3. Atualiza vitórias
             self.db[collection_name].update_many(
                 {"season": 2024},
                 {"$inc": {"vitorias": 1}}
             )
             
-            # 4. Atualiza empates
             self.db[collection_name].update_many(
                 {"season": 2024},
                 {"$set": {"empates": 0}}
             )
             
-            # 5. Atualiza derrotas
             self.db[collection_name].update_many(
                 {"season": 2024},
                 {"$set": {"derrotas": 0}}
