@@ -94,18 +94,28 @@ nohup jupyter notebook &
 
 Como alternativa, você pode usar o Visual Studio Code (VS Code) com a extensão do Jupyter para executar notebooks. Isso pode oferecer uma experiência mais integrada e recursos adicionais.
 
-#### a. Instalar o VS Code
-
-Baixe e instale o [Visual Studio Code](https://code.visualstudio.com/).
-
-#### b. Instalar a Extensão do Jupyter
+#### a. Instalar a Extensão do Jupyter
 
 1. Abra o VS Code.
 2. Vá para a aba de extensões (ícone de quadrados no lado esquerdo).
 3. Procure por "Jupyter" e instale a extensão oficial.
 
-#### c. Abrir um Notebook
+#### b. Abrir um Notebook
 
 1. Abra o VS Code.
 2. Abra ou crie um arquivo com a extensão `.ipynb`.
 3. Use a interface do Jupyter no VS Code para executar células e interagir com o notebook.
+
+Aquivos de instruções do projeto está em  /files
+Relatório do Projeto Estatística Brasileirão
+PROJETO FINAL DA DISCIPLINA (4,0 PONTOS) (2)
+
+### Arquivos de Instruções
+Os arquivos com as instruções detalhadas do projeto estão disponíveis no diretório `/files`.
+
+### Relatório do Projeto
+O relatório completo sobre a Análise Estatística do Brasileirão pode ser encontrado em `/files/Relatorio-do-projeto-estatística-brasileirao.pdf`.
+
+### Video Demonstrativo
+Para uma demonstração completa do projeto e suas funcionalidades, acesse:
+[![Video Tutorial](https://img.youtube.com/vi/0z3mp_KwipE/0.jpg)](https://youtu.be/0z3mp_KwipE)
