@@ -366,9 +366,9 @@ class BrasileiraoAPI:
                     "gols_sofridos": 0,
                     "pontos": 0,
                     "odds": {
-                        "homeWin": None,  # média de vitórias
-                        "draw": None,     # média de empates
-                        "awayWin": None   # média de derrotas
+                        "homeWin": None,  
+                        "draw": None,    
+                        "awayWin": None  
                     }
                 }
                 
@@ -437,7 +437,6 @@ class BrasileiraoAPI:
         import matplotlib.pyplot as plt
         import numpy as np
 
-        # Consulta os dados agregados do time em todas as temporadas
         dados = list(self.db["odds_times_aggregados"].find({"time": nome_time}))
         if not dados:
             print(f"Nenhum dado encontrado para o time {nome_time}")
@@ -482,17 +481,14 @@ class BrasileiraoAPI:
         import matplotlib.pyplot as plt
         import numpy as np
 
-        # Consulta os dados agregados do time em todas as temporadas
         dados = list(self.db["odds_times_aggregados"].find({"time": nome_time}))
         if not dados:
             print(f"Nenhum dado encontrado para o time {nome_time}")
             return
 
-        # Ordena os dados por temporada para visualização cronológica
         dados = sorted(dados, key=lambda d: d["season"])
         
         temporadas = [doc["season"] for doc in dados]
-        # Converte os valores em porcentagem (multiplica por 100) e arredonda para 2 casas
         vit_percent = [round((doc["odds"]["homeWin"] or 0) * 100, 2) for doc in dados]
         emp_percent = [round((doc["odds"]["draw"] or 0) * 100, 2) for doc in dados]
         der_percent = [round((doc["odds"]["awayWin"] or 0) * 100, 2) for doc in dados]
@@ -537,13 +533,11 @@ class BrasileiraoAPI:
         import matplotlib.pyplot as plt
         import numpy as np
 
-        # Consulta todos os documentos agregados de odds e desempenho
         docs = list(self.db["odds_times_aggregados"].find())
         if not docs:
             print("Nenhum dado encontrado para exibir.")
             return
 
-        # Obtém a lista única de times e mapeia cada time para uma cor
         teams = sorted(set(doc["time"] for doc in docs))
         cmap = plt.get_cmap("tab20", len(teams))
         colors = {team: cmap(i) for i, team in enumerate(teams)}
@@ -556,7 +550,6 @@ class BrasileiraoAPI:
             season = int(doc["season"])
             jogos = doc.get("jogos", 0)
             pontos = doc.get("pontos", 0)
-            # Evita divisão por zero
             performance = pontos / (jogos * 3) if jogos > 0 else 0
             performance_values.append(performance)
             team = doc["time"]
@@ -952,12 +945,7 @@ class BrasileiraoAPI:
                 {"$set": {"derrotas": 0}}
             )
     
-
     def verificar_alteracoes_brasileirao(self):
-        """
-        Verifica e exibe alterações nos jogos do Brasileirão
-        """
-        # Verifica jogos com horário alterado
         jogos_alterados_hora = list(self.db["brasileirao"].find({"hora": "21:30"}))
         print(f"\n1. Jogos com horário alterado para 21:30: {len(jogos_alterados_hora)}")
         for jogo in jogos_alterados_hora:
